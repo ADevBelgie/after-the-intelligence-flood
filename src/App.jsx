@@ -219,7 +219,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The part that remains genuinely uncertain is what happens as these systems move into territory that is neither structured nor bounded. Real hospitals. Real courts. Real infrastructure. The history of complex engineering suggests that every time you add a verification layer to an automated system, you create new failure modes at the interfaces between layers that are often harder to detect than the original problem. The failures that brought down sophisticated financial systems in 2008 were not failures of the individual components. They were failures of the interactions between components, each of which looked reasonable in isolation.
+              The part that remains genuinely uncertain is what happens as these systems move into territory that is neither structured nor bounded. Real hospitals. Real courts. Real infrastructure. The history of complex engineering suggests that every time you add a verification layer to an automated system, you create new failure modes at the interfaces between layers that are often harder to detect than the original problem.
             </p>
 
             <p className="mb-12">
@@ -263,7 +263,7 @@ const App = () => {
             </p>
 
             <p className="mb-12">
-              None of these three experiments is running the optimal approach. The optimal approach probably borrows from all three: China's willingness to deploy at scale and learn from real failures, the EU's insistence on explicit rights protection and accountability frameworks, and the US adversarial process that forces failures into public record. No existing political system is configured to combine these things cleanly.
+              None of these three experiments is running the optimal approach. The optimal approach probably borrows from all three: China's willingness to deploy at scale and learn from real failures, the EU's insistence on explicit rights protection and accountability frameworks, and the US adversarial process that forces failures into public record. No existing political system is configured to combine these things cleanly, which means the next decade will involve watching all three approaches generate both successes and failures that the others could have avoided.
             </p>
 
             <p className="mb-12">
@@ -285,7 +285,7 @@ const App = () => {
             </p>
             
             <p className="mb-12">
-              The MCP ecosystem that the Strategic Brief documents is an early version of this dynamic playing out in AI integration. Developer interest in keeping the integration layer open is not going to dissipate. This is worth being direct about because the pessimistic view sometimes treats developer idealism as the only force holding things open. It is not idealism. It is economic interest.
+              The MCP ecosystem that the Strategic Brief documents is an early version of this dynamic playing out in AI integration. Developer interest in keeping the integration layer open is not going to dissipate. This is worth being direct about because the pessimistic view sometimes treats developer idealism as the only force holding things open. It is not idealism. It is economic interest. Developers who build on open standards control their own destiny. Developers who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. The lesson of every previous platform cycle is available to every developer who wants to learn it.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">What Governments Actually Need to Get Right</h3>
@@ -325,7 +325,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The open source picture complicates this somewhat. The Strategic Brief documents that open source models now match proprietary ones on 90% of benchmarks, running two to three months behind the frontier. In a world where AI capability exceeds human cognitive performance across most domains, a two-month lag becomes academic.
+              The open source picture complicates this somewhat. The Strategic Brief documents that open source models now match proprietary ones on 90% of benchmarks, running two to three months behind the frontier. In a world where AI capability approaches and then exceeds human cognitive performance across most domains, a two-month lag becomes increasingly academic for most applications. The leverage point shifts to who builds the best systems around the capability, and that territory is inherently harder to monopolise.
             </p>
 
             <p className="mb-12">
