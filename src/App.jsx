@@ -134,7 +134,7 @@ const App = () => {
               The honest projection is not that senior roles disappear. It is that the nature of senior value shifts faster than most organisations, or most individuals, are currently planning for. The person whose value in 2025 came from knowing how to architect a reliable AI system will need to be operating at a different level of abstraction by 2029. What that level looks like is genuinely open, and the people thinking about it seriously are still a small minority.
             </p>
 
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Movement III — The Physical Squeeze</h3>
+            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Movement III — The Physical Squeeze, and the Window Between</h3>
 
             <p className="mb-6">
               The cognitive squeeze has a counterpart that moves on a different timescale.
@@ -142,6 +142,10 @@ const App = () => {
 
             <p className="mb-6">
               Physical work has historically been the refuge when cognitive labor gets automated. The standard historical pattern is that machines replace physical routine first, then cognitive routine, with human judgment and physical dexterity at the frontier. AI has inverted the middle of that sequence: cognitive routine is being automated aggressively while complex physical tasks remain largely human. A robot that can write production-quality code cannot reliably fold a hotel towel in an unfamiliar room.
+            </p>
+
+            <p className="mb-6">
+              Boston Dynamics has been producing impressive demonstrations for a decade. The gap between an impressive demonstration and a robot that can work reliably for eight hours in a real-world environment, get repaired cheaply when it fails, and operate at a cost that genuinely competes with human labor — that gap has been closing, but measured in years not months.
             </p>
 
             <p className="mb-12">
@@ -152,6 +156,10 @@ const App = () => {
               Cognitive AI does not just automate software jobs. It accelerates every field that was previously bottlenecked by human cognitive labor. Drug discovery. Materials science. Chip design. And crucially, robot locomotion research, physical control systems, the engineering of manipulation and dexterity. The same capability curve that is compressing cognitive work is being applied to the research problems that have kept physical automation stuck.
             </p>
             
+            <p className="mb-12">
+              Investment data supports this directionally. Robotics is attracting capital at a scale and pace that reflects a genuine bet on this acceleration, not just incremental hardware improvement but AI-driven breakthroughs in the physical control and adaptability problems that have been the binding constraint.
+            </p>
+
             <p className="mb-12 font-medium text-slate-100">
               The window of physical work protection is real but possibly shorter than the standard forecast assumes.
             </p>
@@ -172,6 +180,10 @@ const App = () => {
 
             <p className="mb-6">
               For organisations: the Klarna pattern predicts that companies rushing to full replacement in this window will face a correction. The companies that use this window to genuinely understand which parts of their operations require human judgment, and invest in elevating those people rather than replacing them, will have a structural talent advantage when the window closes and the scramble begins.
+            </p>
+
+            <p className="mb-6 font-medium text-indigo-400">
+              For governments: this is where the story gets most complicated, and where the decisions have the longest tails. That is Act II's territory.
             </p>
           </article>
         </main>
@@ -213,19 +225,37 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Three Experiments Running Simultaneously</h3>
 
             <p className="mb-6">
-              The most interesting feature of the current global moment is that three fundamentally different approaches to this problem are being tested in parallel, in real economies, on real populations, in real time. China, the European Union, and the United States are running what amounts to a multi-decade natural experiment.
+              The most interesting feature of the current global moment is that three fundamentally different approaches to this problem are being tested in parallel, in real economies, on real populations, in real time. China, the European Union, and the United States are running what amounts to a multi-decade natural experiment in how to govern transformative technology. The results will not be fully visible for years, but the early evidence is already instructive.
             </p>
 
             <p className="mb-6">
-              China has essentially chosen deployment first. Autonomous vehicles operate at scale in multiple major cities. The iteration cycle is fast because the feedback loop is real. When something goes wrong, the system learns. The political system tolerates a different level of visible failure than democratic systems tend to, which creates both advantages and risks.
+              China has essentially chosen deployment first. Autonomous vehicles operate at scale in multiple major cities. Roughly ten million autonomous vehicle tests have been logged on public roads in real conditions, generating data that no simulation can replicate. The safety record is better than human driving in the specific contexts where these systems are deployed. Not perfect. Better. The iteration cycle is fast because the feedback loop is real. When something goes wrong, the system learns. When something goes right, it gets expanded. The political system tolerates a different level of visible failure than democratic systems tend to, which creates both advantages and risks. The advantage is speed. The risk is that failures which should force policy revision can be absorbed and suppressed rather than corrected.
             </p>
 
             <p className="mb-6">
-              The European Union has chosen framework first. The EU AI Act is an ambitious attempt to create comprehensive governance before widespread deployment. The intentional is genuinely admirable, but the practical effect is that European companies are generating almost none of the real-world failure data that makes systems actually safer. By the time the framework is complete, the gap in real-world learning will be significant.
+              The European Union has chosen framework first. The EU AI Act is an ambitious attempt to create comprehensive governance before widespread deployment rather than after. The intention is genuinely admirable. The practical effect, in the short term, is that European companies and researchers are generating almost none of the real-world failure data that makes systems actually safer. The regulatory framework is being written with limited empirical grounding because the deployment that would generate that grounding is being delayed. European automotive manufacturers, who built some of the most sophisticated engineering cultures in the world, are watching competitors accumulate years of real-world autonomous driving data while navigating a compliance framework that still does not have final implementing rules. By the time the framework is complete, the gap in real-world learning will be significant and very difficult to close.
             </p>
 
             <p className="mb-6">
-              The United States sits uncomfortably between these positions. Deployment has proceeded faster than in Europe, and the legal system is generating its own empirical record. The Strategic Brief documents this: AI-related court sanctions went from two cases a week to two to three cases per day by late 2025. This is the dangerous intersection mechanism operating in real time.
+              The United States sits uncomfortably between these positions. Deployment has proceeded faster than in Europe, which means the real-world failure data is accumulating. The legal system is generating its own empirical record, case by case, of what happens when AI outputs are relied upon without adequate verification. The Strategic Brief documents this directly: AI-related court sanctions went from two cases a week in early 2025 to two to three cases per day by late 2025. A DOJ attorney filed a brief with fabricated case law. The person who caught it was not a judge or opposing counsel. It was the plaintiff, a retired military colonel who simply knew the language did not read right. Courts are issuing guidance in response. This is the dangerous intersection mechanism operating in real time, at an accelerating rate. The difference from China is that in the US system, those failures are visible, litigated, and generate public precedent. That is both messier and, arguably, more self-correcting.
+            </p>
+
+            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Why the EU Approach Carries a Risk Most People Are Not Discussing</h3>
+
+            <p className="mb-6">
+              The standard critique of the EU approach is that it slows innovation and creates competitive disadvantage. That is true but it is not the most important critique.
+            </p>
+
+            <p className="mb-6">
+              The more important critique is epistemic. Regulatory frameworks derive their quality from understanding the thing they regulate. That understanding comes primarily from observing how systems behave in the real world, at scale, under conditions that designers did not anticipate. The EU is attempting to write comprehensive rules for AI systems before those systems have generated the volume of real-world failure data that would make those rules well-calibrated.
+            </p>
+
+            <p className="mb-6">
+              The result is not necessarily that the rules will be too restrictive or too permissive, though both risks exist. The deeper result is that the rules will be calibrated to the wrong things. They will address the failure modes that were imaginable in advance rather than the failure modes that actually manifest at scale. When the real failures arrive, the framework will need to be substantially revised. The revision process in the EU is slow. The gap between the failures and the corrected framework could be a decade.
+            </p>
+
+            <p className="mb-12">
+              The US approach, for all its messiness, has one structural advantage that neither the EU nor China system fully replicates: the adversarial legal process forces failures into the open. When an AI system produces a wrong output that affects someone with standing to sue, the resulting litigation creates public record, legal precedent, and institutional pressure for correction.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Decentralisation Argument</h3>
@@ -245,11 +275,19 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">What Governments Actually Need to Get Right</h3>
 
             <p className="mb-6 font-medium text-slate-100">
-              The decisions that will matter are about incentive structures. Not rules about what AI can and cannot do, but structures that determine beneficial outcomes.
+              The decisions that will matter are about incentive structures. Not rules about what AI can and cannot do, but structures that determine whether the economic incentives facing companies, researchers, and individuals point toward beneficial outcomes or against them.
             </p>
 
             <p className="mb-6">
-              Three areas where the incentive structures are currently wrong: liability frameworks for AI-assisted decisions, public compute infrastructure, and education systems calibrated for a labor market that no longer exists. Programs built around a two-year model are not matched to a capability environment that changes on eight-month cycles.
+              Three areas where the incentive structures are currently wrong. The liability framework for AI-assisted decisions in high-stakes domains is almost entirely unresolved. When an AI-assisted medical diagnosis is wrong, who carries the liability? The answer to that question determines whether AI providers have any incentive to improve reliability, or whether professionals face such severe liability risk that they avoid AI tools that would genuinely improve their work.
+            </p>
+
+            <p className="mb-6">
+              Public compute infrastructure is the second. The capital requirements for training frontier models mean that the entities shaping the most powerful AI systems are a small group of private companies with their own interests and incentives. Public investment in compute infrastructure, similar to how governments have historically invested in roads, electrical grids, and communications networks, would create a meaningful check on this concentration.
+            </p>
+
+            <p className="mb-6">
+              Third, and most relevant to Act I's territory: the education and transition support systems are calibrated for a labor market that no longer exists. Retraining programs built around a two-year model are not matched to a capability environment that changes on eight-month benchmark cycles. The window between the cognitive squeeze and the physical squeeze is the most valuable period for building the transition infrastructure that will be needed when the physical squeeze arrives. Most governments are not using it.
             </p>
           </article>
         </main>
@@ -280,6 +318,14 @@ const App = () => {
 
             <p className="mb-6">
               Below the frontier, the concentration argument weakens. The integration layer — "Action Moats" — is where the real competition plays out. Integration value is local; the best AI for a Belgian logistics company isn't the same as for a Tokyo hospital. No single global platform can fully replicate that.
+            </p>
+
+            <p className="mb-8 font-medium text-slate-400">
+              Developer interest in keeping the integration layer open is not idealism. It is economic self-interest.
+            </p>
+            
+            <p className="mb-12">
+              Developers who build on open standards control their own destiny. Developers who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. When OpenAI, Google, and Microsoft all adopt the same open integration protocol, it is not generosity. It is recognition that the ecosystem of developers building on that protocol creates more value for everyone than a fragmented set of proprietary alternatives would.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">What Gets Decided in the Next Five Years</h3>
