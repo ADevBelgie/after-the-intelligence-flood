@@ -214,12 +214,16 @@ const App = () => {
               The Strategic Brief documents where reliability currently stands. Without proper system design, AI confidently produces wrong answers more than 10% of the time on standard tasks. Legal AI fails at rates of 69 to 88% on specific legal queries without mitigation. Medical AI, without the right architecture, hallucinates at rates that would be immediately disqualifying if applied to a human doctor.
             </p>
 
-            <p className="mb-6 font-medium text-slate-300">
-              The reliability problem is largely a systems engineering problem, not a fundamental AI limitation. That is the optimistic read, and the data supports it for structured, bounded tasks in controlled environments.
+            <p className="mb-6">
+              With well-engineered systems, those numbers fall dramatically. Multi-agent verification brings enterprise error rates below 2%. Self-reflective architectures get clinical hallucination down to under 6%. The reliability problem is largely a systems engineering problem, not a fundamental AI limitation. That is the optimistic read, and the data supports it for structured, bounded tasks in controlled environments.
+            </p>
+
+            <p className="mb-6">
+              The part that remains genuinely uncertain is what happens as these systems move into territory that is neither structured nor bounded. Real hospitals. Real courts. Real infrastructure. The history of complex engineering suggests that every time you add a verification layer to an automated system, you create new failure modes at the interfaces between layers that are often harder to detect than the original problem. The failures that brought down sophisticated financial systems in 2008 were not failures of the individual components. They were failures of the interactions between components, each of which looked reasonable in isolation.
             </p>
 
             <p className="mb-12">
-              The part that remains genuinely uncertain is what happens as these systems move into territory that is neither structured nor bounded. Real hospitals. Real courts. Real infrastructure. The history of complex engineering suggests that every time you add a verification layer to an automated system, you create new failure modes at the interfaces between layers that are often harder to detect than the original problem.
+              Nobody should be surprised when this happens with AI systems at scale. The productive response is to build institutions that can catch and contain those failures fast, not to prevent deployment until perfection is guaranteed. Perfection is not available. The dangerous intersection does not wait for a perfect traffic management system before generating accidents.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Three Experiments Running Simultaneously</h3>
@@ -254,6 +258,14 @@ const App = () => {
               The result is not necessarily that the rules will be too restrictive or too permissive, though both risks exist. The deeper result is that the rules will be calibrated to the wrong things. They will address the failure modes that were imaginable in advance rather than the failure modes that actually manifest at scale. When the real failures arrive, the framework will need to be substantially revised. The revision process in the EU is slow. The gap between the failures and the corrected framework could be a decade.
             </p>
 
+            <p className="mb-6">
+              China's approach has a different risk profile. Deployment at scale generates the right data, but the political system's relationship with that data is complicated. Failures that should force policy revision can be managed rather than corrected. The iteration cycle is fast when failure is acknowledged and acted upon. It stalls when failure becomes politically inconvenient.
+            </p>
+
+            <p className="mb-12">
+              None of these three experiments is running the optimal approach. The optimal approach probably borrows from all three: China's willingness to deploy at scale and learn from real failures, the EU's insistence on explicit rights protection and accountability frameworks, and the US adversarial process that forces failures into public record. No existing political system is configured to combine these things cleanly.
+            </p>
+
             <p className="mb-12">
               The US approach, for all its messiness, has one structural advantage that neither the EU nor China system fully replicates: the adversarial legal process forces failures into the open. When an AI system produces a wrong output that affects someone with standing to sue, the resulting litigation creates public record, legal precedent, and institutional pressure for correction.
             </p>
@@ -268,8 +280,12 @@ const App = () => {
               The open-source AI ecosystem is running roughly two to three months behind the frontier models at any given time. In a world where AI capability approaches human performance across most domains, a two-month lag becomes academic. The leverage point shifts entirely to who has the best systems built around the capability.
             </p>
             
+            <p className="mb-6">
+              The history of the internet is instructive here. There were powerful economic forces toward centralisation at every stage. What prevented total centralisation was not altruism or regulation alone. It was that open protocols and distributed infrastructure created too much value for too many actors for any single party to capture the whole thing. The developers who built on open standards had more combined creative capacity than any single company.
+            </p>
+            
             <p className="mb-12">
-              The history of the internet is instructive here. What prevented total centralisation was not altruism, but open protocols that created too much value for too many actors for any single party to capture. It is not idealism. It is economic interest.
+              The MCP ecosystem that the Strategic Brief documents is an early version of this dynamic playing out in AI integration. Developer interest in keeping the integration layer open is not going to dissipate. This is worth being direct about because the pessimistic view sometimes treats developer idealism as the only force holding things open. It is not idealism. It is economic interest.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">What Governments Actually Need to Get Right</h3>
@@ -305,7 +321,15 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Where Concentration Is Real</h3>
 
             <p className="mb-6">
-              The frontier model layer is genuinely concentrated and likely to remain so. Training requires capital that only a small number of entities can deploy. NVIDIA's position is the result of a decade of ecosystem investment. This matters because a small group of non-elected organisations are making decisions about what these systems optimise for.
+              The frontier model layer is genuinely concentrated and likely to remain so. Training requires capital that a small number of entities can deploy. NVIDIA's position is the result of a decade of ecosystem investment. This matters because a small group of non-elected organisations are making decisions about what these systems optimise for.
+            </p>
+
+            <p className="mb-6">
+              The open source picture complicates this somewhat. The Strategic Brief documents that open source models now match proprietary ones on 90% of benchmarks, running two to three months behind the frontier. In a world where AI capability exceeds human cognitive performance across most domains, a two-month lag becomes academic.
+            </p>
+
+            <p className="mb-12">
+              But matching on benchmarks is not matching on everything that matters. The frontier models benefit from continuous investment in safety research, alignment work, and expensive evaluation. The dimensions that are hardest to benchmark are potentially the most consequential. The concentration at the frontier is real and the open source offset is real. Neither fully cancels the other.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Energy Constraint</h3>
