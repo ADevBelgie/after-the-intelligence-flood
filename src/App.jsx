@@ -87,7 +87,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The shape is simple: weight on both ends, hollowed out in the middle. On one end, AI capability handles more and more of what used to be entry-level cognitive work — drafting, coding, research, analysis, data processing. On the other end, the senior roles responsible for judgment, oversight, and accountability become more valuable precisely because that judgment is now the scarce resource. The middle — the large population of knowledge workers who were neither directing the work nor doing the most routine parts of it — is where the pressure concentrates first.
+              Picture a barbell: heavy weight on both ends, nothing in the middle. On one end, AI capability handles more and more of what used to be entry-level cognitive work — drafting, coding, research, analysis, data processing. Those roles are being automated or dramatically reduced. On the other end, the senior roles responsible for judgment, oversight, and accountability become more valuable precisely because that judgment is now the scarce resource. The middle — the large population of knowledge workers who were neither directing the work nor doing the most routine parts of it — is where the pressure concentrates first. They are being squeezed out from below by AI, not replaced by it from above. In practice, the middle is project managers, business analysts, generalist coordinators — people whose core value was synthesising information, managing routine complexity, or executing well-defined tasks. Those are exactly the things AI is getting good at, fast. It is not that these people lack skill. It is that the specific skills they built their careers around are precisely the ones the capability curve is climbing fastest.
             </p>
 
             <p className="mb-6">
@@ -131,7 +131,7 @@ const App = () => {
             <PullQuote quote="The human judgment premium is real. It is also temporary in its current form." />
 
             <p className="mb-6">
-              The honest projection is not that senior roles disappear. It is that the nature of senior value shifts faster than most organisations, or most individuals, are currently planning for. The person whose value in 2025 came from knowing how to architect a reliable AI system will need to be operating at a different level of abstraction by 2029. What that level looks like is genuinely open, and the people thinking about it seriously are still a small minority.
+              The honest projection is not that senior roles disappear. It is that the nature of senior value shifts faster than most organisations, or most individuals, are currently planning for. The person whose value in 2025 came from knowing how to architect a reliable AI system will need, by 2029, to be the person who decides what problems those systems should be solving — not how to build them. What that level looks like is genuinely open, and the people thinking about it seriously are still a small minority.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Movement III — The Physical Squeeze, and the Window Between</h3>
@@ -165,7 +165,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The estimate of 2027 to 2033 as a period where cognitive work is heavily automated but physical work remains relatively protected is the base case. But if cognitive AI genuinely reaches and exceeds human-level research capability in the next few years, that window compresses. The physical squeeze that looked like a 2033 story could arrive as a 2030 story, not everywhere simultaneously, but in the specific physical domains where the engineering problems are most tractable.
+              The estimate of 2027 to 2033 as a period where cognitive work is heavily automated but physical work remains relatively protected is the base case. But if cognitive AI genuinely reaches and exceeds human-level research capability in the next few years, that window compresses. The physical squeeze that looked like a 2033 story could arrive as a 2030 story — not in construction or care work, where the physical challenges remain enormous, but in logistics, manufacturing assembly, and jobs that involve repetitive motion in controlled environments. Those are the domains where the engineering problems are closest to solved.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Window, and What It Determines</h3>
