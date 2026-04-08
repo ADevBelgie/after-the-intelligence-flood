@@ -125,13 +125,13 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              What this means for the Barbell is not immediately obvious, but it is important. The senior roles that are currently valuable — the engineers who architect the systems, the analysts who synthesise the data, the managers who direct the AI agents — are valuable because they sit above the current capability ceiling. They provide the judgment the AI cannot yet provide. But that ceiling is not fixed. It rises on roughly an eight-month cycle, possibly faster.
+              What this means for the Barbell is not immediately obvious, but it is important. The senior roles that are currently valuable — the engineers who architect the systems, the analysts who synthesise the data, the managers who direct the AI agents — are valuable because they sit above the current capability ceiling. They provide the judgment the AI cannot yet provide. But that ceiling is not fixed. Crucially, the ceiling is no longer rising because the base models are getting inherently smarter — it is rising because the architectures around them (reinforcement learning, multi-agent orchestration, self-reflective RAG) are maturing.
             </p>
 
             <PullQuote quote="The human judgment premium is real. It is also temporary in its current form." />
 
             <p className="mb-6">
-              The honest projection is not that senior roles disappear. It is that the nature of senior value shifts faster than most organisations, or most individuals, are currently planning for. The person whose value in 2025 came from knowing how to architect a reliable AI system will need, by 2029, to be the person who decides what problems those systems should be solving — not how to build them. What that level looks like is genuinely open, and the people thinking about it seriously are still a small minority.
+              The honest projection is not that senior roles disappear. It is that the nature of senior value shifts faster than most organisations, or most individuals, are currently planning for. The human judgment premium is real, but its nature is shifting. It does not evaporate; it moves from providing the answers to designing the systems that find the answers.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Movement III — The Physical Squeeze, and the Window Between</h3>
@@ -171,7 +171,7 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Window, and What It Determines</h3>
 
             <p className="mb-6">
-              The period between the cognitive squeeze and the physical squeeze is the most consequential policy and career decision window of the coming decade. It is the period in which societies have the most options, because the scale of disruption is visible but not yet total.
+              We are not facing a sequential timeline where displaced knowledge workers can safely retreat to physical coordination. We are facing a dual-compression event. As AI-accelerated research shrinks the timeline for robotics, the cognitive and physical squeezes are collapsing into each other. The scale of disruption across both domains is becoming visible simultaneously. Survival requires moving to the governance, orchestration, and verification layers of both digital and physical systems concurrently.
             </p>
             
             <p className="mb-6">
@@ -237,7 +237,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The European Union has chosen framework first. The EU AI Act is an ambitious attempt to create comprehensive governance before widespread deployment rather than after. The intention is genuinely admirable. The practical effect, in the short term, is that European companies and researchers are generating almost none of the real-world failure data that makes systems actually safer. The regulatory framework is being written with limited empirical grounding because the deployment that would generate that grounding is being delayed. European automotive manufacturers, who built some of the most sophisticated engineering cultures in the world, are watching competitors accumulate years of real-world autonomous driving data while navigating a compliance framework that still does not have final implementing rules. By the time the framework is complete, the gap in real-world learning will be significant and very difficult to close.
+              The European Union has chosen framework first. The EU AI Act is an ambitious attempt to create comprehensive governance before widespread deployment rather than after. The intention is genuinely admirable. The practical effect, in the short term, is that European companies are optimising their engineering cycles for legal conformity rather than operational boundary-testing. They are building systems to pass audits, while competitors build systems to survive contact with reality. The regulatory framework is being written with limited empirical grounding because compliance-constrained deployment filters out the messy, unexpected failure data that makes systems actually safer in the long run.
             </p>
 
             <p className="mb-6">
@@ -325,7 +325,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The open source picture complicates this somewhat. The Strategic Brief documents that open source models now match or beat proprietary ones on most standard math, knowledge, and competitive coding benchmarks, but still trail significantly on agentic tasks and software engineering (SWE-bench Verified: ~67% vs ~90% for the proprietary leader). Source: BenchLM.ai open source leaderboard, April 2026. In a world where AI capability approaches and then exceeds human cognitive performance across most domains, a two-month lag becomes increasingly academic for most applications. The leverage point shifts to who builds the best systems around the capability, and that territory is inherently harder to monopolise.
+              The open source picture complicates this somewhat. The Strategic Brief documents that open source models now match or beat proprietary ones on most standard math, knowledge, and competitive coding benchmarks, but still trail significantly on agentic tasks and software engineering (SWE-bench Pro: ~35% for open-source vs 56.8% for the proprietary leader). Source: BenchLM.ai and morphllm.com, April 2026. In a world where AI capability approaches and then exceeds human cognitive performance across most domains, a two-month lag becomes increasingly academic for most applications. The leverage point shifts to who builds the best systems around the capability, and that territory is inherently harder to monopolise.
             </p>
 
             <p className="mb-12">
