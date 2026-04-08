@@ -62,6 +62,7 @@ const App = () => {
             </div>
 
             <DiscoveryCallout />
+
           </section>
 
           {/* ACT I */}
@@ -335,7 +336,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              First, the <strong>Epistemic Physical Gap</strong>: simulations struggle to perfectly model undocumented entropy—friction variance, non-Newtonian materials, and sensor degradation from factory dust. Second, the <strong>Thermodynamic Floor</strong>: the human body executes complex physical manipulation on just 20 watts of power. A humanoid robot attempting the same tasks today requires orders of magnitude more, constrained by battery density and output heat. Until we bridge the gap from megawatts to milliwatts and conquer physical edge cases, the physical squeeze will remain localized in highly controlled environments.
+              First, the <strong>Epistemic Physical Gap</strong>: simulations struggle to perfectly model undocumented entropy—friction variance, non-Newtonian materials, and sensor degradation from factory dust. Second, the <strong>Thermodynamic Floor</strong>: the human body executes complex physical manipulation on roughly 100 to 400 watts of power. A modern humanoid robot attempting the same tasks requires up to 2 kilowatts, constrained heavily by battery energy density and actuator efficiency. Software scales at marginal cost zero, but physical entropy scales linearly. Until battery chemistry and actuator efficiency fundamentally leap forward, the physical squeeze will remain localized in highly controlled environments.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section III — The Talent Bridge</h3>
