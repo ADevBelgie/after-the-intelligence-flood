@@ -325,7 +325,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The open source picture complicates this somewhat. The Strategic Brief documents that open source models now match or beat proprietary ones on most standard math, knowledge, and competitive coding benchmarks, but still trail significantly on agentic tasks and software engineering (SWE-bench Pro: ~67% vs ~90% for the proprietary leader). Source: BenchLM.ai open source leaderboard, April 2026. In a world where AI capability approaches and then exceeds human cognitive performance across most domains, a two-month lag becomes increasingly academic for most applications. The leverage point shifts to who builds the best systems around the capability, and that territory is inherently harder to monopolise.
+              The open source picture complicates this somewhat. The Strategic Brief documents that open source models now match or beat proprietary ones on most standard math, knowledge, and competitive coding benchmarks, but still trail significantly on agentic tasks and software engineering (SWE-bench Verified: ~67% vs ~90% for the proprietary leader). Source: BenchLM.ai open source leaderboard, April 2026. In a world where AI capability approaches and then exceeds human cognitive performance across most domains, a two-month lag becomes increasingly academic for most applications. The leverage point shifts to who builds the best systems around the capability, and that territory is inherently harder to monopolise.
             </p>
 
             <p className="mb-12">
