@@ -304,15 +304,10 @@ const App = () => {
           </article>
         </main>
 
-        <ActDivider act="ACT III" title="The Concentration Question" id="act3" />
+        <ActDivider act="ACT III" title="The New Bottlenecks" id="act3" />
 
         <main className="prose-container">
           <article id="act3-interior" className="my-12">
-            <p className="mb-8 font-medium text-slate-100 md:text-xl italic">Why Open Networks Win, Where They Don't, and What the Next Five Years Determine</p>
-            
-            <p className="mb-6">
-              In 1999, Microsoft controlled the personal computing stack so completely that the DOJ brought an antitrust case. By the time it resolved, the web had grown around Microsoft, not through it. Open protocols turned out to be more valuable than the closed platform.
-            </p>
 
             <h2 className="text-xs font-black uppercase tracking-[0.4em] text-indigo-500 mb-8">Act III — The New Bottlenecks</h2>
             
