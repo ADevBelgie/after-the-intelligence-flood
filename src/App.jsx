@@ -310,7 +310,7 @@ const App = () => {
           <article id="act3-interior" className="my-12">
 
             
-            <p className="mb-8 font-medium text-slate-100 italic md:text-xl">Where the Future Actually Gaps: Trust, Energy, and the Talent Bridge</p>
+            <p className="mb-8 font-medium text-slate-100 italic md:text-xl">Where the Dual-Compression Event Meets Reality: Trust, Physics, and the Talent Bridge</p>
             
             <div className="w-16 h-px bg-slate-800 mb-12" />
 
@@ -325,7 +325,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The real moat is not the model, but the <strong>Verification Layer</strong>. In a world of automated production, the value shifts entirely to who can guarantee truth. The "Action Moat" is built on liability management—the ability to provably verify that an AI system followed professional protocols, used certified data sources, and executed with cryptographic provenance. Whether through API-enforced querying or Zero-Knowledge Proofs (ZKPs), the product is no longer the intelligence; it is the trust that the intelligence is grounded in reality.
+              The real moat is not the model, but the <strong>Verification Layer</strong>. As legal and scientific institutions buckle under the sheer volume of AI-generated submissions, the value shifts entirely to who can guarantee truth. The "Action Moat" is built on liability management—the ability to provably verify that an AI system followed professional protocols and used certified data sources. Whether through API-enforced querying (like constrained legal RAG) or Zero-Knowledge Proofs (ZKPs), the product is no longer the intelligence; it is the trust that the intelligence is grounded in reality.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section II — The Physical Wall</h3>
@@ -352,7 +352,7 @@ const App = () => {
               The solution is the <strong>Talent Bridge</strong>: deploying junior professionals as Human-In-The-Loop (HITL) orchestrators on legacy enterprise systems. Doing the messy translation between rigid AI constraints and unpredictable human codebases is the only way to forge the structural intuition required for senior verification roles. The "Junior 2027" profile is an apprentice orchestrator deployed specifically to manage the friction where AI fails against the real world.
             </p>
 
-            <PullQuote quote="The flood has arrived. The new world is built on trust, wired for power, and verified by intuition." />
+            <PullQuote quote="The flood has arrived. The new world is built on trust, constrained by physics, and verified by intuition." />
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Where This Leaves Us</h3>
 
