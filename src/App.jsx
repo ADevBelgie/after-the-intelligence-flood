@@ -160,26 +160,18 @@ const App = () => {
               Investment data supports this directionally. Robotics is attracting capital at a scale and pace that reflects a genuine bet on this acceleration, not just incremental hardware improvement but AI-driven breakthroughs in the physical control and adaptability problems that have been the binding constraint.
             </p>
 
-            <p className="mb-12 font-medium text-slate-100">
-              The window of physical work protection is real but possibly shorter than the standard forecast assumes.
-            </p>
-
-            <p className="mb-6">
-              The estimate of 2027 to 2033 as a period where cognitive work is heavily automated but physical work remains relatively protected is the base case. But if cognitive AI genuinely reaches and exceeds human-level research capability in the next few years, that window compresses. The physical squeeze that looked like a 2033 story could arrive as a 2030 story — not in construction or care work, where the physical challenges remain enormous, but in logistics, manufacturing assembly, and jobs that involve repetitive motion in controlled environments. Those are the domains where the engineering problems are closest to solved.
-            </p>
-
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Window, and What It Determines</h3>
+            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Dual-Compression Event</h3>
 
             <p className="mb-6">
               We are not facing a sequential timeline where displaced knowledge workers can safely retreat to physical coordination. We are facing a dual-compression event. As AI-accelerated research shrinks the timeline for robotics, the cognitive and physical squeezes are collapsing into each other. The scale of disruption across both domains is becoming visible simultaneously. Survival requires moving to the governance, orchestration, and verification layers of both digital and physical systems concurrently.
             </p>
             
             <p className="mb-6">
-              For individuals: the decisions made in this window about what skills to build, what roles to target, and what kind of value to position around will compound in ways that are very hard to reverse later. The people who understood the Barbell early and positioned around orchestration and system design rather than execution are already pulling ahead.
+              For individuals: the decisions made in this transition about what skills to build, what roles to target, and what kind of value to position around will compound in ways that are very hard to reverse later. The people who understood the Barbell early and positioned around orchestration and system design rather than execution are already pulling ahead.
             </p>
 
             <p className="mb-6">
-              For organisations: the Klarna pattern predicts that companies rushing to full replacement in this window will face a correction. The companies that use this window to genuinely understand which parts of their operations require human judgment, and invest in elevating those people rather than replacing them, will have a structural talent advantage when the window closes and the scramble begins.
+              For organisations: the Klarna pattern predicts that companies rushing to full replacement in this phase will face a correction. The companies that use this time to genuinely understand which parts of their operations require human judgment, and invest in elevating those people rather than replacing them, will have a structural talent advantage when the dual-compression peaks and the scramble begins.
             </p>
 
             <p className="mb-6 font-medium text-indigo-400">
@@ -303,7 +295,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              Third, and most relevant to Act I's territory: the education and transition support systems are calibrated for a labor market that no longer exists. Retraining programs built around a two-year model are not matched to a capability environment that changes on eight-month benchmark cycles. The window between the cognitive squeeze and the physical squeeze is the most valuable period for building the transition infrastructure that will be needed when the physical squeeze arrives. Most governments are not using it.
+              Third, and most relevant to Act I's territory: the education and transition support systems are calibrated for a labor market that no longer exists. Retraining programs built around a two-year model are not matched to a capability environment that changes on eight-month benchmark cycles. The brief period before these two squeezes fully converge is the most valuable time for building the transition infrastructure that will be needed when physical automation arrives at scale. Most governments are not using it.
             </p>
           </article>
         </main>
