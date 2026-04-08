@@ -263,7 +263,7 @@ const App = () => {
             </p>
 
             <p className="mb-12">
-              The US approach, for all its messiness, has one structural advantage that neither the EU nor China system fully replicates: the adversarial legal process forces failures into the open. When an AI system produces a wrong output that affects someone with standing to sue, the resulting litigation creates public record, legal precedent, and institutional pressure for correction.
+              The US approach, for all its messiness, retains one structural backstop: when catastrophic failures breach the NDA firewall—either because a plaintiff refuses to settle or the harm is too public to hide—the adversarial legal process forces them into the open. When an AI system produces a wrong output that reaches open court, the resulting litigation creates public record, legal precedent, and institutional pressure for correction.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Decentralisation Argument</h3>
@@ -281,7 +281,7 @@ const App = () => {
             </p>
             
             <p className="mb-12">
-              The MCP ecosystem that the Strategic Brief documents is an early version of this dynamic playing out in AI integration. Developer interest in keeping the integration layer open is not going to dissipate. This is worth being direct about because the pessimistic view sometimes treats developer idealism as the only force holding things open. It is not idealism. It is economic interest. Developers who build on open standards control their own destiny. Developers who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. The lesson of every previous platform cycle is available to every developer who wants to learn it.
+              The MCP ecosystem that the Strategic Brief documents is an early version of this dynamic playing out in AI integration. Developers who build on open standards control their own destiny, while those who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. The lesson of every previous platform cycle is available to every developer who wants to learn it.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">What Governments Actually Need to Get Right</h3>
