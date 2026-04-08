@@ -160,10 +160,14 @@ const App = () => {
               Investment data supports this directionally. Robotics is attracting capital at a scale and pace that reflects a genuine bet on this acceleration, not just incremental hardware improvement but AI-driven breakthroughs in the physical control and adaptability problems that have been the binding constraint.
             </p>
 
+            <p className="mb-6">
+              However, there is a fundamental difference between automating bits and automating mass. Cognitive capability is experiencing compounding efficiency gains—we can run highly optimized models locally on tiny amounts of power. But the physical world is bound by thermodynamics. The human body achieves general intelligence and physical dexterity on roughly 20 watts of highly efficient chemical energy. Our current batteries and actuators cannot match that density. This physical energy wall is the only thing preventing the cognitive and physical squeezes from arriving at the exact same second.
+            </p>
+
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Dual-Compression Event</h3>
 
             <p className="mb-6">
-              We are not facing a sequential timeline where displaced knowledge workers can safely retreat to physical coordination. We are facing a dual-compression event. As AI-accelerated research shrinks the timeline for robotics, the cognitive and physical squeezes are collapsing into each other. The scale of disruption across both domains is becoming visible simultaneously. Survival requires moving to the governance, orchestration, and verification layers of both digital and physical systems concurrently.
+              While AI-accelerated research is collapsing the design timelines for robotics, the physical deployment of those systems remains strictly gated by energy constraints. We are not facing a sequential timeline where displaced knowledge workers can safely retreat to physical coordination. We are facing a dual-compression event. The cognitive and physical squeezes are becoming visible simultaneously, their full convergence hindered only by the laws of thermodynamics. Survival requires moving to the governance, orchestration, and verification layers of both digital and physical systems concurrently.
             </p>
             
             <p className="mb-6">
@@ -310,64 +314,56 @@ const App = () => {
               In 1999, Microsoft controlled the personal computing stack so completely that the DOJ brought an antitrust case. By the time it resolved, the web had grown around Microsoft, not through it. Open protocols turned out to be more valuable than the closed platform.
             </p>
 
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Where Concentration Is Real</h3>
-
-            <p className="mb-6">
-              The frontier model layer is genuinely concentrated and likely to remain so. Training requires capital that a small number of entities can deploy. NVIDIA's position is the result of a decade of ecosystem investment. This matters because a small group of non-elected organisations are making decisions about what these systems optimise for.
-            </p>
-
-            <p className="mb-6">
-              The open source picture complicates this somewhat. The Strategic Brief documents that open source models now match or beat proprietary ones on most standard math, knowledge, and competitive coding benchmarks, but still trail significantly on agentic tasks and software engineering (SWE-bench Pro: ~35% for open-source vs 56.8% for the proprietary leader). Source: BenchLM.ai and morphllm.com, April 2026. In a world where AI capability approaches and then exceeds human cognitive performance across most domains, a two-month lag becomes increasingly academic for most applications. The leverage point shifts to who builds the best systems around the capability, and that territory is inherently harder to monopolise.
-            </p>
-
-            <p className="mb-12">
-              But matching on benchmarks is not matching on everything that matters. The frontier models benefit from continuous investment in safety research, alignment work, and expensive evaluation. The dimensions that are hardest to benchmark are potentially the most consequential. The concentration at the frontier is real and the open source offset is real. Neither fully cancels the other.
-            </p>
-
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Energy Constraint</h3>
-
-            <p className="mb-6">
-              There is a concentration risk receiving far less attention: Energy infrastructure. Training frontier models requires extraordinary power. Data centres are straining grids globally. Governments have regulated electricity as a public utility for over a century; whether compute infrastructure deserves similar treatment is a practical policy question for the next decade.
-            </p>
-
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Where Concentration Fails to Hold</h3>
-
-            <p className="mb-6">
-              Below the frontier, the concentration argument weakens. The integration layer — "Action Moats" — is where the real competition plays out. Integration value is local; the best AI for a Belgian logistics company isn't the same as for a Tokyo hospital. No single global platform can fully replicate that.
-            </p>
-
-            <p className="mb-8 font-medium text-slate-400">
-              Developer interest in keeping the integration layer open is not idealism. It is economic self-interest.
-            </p>
+            <h2 className="text-xs font-black uppercase tracking-[0.4em] text-indigo-500 mb-8">Act III — The New Bottlenecks</h2>
             
-            <p className="mb-12">
-              Developers who build on open standards control their own destiny. Developers who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. When OpenAI, Google, and Microsoft all adopt the same open integration protocol, it is not generosity. It is recognition that the ecosystem of developers building on that protocol creates more value for everyone than a fragmented set of proprietary alternatives would.
-            </p>
+            <p className="mb-8 font-medium text-slate-100 italic md:text-xl">Where the Future Actually Gaps: Trust, Energy, and the Talent Bridge</p>
+            
+            <div className="w-16 h-px bg-slate-800 mb-12" />
 
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">What Gets Decided in the Next Five Years</h3>
-
-            <p className="mb-6 italic text-slate-400">
-              The talent pipeline question may be the least discussed and most consequential thing the next five years determine.
+            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section I — The Trust Layer</h3>
+            
+            <p className="mb-6">
+              The debate over proprietary "moats" is effectively over. The Strategic Brief documents that open-source models now match or beat proprietary counterparts on standard benchmarks, trailing only on the most complex agentic tasks. But a three-month lag between a closed model and an open alternative is no longer a moat; it is a temporary lease.
             </p>
 
             <p className="mb-6">
-              Educational institutions move slowly. A student who starts a computer science degree in 2026 will graduate into a market that looks nothing like the one their professors trained for.
+              The real moat is not the model, but the <strong>Verification Layer</strong>. In a world of automated production, the value shifts entirely to who can guarantee truth. The "Action Moat" is built on liability management—the ability to provably verify that an AI system followed professional protocols, used certified data sources, and executed with cryptographic provenance. Whether through API-enforced querying or Zero-Knowledge Proofs (ZKPs), the product is no longer the intelligence; it is the trust that the intelligence is grounded in reality.
             </p>
 
-            <PullQuote quote="The flood has arrived. What comes after it is still being decided." />
+            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section II — The Energy Wall</h3>
+            
+            <p className="mb-6">
+              If the Trust Layer is the cognitive bottleneck, the Energy Wall is the physical one. We have spent the last decade optimized for the "intelligence of bits," where efficiency means more tokens per watt. But as we move into the "intelligence of mass," we collide with the absolute floor of thermodynamics.
+            </p>
+
+            <p className="mb-6">
+              The human body remains the gold standard for energy efficiency—executing complex physical manipulation on just 20 watts of power. A humanoid robot attempting the same tasks today requires orders of magnitude more, constrained by battery density and actuator heat. This is the absolute bottleneck of the 2027-2030 era. Until we can bridge the gap from megawatts to milliwatts, the physical squeeze will remain localized in controlled environments, providing a temporary but thinning buffer for the rest of the physical workforce.
+            </p>
+
+            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section III — The Talent Bridge</h3>
+            
+            <p className="mb-6 text-indigo-400 font-medium italic">
+              "Syntax is a commodity. Verification is the career."
+            </p>
+
+            <p className="mb-6">
+              The flight from computer science enrollment is a logical response to a pedagogical model that hasn't caught up to reality. We are currently facing a structural shortage not of "coders," but of <strong>Expert Verifiers</strong>—people with the deep structural intuition to manage orchestrated AI systems.
+            </p>
+
+            <p className="mb-12">
+              The solution is the <strong>Talent Bridge</strong>: the use of AI to generate "synthetic experience." By using high-volume, low-stakes execution sandboxes, junior professionals can train their own neural pathways on thousands of edge cases that would previously have taken a decade of senior-level exposure to encounter. The "Junior 2027" profile is an orchestrator who uses AI to compress ten years of execution experience into two, creating a new class of professional who can survive the seniority gap by moving directly into the governance of automated systems.
+            </p>
+
+            <PullQuote quote="The flood has arrived. The new world is built on trust, wired for power, and verified by intuition." />
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Where This Leaves Us</h3>
 
             <p className="mb-6">
-              The Barbell squeeze is real. The physical world protection is shorter than forecasted. Institutional failures will spread before the response infrastructure catches up. Concentration risks are genuine but the open integration layer has structural defenders.
-            </p>
-
-            <p className="mb-12 font-bold text-white md:text-xl">
-              None of this is destiny.
+              The Dual-Compression event is not an ending; it is a recalibration. The Barbell Economy is forcing a clear choice: compete with the baseline or move to the verification layer. The bottlenecks of 2026—trust, energy, and talent bridges—are the load-bearing walls of the next decade. 
             </p>
 
             <p className="mb-12">
-              The messy middle is usually where we land. The intersection eventually gets a traffic light. The question is what we build while we are waiting for it. The flood has arrived. What comes after it is still being decided.
+              The messy middle is where we land. The intersection eventually gets a traffic light. But in the Intelligence Flood, those who wait for the traffic light will be underwater. The infrastructure of the future is being built now, by those who recognize that when the cost of creation goes to zero, the value of verification goes to infinity.
             </p>
 
             <ShareRow 
