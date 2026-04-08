@@ -309,7 +309,6 @@ const App = () => {
         <main className="prose-container">
           <article id="act3-interior" className="my-12">
 
-            <h2 className="text-xs font-black uppercase tracking-[0.4em] text-indigo-500 mb-8">Act III — The New Bottlenecks</h2>
             
             <p className="mb-8 font-medium text-slate-100 italic md:text-xl">Where the Future Actually Gaps: Trust, Energy, and the Talent Bridge</p>
             
