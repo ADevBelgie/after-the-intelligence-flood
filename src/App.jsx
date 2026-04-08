@@ -346,7 +346,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The flight from computer science enrollment is a logical response to a pedagogical model that hasn't caught up to reality. We are currently facing a structural shortage not of "coders," but of <strong>Expert Verifiers</strong>—people with the deep structural intuition to manage orchestrated AI systems.
+              The collapse of syntax-focused bootcamps and short-cycle training is a logical response to a pedagogical model that hasn't caught up to reality. We are currently facing a structural shortage not of "coders," but of <strong>Expert Verifiers</strong>—people with the deep structural intuition to manage orchestrated AI systems.
             </p>
 
             <p className="mb-12">
