@@ -237,7 +237,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The United States sits uncomfortably between these positions. Deployment has proceeded faster than in Europe, which means the real-world failure data is accumulating. The legal system is generating its own empirical record, case by case, of what happens when AI outputs are relied upon without adequate verification. The Strategic Brief documents this directly: AI-related court sanctions went from two cases a week in early 2025 to two to three cases per day by late 2025. A DOJ attorney filed a brief with fabricated case law. The person who caught it was not a judge or opposing counsel. It was the plaintiff, a retired military colonel who simply knew the language did not read right. Courts are issuing guidance in response. This is the dangerous intersection mechanism operating in real time, at an accelerating rate. The difference from China is that in the US system, those failures are visible, litigated, and generate public precedent. That is both messier and, arguably, more self-correcting.
+              The US framework is essentially a leaky private risk market. The catastrophic enterprise failures are buried under Non-Disclosure Agreements. The real safety rules are not being written by Congress; they are being written quietly by enterprise insurance actuaries refusing to underwrite unverified AI architectures. The public only sees the failures that break through the NDA ceiling. But when they do break through, the adversarial legal process forces public record and institutional pressure for correction. This is the dangerous intersection mechanism operating in real time, at an accelerating rate.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Why the EU Approach Carries a Risk Most People Are Not Discussing</h3>
@@ -322,17 +322,21 @@ const App = () => {
             </p>
 
             <p className="mb-6">
+              The compute monopoly breaks not because of developer idealism, but because of <strong>algorithmic deflation</strong>. When foreign labs achieve frontier reasoning for a fraction of the cost, and incumbents release powerful weights to commoditize their competitors, raw intelligence permanently deflates. Trust is the only remaining margin.
+            </p>
+
+            <p className="mb-6">
               The real moat is not the model, but the <strong>Verification Layer</strong>. In a world of automated production, the value shifts entirely to who can guarantee truth. The "Action Moat" is built on liability management—the ability to provably verify that an AI system followed professional protocols, used certified data sources, and executed with cryptographic provenance. Whether through API-enforced querying or Zero-Knowledge Proofs (ZKPs), the product is no longer the intelligence; it is the trust that the intelligence is grounded in reality.
             </p>
 
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section II — The Energy Wall</h3>
+            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section II — The Physical Wall</h3>
             
             <p className="mb-6">
-              If the Trust Layer is the cognitive bottleneck, the Energy Wall is the physical one. We have spent the last decade optimized for the "intelligence of bits," where efficiency means more tokens per watt. But as we move into the "intelligence of mass," we collide with the absolute floor of thermodynamics.
+              Simulation environments like Omniverse have drastically accelerated robotics by shrinking the sim-to-real gap, but they have not eliminated it. The physical world still presents two bottlenecks that code cannot bypass.
             </p>
 
             <p className="mb-6">
-              The human body remains the gold standard for energy efficiency—executing complex physical manipulation on just 20 watts of power. A humanoid robot attempting the same tasks today requires orders of magnitude more, constrained by battery density and actuator heat. This is the absolute bottleneck of the 2027-2030 era. Until we can bridge the gap from megawatts to milliwatts, the physical squeeze will remain localized in controlled environments, providing a temporary but thinning buffer for the rest of the physical workforce.
+              First, the <strong>Epistemic Physical Gap</strong>: simulations struggle to perfectly model undocumented entropy—friction variance, non-Newtonian materials, and sensor degradation from factory dust. Second, the <strong>Thermodynamic Floor</strong>: the human body executes complex physical manipulation on just 20 watts of power. A humanoid robot attempting the same tasks today requires orders of magnitude more, constrained by battery density and output heat. Until we bridge the gap from megawatts to milliwatts and conquer physical edge cases, the physical squeeze will remain localized in highly controlled environments.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section III — The Talent Bridge</h3>
@@ -346,7 +350,7 @@ const App = () => {
             </p>
 
             <p className="mb-12">
-              The solution is the <strong>Talent Bridge</strong>: the use of AI to generate "synthetic experience." By using high-volume, low-stakes execution sandboxes, junior professionals can train their own neural pathways on thousands of edge cases that would previously have taken a decade of senior-level exposure to encounter. The "Junior 2027" profile is an orchestrator who uses AI to compress ten years of execution experience into two, creating a new class of professional who can survive the seniority gap by moving directly into the governance of automated systems.
+              The solution is the <strong>Talent Bridge</strong>: deploying junior professionals as Human-In-The-Loop (HITL) orchestrators on legacy enterprise systems. Doing the messy translation between rigid AI constraints and unpredictable human codebases is the only way to forge the structural intuition required for senior verification roles. The "Junior 2027" profile is an apprentice orchestrator deployed specifically to manage the friction where AI fails against the real world.
             </p>
 
             <PullQuote quote="The flood has arrived. The new world is built on trust, wired for power, and verified by intuition." />
