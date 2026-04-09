@@ -154,15 +154,15 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              Cognitive AI does not just automate software jobs. It accelerates every field that was previously bottlenecked by human cognitive labor. Drug discovery. Materials science. Chip design. And crucially, robot locomotion research, physical control systems, the engineering of manipulation and dexterity. The same capability curve that is compressing cognitive work is being applied to the research problems that have kept physical automation stuck.
+              Cognitive AI does not just automate software jobs. It accelerates every field that was previously bottlenecked by human cognitive labor. Drug discovery. Materials science. Chip design. And crucially, robot locomotion research, physical control systems, the engineering of manipulation and dexterity. The same capability curve compressing cognitive work is being applied to the research problems that have kept physical automation stuck.
+            </p>
+            
+            <p className="mb-6">
+              The true physical barrier is not power; it is <strong>Moravec&apos;s Paradox and spatial adaptability</strong>. What robots struggle with is not the caloric cost of movement but the sim-to-real gap: the gap between a controlled training environment and the irreducible entropy of a real-world space. Code scales at marginal cost zero. Physical entropy scales linearly. Sensor dust, non-Newtonian materials, unpredictable human environments, friction variance—these are not software problems. They are the physical world asserting its resistance to being modeled. Until that gap closes, physical automation remains tethered to highly controlled environments.
             </p>
             
             <p className="mb-12">
-              Investment data supports this directionally. Robotics is attracting capital at a scale and pace that reflects a genuine bet on this acceleration, not just incremental hardware improvement but AI-driven breakthroughs in the physical control and adaptability problems that have been the binding constraint.
-            </p>
-
-            <p className="mb-6">
-              However, there is a fundamental difference between automating bits and automating mass. Cognitive capability is experiencing compounding efficiency gains—we can run highly optimized models locally on tiny amounts of power. But the physical world is bound by thermodynamics. The human body achieves general intelligence and physical dexterity on roughly 20 watts of highly efficient chemical energy. Our current batteries and actuators cannot match that density. This physical energy wall is the only thing preventing the cognitive and physical squeezes from arriving at the exact same second.
+              Robotics investment reflects a genuine bet on this acceleration, not just incremental hardware improvement—but the deployment of that hardware into complex, real-world environments remains the binding constraint.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Dual-Compression Event</h3>
@@ -238,7 +238,11 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The European Union has chosen framework first. The EU AI Act is an ambitious attempt to create comprehensive governance before widespread deployment rather than after. The intention is genuinely admirable. The practical effect, in the short term, is that European companies are optimising their engineering cycles for legal conformity rather than operational boundary-testing. They are building systems to pass audits, while competitors build systems to survive contact with reality. The regulatory framework is being written with limited empirical grounding because compliance-constrained deployment filters out the messy, unexpected failure data that makes systems actually safer in the long run.
+              The European Union has chosen framework first. The EU AI Act is an ambitious attempt to create comprehensive governance before widespread deployment rather than after. The intention is genuinely admirable. The practical effect, in the short term, is that European companies are optimising their engineering cycles for legal conformity rather than operational boundary-testing. They are building systems to pass audits, while competitors build systems to survive contact with reality.
+            </p>
+
+            <p className="mb-6">
+              But the more important critique is not that it slows innovation; it is one of <strong>regulatory permeability</strong>. The EU AI Act can regulate compliant enterprises. It cannot repeal the existence of open-weight models. European society will still experience the dangerous intersection failures—via open-source deployments, shadow IT, and foreign-hosted services—but European companies will lack the commercial flexibility to have built comparable systems themselves. They absorb the full societal risk of the disruption without the economic upside of having shaped it.
             </p>
 
             <p className="mb-6">
@@ -352,15 +356,15 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              By the late 2020s, trusting the content of digital media will be an act of systemic negligence. Society will shift to <strong>Cryptographic Trust</strong>.
+              By the late 2020s, trusting the content of digital media without verification will be an act of systemic negligence. But this shift will bifurcate along institutional lines.
             </p>
 
             <p className="mb-6">
-              The "Action Moat" that enterprise software companies are currently building—securing SOC2 compliance, Active Directory permissions, and infosec approvals—will become the baseline requirement for reality itself. We will no longer trust the file; we will only trust the cryptographic signature attached to the file. Zero-Knowledge Proofs (ZKPs) will allow a system to mathematically prove that a piece of data came from a certified human sensor, or that an AI model used only authorized training data to arrive at a conclusion, without revealing the underlying data itself.
+              <strong>Institutional Reality (ZKPs):</strong> Within formal institutions—courts, scientific journals, regulated financial systems—society will shift to cryptographic chain-of-custody verification. The "Action Moat" that enterprise software companies are currently building—securing SOC2 compliance, Active Directory permissions, and infosec approvals—becomes the baseline requirement. Zero-Knowledge Proofs (ZKPs) will allow a system to mathematically prove that a piece of data came from a certified human sensor, or that an AI model used only authorized training data, without revealing the underlying data itself. This proves chain-of-custody, not analog truth.
             </p>
 
             <p className="mb-12">
-              The psychological toll of this shift is difficult to overstate. An entire generation will have to train its intuition to ignore what its eyes and ears process, and look instead for the cryptographic watermark. Seeing will no longer be believing. Verification will be believing.
+              <strong>Ambient Social Reality:</strong> The broader social layer will not adopt ZKPs. It cannot. Instead, society will default to a new baseline heuristic: all unverified digital media is assumed to be synthetic until proven otherwise. The psychological toll of this shift is difficult to overstate. An entire generation will train its intuition to ignore what its eyes and ears process and look instead for the institutional watermark. Seeing will no longer be believing. The absence of a verified source will be the signal.
             </p>
 
             <h3 id="shepherd-generation" className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section III — The Shepherd Generation</h3>
