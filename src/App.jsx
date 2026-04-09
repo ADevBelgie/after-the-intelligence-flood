@@ -302,7 +302,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              Three areas where the incentive structures are currently wrong. First, the liability framework for AI-assisted decisions in high-stakes domains is almost entirely unresolved. When an AI-assisted medical diagnosis is wrong, who carries the liability? The answer to that question determines whether AI providers have any incentive to improve reliability, or whether professionals face such severe liability risk that they avoid AI tools that would genuinely improve their work.
+              Two areas where the incentive structures are currently wrong. First, the liability framework for AI-assisted decisions in high-stakes domains is almost entirely unresolved. When an AI-assisted medical diagnosis is wrong, who carries the liability? The answer to that question determines whether AI providers have any incentive to improve reliability, or whether professionals face such severe liability risk that they avoid AI tools that would genuinely improve their work.
             </p>
 
             <p className="mb-6">
