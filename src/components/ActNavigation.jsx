@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const acts = [
   { id: 'act1', title: 'Act I', subtitle: 'The Two Squeezes' },
   { id: 'act2', title: 'Act II', subtitle: 'The Reliability Reckoning' },
-  { id: 'act3', title: 'Act III', subtitle: 'The Concentration Question' },
+  { id: 'act3', title: 'Act III', subtitle: 'The Epistemic Floor' },
 ];
 
 const ActNavigation = () => {

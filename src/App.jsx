@@ -166,13 +166,17 @@ const App = () => {
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Dual-Compression Event</h3>
-
+            
             <p className="mb-6">
-              While AI-accelerated research is collapsing the design timelines for robotics, the physical deployment of those systems remains strictly gated by energy constraints. We are not facing a sequential timeline where displaced knowledge workers can safely retreat to physical coordination. We are facing a dual-compression event. The cognitive and physical squeezes are becoming visible simultaneously, their full convergence hindered only by the laws of thermodynamics. Survival requires moving to the governance, orchestration, and verification layers of both digital and physical systems concurrently.
+              We are not facing a sequential timeline where displaced knowledge workers can safely retreat to physical coordination. We are facing a dual-compression event. The cognitive squeeze is happening now; the physical squeeze will trail it, delayed by the literal laws of thermodynamics and the sim-to-real entropy gap.
             </p>
             
             <p className="mb-6">
-              For individuals: the decisions made in this transition about what skills to build, what roles to target, and what kind of value to position around will compound in ways that are very hard to reverse later. The people who understood the Barbell early and positioned around orchestration and system design rather than execution are already pulling ahead.
+              But this creates a dangerous macroeconomic trap: the <strong>False Refuge</strong>. As cognitive tasks automate, the natural labor market reaction is a massive flight to physical, dextrous work. But the very same models displacing knowledge workers are accelerating materials science and physical control systems. The "window between" is not a safe harbor for a 30-year career pivot; it is a temporary, highly compressed trap.
+            </p>
+
+            <p className="mb-6">
+              Survival requires moving to the governance, orchestration, and verification layers of both digital and physical systems concurrently. The people who position around orchestration and system design rather than execution are already pulling ahead.
             </p>
 
             <p className="mb-6">
@@ -296,7 +300,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              Public compute infrastructure is the second. The capital requirements for training frontier models mean that the entities shaping the most powerful AI systems are a small group of private companies with their own interests and incentives. Public investment in compute infrastructure, similar to how governments have historically invested in roads, electrical grids, and communications networks, would create a meaningful check on this concentration.
+              Sovereign Compute Strategy is the second. Applying 50-year infrastructure analogies (like concrete roads) to GPUs with 36-month depreciation cycles is a fallacy. Governments should not rack servers. They should act as a massive buyer of compute from private hyperscalers to subsidize access for open-source researchers, and establish <strong>Public Data Trusts</strong> (nationalized, anonymized healthcare and grid telemetry) that private labs must pay to access. The leverage is in the data and the subsidy, not the silicon.
             </p>
 
             <p className="mb-6">
@@ -305,64 +309,94 @@ const App = () => {
           </article>
         </main>
 
-        <ActDivider act="ACT III" title="The New Bottlenecks" id="act3" />
+        <ActDivider act="ACT III" title="The Epistemic Floor" id="act3" />
 
         <main className="prose-container">
           <article id="act3-interior" className="my-12">
-
-            
-            <p className="mb-8 font-medium text-slate-100 italic md:text-xl">Where the Dual-Compression Event Meets Reality: Trust, Physics, and the Talent Bridge</p>
-            
-            <div className="w-16 h-px bg-slate-800 mb-12" />
-
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section I — The Trust Layer</h3>
+            <p className="mb-8 font-medium text-slate-100 italic md:text-xl">How We Live in the Verification Layer, the Death of Probabilistic Trust, and the Shepherd Generation</p>
             
             <p className="mb-6">
-              The debate over proprietary "moats" is effectively over. The Strategic Brief documents that open-source models now match or beat proprietary counterparts on standard benchmarks, trailing only on the most complex agentic tasks. But a three-month lag between a closed model and an open alternative is no longer a moat; it is a temporary lease.
+              When an economic transition happens, it does not just change what people do for a living. It changes what society implicitly trusts, what it penalizes, and how it defines human value. The Barbell Economy and the Regulatory Triad are the mechanics of this transition. Act III is about the reality of living inside it.
             </p>
 
-            <p className="mb-6">
-              The compute monopoly breaks not because of developer idealism, but because of <strong>algorithmic deflation</strong>. When foreign labs achieve frontier reasoning for a fraction of the cost, and incumbents release powerful weights to commoditize their competitors, raw intelligence permanently deflates. Trust is the only remaining margin.
-            </p>
-
-            <p className="mb-6">
-              The real moat is not the model, but the <strong>Verification Layer</strong>. As legal and scientific institutions buckle under the sheer volume of AI-generated submissions, the value shifts entirely to who can guarantee truth. The "Action Moat" is built on liability management—the ability to provably verify that an AI system followed professional protocols and used certified data sources. Whether through API-enforced querying (like constrained legal RAG) or Zero-Knowledge Proofs (ZKPs), the product is no longer the intelligence; it is the trust that the intelligence is grounded in reality.
-            </p>
-
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section II — The Physical Wall</h3>
+            <h3 id="asymmetry-of-truth" className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section I — The Asymmetry of Truth</h3>
             
             <p className="mb-6">
-              Simulation environments like Omniverse have drastically accelerated robotics by shrinking the sim-to-real gap, but they have not eliminated it. The physical world still presents two bottlenecks that code cannot bypass.
+              The most profound vulnerability of modern institutions is that they were designed under an implicit law of physics: creating a convincing lie took roughly the same amount of human caloric energy as discovering the truth.
             </p>
 
             <p className="mb-6">
-              First, the <strong>Epistemic Physical Gap</strong>: simulations struggle to perfectly model undocumented entropy—friction variance, non-Newtonian materials, and sensor degradation from factory dust. Second, the <strong>Thermodynamic Floor</strong>: the human body executes complex physical manipulation on roughly 100 to 400 watts of power. A modern humanoid robot attempting the same tasks requires up to 2 kilowatts, constrained heavily by battery energy density and actuator efficiency. Software scales at marginal cost zero, but physical entropy scales linearly. Until battery chemistry and actuator efficiency fundamentally leap forward, the physical squeeze will remain localized in highly controlled environments.
-            </p>
-
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section III — The Talent Bridge</h3>
-            
-            <p className="mb-6 text-indigo-400 font-medium italic">
-              "Syntax is a commodity. Verification is the career."
+              Because the cost of production was relatively high, the volume of submissions to courts, scientific journals, and government regulators was naturally throttled by human exhaustion. That was the load-bearing wall of the 20th century.
             </p>
 
             <p className="mb-6">
-              The collapse of syntax-focused bootcamps and short-cycle training is a logical response to a pedagogical model that hasn't caught up to reality. We are currently facing a structural shortage not of "coders," but of <strong>Expert Verifiers</strong>—people with the deep structural intuition to manage orchestrated AI systems.
+              The Intelligence Flood breaks this asymmetry. We are entering an era where generating a 500-page, highly plausible, synthetically cited legal brief costs fractions of a cent, but verifying its accuracy still costs a senior human dollars per minute. When the cost to generate approaches zero, but the cost to verify remains tethered to human time, open systems collapse under the weight of adversarial volume.
+            </p>
+
+            <p className="mb-6">
+              The structural response to this is the end of free submission.
+            </p>
+
+            <p className="mb-6">
+              Institutions will be forced to introduce a <strong>"Verification Tax."</strong> In the near future, submitting a legal filing, a scientific paper, or a public comment will require friction by design. This will not look like CAPTCHAs. It will look like API-enforced querying (where AI is strictly confined to read from certified, closed databases) or explicit financial staking—posting a bond that is forfeited if an automated auditing system detects hallucinations in your submission.
             </p>
 
             <p className="mb-12">
-              The solution is the <strong>Talent Bridge</strong>: deploying junior professionals as Human-In-The-Loop (HITL) orchestrators on legacy enterprise systems. Doing the messy translation between rigid AI constraints and unpredictable human codebases is the only way to forge the structural intuition required for senior verification roles. The "Junior 2027" profile is an apprentice orchestrator deployed specifically to manage the friction where AI fails against the real world.
+              We are moving from a society that optimized for the friction-less sharing of information to a society that must urgently construct toll roads for truth.
             </p>
 
-            <PullQuote quote="The flood has arrived. The new world is built on trust, constrained by physics, and verified by intuition." />
-
-            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Where This Leaves Us</h3>
+            <h3 id="end-of-probabilistic-trust" className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section II — The End of Probabilistic Trust</h3>
+            
+            <p className="mb-6">
+              Historically, trust was probabilistic. If you saw a video of an event, read a dense technical document, or looked at a photograph, you trusted it because the capital and skill required to fake it at a high level were rare. You trusted the content.
+            </p>
 
             <p className="mb-6">
-              The Dual-Compression event is not an ending; it is a recalibration. The Barbell Economy is forcing a clear choice: compete with the baseline or move to the verification layer. The bottlenecks of 2026—trust, energy, and talent bridges—are the load-bearing walls of the next decade. 
+              By the late 2020s, trusting the content of digital media will be an act of systemic negligence. Society will shift to <strong>Cryptographic Trust</strong>.
+            </p>
+
+            <p className="mb-6">
+              The "Action Moat" that enterprise software companies are currently building—securing SOC2 compliance, Active Directory permissions, and infosec approvals—will become the baseline requirement for reality itself. We will no longer trust the file; we will only trust the cryptographic signature attached to the file. Zero-Knowledge Proofs (ZKPs) will allow a system to mathematically prove that a piece of data came from a certified human sensor, or that an AI model used only authorized training data to arrive at a conclusion, without revealing the underlying data itself.
             </p>
 
             <p className="mb-12">
-              The messy middle is where we land. The intersection eventually gets a traffic light. But in the Intelligence Flood, those who wait for the traffic light will be underwater. The infrastructure of the future is being built now, by those who recognize that when the cost of creation goes to zero, the value of verification goes to infinity.
+              The psychological toll of this shift is difficult to overstate. An entire generation will have to train its intuition to ignore what its eyes and ears process, and look instead for the cryptographic watermark. Seeing will no longer be believing. Verification will be believing.
+            </p>
+
+            <h3 id="shepherd-generation" className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Section III — The Shepherd Generation</h3>
+            
+            <p className="mb-6">
+              If syntax is a commodity and verification is the career, what happens to the humans who must actually do the work?
+            </p>
+
+            <p className="mb-6">
+              The "senior bulge" of engineers and managers who cut their teeth during the 2010&ndash;2022 boom currently possess the structural intuition to govern complex AI systems. They know how systems break because they spent a decade breaking them manually.
+            </p>
+
+            <p className="mb-6">
+              The cohort entering the workforce today faces a radically different pedagogical environment. We are creating the <strong>"Shepherd Generation"</strong>&mdash;a cohort of knowledge workers who will not learn their trade by writing drafts, coding modules, or building financial models from scratch. Their entire professional existence will begin as Human-In-The-Loop (HITL) orchestrators.
+            </p>
+
+            <p className="mb-6">
+              Their job will be to do the messy translation between rigid AI agents and undocumented, chaotic legacy enterprise systems. They will spend their 20s not learning how to make things, but learning how to catch the errors of an alien intelligence. The cognitive toll of being an orchestrator instead of a creator is unknown. Human mastery has historically been built through the physical and mental repetition of execution. How do you build a master architect if the apprentice never lays a brick?
+            </p>
+
+            <p className="mb-6">
+              The organizations that survive the 2030s will be the ones that figure out how to deliberately engineer the friction of execution back into the training of their junior staff, treating it as an expensive but necessary apprenticeship to forge the Expert Verifiers of the future.
+            </p>
+
+            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Intersection</h3>
+
+            <p className="mb-6">
+              The Dual-Compression event is not an ending; it is a recalibration. The Barbell Economy is forcing a clear choice: compete with the baseline at your peril, or move to the verification layer.
+            </p>
+
+            <p className="mb-6">
+              The messy middle is where we land. The dangerous intersection eventually gets a traffic light. But in the Intelligence Flood, those who wait for the traffic light to be installed before they change their route will be underwater.
+            </p>
+
+            <p className="mb-12">
+              The infrastructure of the future is being built right now, by those who recognize the central economic reality of the next decade: when the cost of creation drops to zero, the value of verification goes to infinity.
             </p>
 
             <ShareRow 
