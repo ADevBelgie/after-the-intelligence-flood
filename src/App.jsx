@@ -84,7 +84,7 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Movement I — The Barbell Forms</h3>
             
             <p className="mb-6">
-              The term "Barbell Economy" entered the conversation as a prediction. It has since become a description.
+              The term "Barbell Economy" entered the conversation as a prediction. It has since become a description. While the Barbell currently describes cognitive labor, it is merely the leading edge of a dual-compression event that will shortly breach the physical world.
             </p>
 
             <p className="mb-6">
@@ -151,6 +151,10 @@ const App = () => {
 
             <p className="mb-6">
               Furthermore, while organizations will accept physical failure because the labor savings are too massive to ignore, the physical repair loop remains a hard constraint. A software hallucination can be patched globally over-the-air in seconds. When a robot hallucinates and shatters a physical sensor against a wall, patching the software does not fix the hardware. It requires a human technician, a replacement part, and physical downtime.
+            </p>
+
+            <p className="mb-6">
+              Consider the global logistics sector: it is the vanguard of Dual-Compression. On the cognitive side, predictive AI is already automating demand forecasting and route optimization today. Simultaneously, because warehouses are highly structured environments that satisfy the 'Actuarial Boundary' for physical liability, heavy robotics are deploying right behind it. The workforce is not shifting from cognitive to physical tasks as a safe harbor; they are being compressed sequentially—first in the back office, and shortly after on the facility floor.
             </p>
 
             <p className="mb-12">
@@ -244,15 +248,15 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Why the EU Approach Carries a Risk Most People Are Not Discussing</h3>
 
             <p className="mb-6">
-              The standard critique of the EU approach is that it slows innovation and creates competitive disadvantage. That is true but it is not the most important critique.
+              The standard critique of the EU approach is that it slows innovation and creates competitive disadvantage. That is true, but it is the least of its structural problems. 
             </p>
 
             <p className="mb-6">
-              The more important critique is epistemic. Regulatory frameworks derive their quality from understanding the thing they regulate. That understanding comes primarily from observing how systems behave in the real world, at scale, under conditions that designers did not anticipate. The EU is attempting to write comprehensive rules for AI systems before those systems have generated the volume of real-world failure data that would make those rules well-calibrated.
+              The more important critique is epistemic. Regulatory frameworks derive their quality from understanding the thing they regulate. That understanding comes primarily from observing how systems behave in the real world, at scale, under conditions that designers did not anticipate. The EU is attempting to write comprehensive rules for AI systems before those systems have generated the volume of real-world failure data that would make those rules well-calibrated. They will address the failure modes that were imaginable in advance rather than the failure modes that actually manifest at scale.
             </p>
 
             <p className="mb-6">
-              The result is not necessarily that the rules will be too restrictive or too permissive, though both risks exist. The deeper result is that the rules will be calibrated to the wrong things. They will address the failure modes that were imaginable in advance rather than the failure modes that actually manifest at scale. When the real failures arrive, the framework will need to be substantially revised. The revision process in the EU is slow. The gap between the failures and the corrected framework could be a decade.
+              The final and most fatal flaw is sovereignty. The EU is attempting to regulate an infrastructure it does not sovereignly own. If a nation relies entirely on US-based hyperscalers, its regulatory framework is an illusion—it exists at the mercy of foreign boardrooms. You cannot build a "framework-first" moat on rented land.
             </p>
 
             <p className="mb-6">
@@ -302,11 +306,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The second is the Strategic Compute Reserve. The EU&apos;s framework-first approach is inherently fragile because it attempts to regulate an infrastructure it does not sovereignly own. If a nation relies entirely on US-based hyperscalers, its regulatory framework exists at the mercy of foreign boardrooms. Applying 50-year infrastructure analogies to GPUs with 36-month depreciation cycles is a financial fallacy, but an entirely justified national security mandate. Governments must own and subsidize bare-metal clusters because sovereign independence requires a baseline of intelligence that cannot be geofenced or switched off.
-            </p>
-
-            <p className="mb-6">
-              Third, and most relevant to Act I&apos;s territory: the education and transition support systems are calibrated for a labor market that no longer exists. Retraining programs built around a two-year model are not matched to a capability environment that changes on eight-month benchmark cycles. The brief period before these two squeezes fully converge is the most valuable time for building the transition infrastructure that will be needed when physical automation arrives at scale. Most governments are not using it.
+              Second, and most relevant to Act I's territory: the education and transition support systems are calibrated for a labor market that no longer exists. Retraining programs built around a two-year model are not matched to a capability environment that changes on eight-month benchmark cycles. The brief period before these two squeezes fully converge is the most valuable time for building the transition infrastructure that will be needed when physical automation arrives at scale. Most governments are not using it.
             </p>
           </article>
         </main>
