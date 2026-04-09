@@ -358,7 +358,11 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              <strong>Institutional Reality (ZKPs):</strong> Within formal institutions—courts, scientific journals, regulated financial systems—society will shift to cryptographic chain-of-custody verification. The "Action Moat" that enterprise software companies are currently building—securing SOC2 compliance, Active Directory permissions, and infosec approvals—becomes the baseline requirement. Zero-Knowledge Proofs (ZKPs) will allow a system to mathematically prove that a piece of data came from a certified human sensor, or that an AI model used only authorized training data, without revealing the underlying data itself. This proves chain-of-custody, not analog truth.
+              <strong>The Analog Gridlock (Near-Term):</strong> Before elegant cryptographic solutions arrive, institutions will default to brute-force friction. We will see a multi-year period of &ldquo;Analog Gridlock&rdquo; where courts, medical boards, and regulators respond to the Intelligence Flood by mandating physical presence. Expect a surge in demands for wet-ink notarization, in-person oral defenses of written submissions, and localized, air-gapped servers. Bureaucracies always default to physical friction when digital trust breaks down.
+            </p>
+
+            <p className="mb-6">
+              <strong>Institutional Reality (ZKPs):</strong> Within formal institutions—courts, scientific journals, regulated financial systems—society will shift to cryptographic chain-of-custody verification. The &ldquo;Action Moat&rdquo; that enterprise software companies are currently building—securing SOC2 compliance, Active Directory permissions, and infosec approvals—becomes the baseline requirement. Zero-Knowledge Proofs (ZKPs) will allow a system to mathematically prove that a piece of data came from a certified human sensor, or that an AI model used only authorized training data, without revealing the underlying data itself. This proves chain-of-custody, not analog truth.
             </p>
 
             <p className="mb-12">
@@ -384,7 +388,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The organizations that survive the 2030s will be the ones that figure out how to deliberately engineer the friction of execution back into the training of their junior staff, treating it as an expensive but necessary apprenticeship to forge the Expert Verifiers of the future.
+              The organizations that survive the 2030s will be the ones that figure out how to deliberately engineer the friction of execution back into the training of their junior staff. They will treat it as an expensive but necessary apprenticeship to forge the <strong>Meta-Verifiers</strong> of the future—seniors whose job is no longer to manually read the output, but to possess the structural intuition required to design automated testing agents, set operational constraints, and govern the machines that do the verifying.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Intersection</h3>
