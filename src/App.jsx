@@ -138,31 +138,23 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Movement III — The Physical Squeeze, and the Window Between</h3>
 
             <p className="mb-6">
-              The cognitive squeeze has a counterpart that moves on a different timescale.
+              Cognitive AI does not just automate software jobs. It accelerates every field that was previously bottlenecked by human cognitive labor, crucially including robotics and physical control systems. With the maturation of simulation environments like NVIDIA Omniverse, the &ldquo;Physical Data Wall&rdquo; has largely fallen. We can now train robotic foundation models in physics-accurate simulations, generating lifetimes of edge-case data in a weekend.
             </p>
 
             <p className="mb-6">
-              Physical work has historically been the refuge when cognitive labor gets automated. The standard historical pattern is that machines replace physical routine first, then cognitive routine, with human judgment and physical dexterity at the frontier. AI has inverted the middle of that sequence: cognitive routine is being automated aggressively while complex physical tasks remain largely human. A robot that can write production-quality code cannot reliably fold a hotel towel in an unfamiliar room.
+              So why is the physical squeeze still delayed? The barrier is no longer cognitive; it is manufacturing and maintenance.
             </p>
 
             <p className="mb-6">
-              Boston Dynamics has been producing impressive demonstrations for a decade. The gap between an impressive demonstration and a robot that can work reliably for eight hours in a real-world environment, get repaired cheaply when it fails, and operate at a cost that genuinely competes with human labor — that gap has been closing, but measured in years not months.
+              Software scales at the speed of compute. If an AI agent works, you can deploy a million instances by tomorrow morning. Hardware scales at the speed of supply chains. Even with a perfect robotic brain, manufacturing millions of actuators, chassis, and batteries requires capital-intensive, analog factory scaling. You cannot copy-paste a physical machine.
+            </p>
+
+            <p className="mb-6">
+              Furthermore, while organizations will accept physical failure because the labor savings are too massive to ignore, the physical repair loop remains a hard constraint. A software hallucination can be patched globally over-the-air in seconds. When a robot hallucinates and shatters a physical sensor against a wall, patching the software does not fix the hardware. It requires a human technician, a replacement part, and physical downtime.
             </p>
 
             <p className="mb-12">
-              That assumption now needs to be revisited.
-            </p>
-
-            <p className="mb-6">
-              Cognitive AI does not just automate software jobs. It accelerates every field that was previously bottlenecked by human cognitive labor. Drug discovery. Materials science. Chip design. And crucially, robot locomotion research, physical control systems, the engineering of manipulation and dexterity. The same capability curve compressing cognitive work is being applied to the research problems that have kept physical automation stuck.
-            </p>
-            
-            <p className="mb-6">
-              The true physical barrier is not power; it is <strong>Moravec&apos;s Paradox and spatial adaptability</strong>. What robots struggle with is not the caloric cost of movement but the sim-to-real gap: the gap between a controlled training environment and the irreducible entropy of a real-world space. Code scales at marginal cost zero. Physical entropy scales linearly. Sensor dust, non-Newtonian materials, unpredictable human environments, friction variance—these are not software problems. They are the physical world asserting its resistance to being modeled. Until that gap closes, physical automation remains tethered to highly controlled environments.
-            </p>
-            
-            <p className="mb-12">
-              Robotics investment reflects a genuine bet on this acceleration, not just incremental hardware improvement—but the deployment of that hardware into complex, real-world environments remains the binding constraint.
+              Consequently, the physical squeeze will not arrive everywhere at once. It will be governed by the actuarial boundary. Robots are being deployed right now in warehouses, logistics hubs, and industrial zones—not because they are incapable of navigating a public sidewalk, but because the insurance liability of physical edge-cases in unstructured human environments dictates a phased rollout. The physical squeeze is coming, but it moves at the speed of physical supply chains, not digital networks.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Dual-Compression Event</h3>
@@ -275,6 +267,12 @@ const App = () => {
               The US approach, for all its messiness, retains one structural backstop: when catastrophic failures breach the NDA firewall—either because a plaintiff refuses to settle or the harm is too public to hide—the adversarial legal process forces them into the open. When an AI system produces a wrong output that reaches open court, the resulting litigation creates public record, legal precedent, and institutional pressure for correction.
             </p>
 
+            <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Tail Risk Exception</h3>
+
+            <p className="mb-6">
+              The deployment-first approach is necessary for recoverable failures—software bugs, localized hallucinations, and autonomous driving edge-cases. The dangerous intersection needs traffic. However, this model structurally fails for terminal tail risks, such as malicious actors using open-weight models to engineer pathogens. Against tail risk, the EU&apos;s compliance-based framework is equally useless; paperwork in Brussels does not stop a bad actor running an open-weight model on a private server. The only rational defense against terminal tail risk is hardened, active infrastructure: AI-enabled bio-surveillance, mandatory DNA synthesis screening, and strict API-gating of frontier capabilities.
+            </p>
+
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Decentralisation Argument</h3>
 
             <p className="mb-6">
@@ -304,7 +302,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              Sovereign Compute Strategy is the second. Applying 50-year infrastructure analogies (like concrete roads) to GPUs with 36-month depreciation cycles is a fallacy. Governments should not rack servers. They should act as a massive buyer of compute from private hyperscalers to subsidize access for open-source researchers, and establish <strong>Public Data Trusts</strong> (nationalized, anonymized healthcare and grid telemetry) that private labs must pay to access. The leverage is in the data and the subsidy, not the silicon.
+              <strong>Strategic Compute Reserve:</strong> Applying 50-year infrastructure analogies to GPUs with 36-month depreciation cycles is a financial fallacy, but an entirely justified national security mandate. Governments must treat bare-metal clusters as a Strategic Compute Reserve. Relying entirely on foreign hyperscalers subjects critical national infrastructure to foreign jurisdiction, corporate de-platforming, and geofencing. Governments must own and subsidize compute not because it is financially efficient, but because sovereign independence requires a baseline of intelligence that a foreign boardroom cannot switch off.
             </p>
 
             <p className="mb-6">
