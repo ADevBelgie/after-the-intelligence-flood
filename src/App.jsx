@@ -39,7 +39,7 @@ const App = () => {
           <section className="mb-24 text-center md:text-left">
             <h1 className="text-4xl md:text-6xl font-black tracking-tight text-white mb-6 uppercase leading-[1.1]">
               After the <br />
-              <span className="text-indigo-500 font-extrabold">Intelligence Flood</span>
+              <span className="text-indigo-500 font-extrabold">Epistemic Flood</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-400 font-medium mb-12 italic tracking-tight">
               A Speculative Essay on Where This Goes Next
@@ -302,7 +302,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              Second is the <strong>Strategic Compute Reserve</strong>. Applying 50-year infrastructure analogies to GPUs with 36-month depreciation cycles is a financial fallacy, but an entirely justified national security mandate. Governments must treat bare-metal clusters as a Strategic Compute Reserve. Relying entirely on foreign hyperscalers subjects critical national infrastructure to foreign jurisdiction, corporate de-platforming, and geofencing. Governments must own and subsidize compute not because it is financially efficient, but because sovereign independence requires a baseline of intelligence that a foreign boardroom cannot switch off.
+              The second is the Strategic Compute Reserve. The EU&apos;s framework-first approach is inherently fragile because it attempts to regulate an infrastructure it does not sovereignly own. If a nation relies entirely on US-based hyperscalers, its regulatory framework exists at the mercy of foreign boardrooms. Applying 50-year infrastructure analogies to GPUs with 36-month depreciation cycles is a financial fallacy, but an entirely justified national security mandate. Governments must own and subsidize bare-metal clusters because sovereign independence requires a baseline of intelligence that cannot be geofenced or switched off.
             </p>
 
             <p className="mb-6">
@@ -332,7 +332,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The Intelligence Flood breaks this asymmetry. We are entering an era where generating a 500-page, highly plausible, synthetically cited legal brief costs fractions of a cent, but verifying its accuracy still costs a senior human dollars per minute. When the cost to generate approaches zero, but the cost to verify remains tethered to human time, open systems collapse under the weight of adversarial volume.
+              The Epistemic Flood breaks this asymmetry. We are entering an era where generating a 500-page, highly plausible, synthetically cited legal brief costs fractions of a cent, but verifying its accuracy still costs a senior human dollars per minute. When the cost to generate approaches zero, but the cost to verify remains tethered to human time, open systems collapse under the weight of adversarial volume.
             </p>
 
             <p className="mb-6">
@@ -358,11 +358,11 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              <strong>The Analog Gridlock (Near-Term):</strong> Before elegant cryptographic solutions arrive, institutions will default to brute-force friction. We will see a multi-year period of &ldquo;Analog Gridlock&rdquo; where courts, medical boards, and regulators respond to the Intelligence Flood by mandating physical presence. Expect a surge in demands for wet-ink notarization, in-person oral defenses of written submissions, and localized, air-gapped servers. Bureaucracies always default to physical friction when digital trust breaks down.
+              <strong>The Analog Gridlock (Near-Term):</strong> Before elegant cryptographic solutions arrive, institutions will default to brute-force friction. We will see a multi-year period of &ldquo;Analog Gridlock&rdquo; where courts, medical boards, and regulators respond to the Epistemic Flood by mandating physical presence. Expect a surge in demands for wet-ink notarization, in-person oral defenses of written submissions, and localized, air-gapped servers. Bureaucracies always default to physical friction when digital trust breaks down.
             </p>
 
             <p className="mb-6">
-              <strong>Institutional Reality (ZKPs):</strong> Within formal institutions—courts, scientific journals, regulated financial systems—society will shift to cryptographic chain-of-custody verification. The &ldquo;Action Moat&rdquo; that enterprise software companies are currently building—securing SOC2 compliance, Active Directory permissions, and infosec approvals—becomes the baseline requirement. Zero-Knowledge Proofs (ZKPs) will allow a system to mathematically prove that a piece of data came from a certified human sensor, or that an AI model used only authorized training data, without revealing the underlying data itself. This proves chain-of-custody, not analog truth.
+              <strong>Institutional Reality:</strong> Within formal institutions, society will shift to cryptographic chain-of-custody (Zero-Knowledge Proofs). The focus will no longer be on whether the text sounds true, but whether the digital provenance proves it was generated by a certified human sensor or an authorized model. Truth becomes a function of cryptography, not prose.
             </p>
 
             <p className="mb-12">
@@ -398,7 +398,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The messy middle is where we land. The dangerous intersection eventually gets a traffic light. But in the Intelligence Flood, those who wait for the traffic light to be installed before they change their route will be underwater.
+              The messy middle is where we land. The dangerous intersection eventually gets a traffic light. But in the Epistemic Flood, those who wait for the traffic light to be installed before they change their route will be underwater.
             </p>
 
             <p className="mb-12">
@@ -407,7 +407,7 @@ const App = () => {
 
             <ShareRow 
               url="https://after-the-intelligence-flood.vercel.app" 
-              title="After the Intelligence Flood: A Speculative Essay on AI"
+              title="After the Epistemic Flood: A Speculative Essay on AI"
             />
           </article>
         </main>
