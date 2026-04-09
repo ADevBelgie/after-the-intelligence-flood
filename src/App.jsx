@@ -84,7 +84,7 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Movement I — The Barbell Forms</h3>
             
             <p className="mb-6">
-              The term "Barbell Economy" entered the conversation as a prediction. It has since become a description. While the Barbell currently describes cognitive labor, it is merely the leading edge of a dual-compression event that will shortly breach the physical world.
+              The term "Barbell Economy" entered the conversation as a prediction. It has since become a description. While the Barbell currently describes cognitive labor, it is merely the leading edge of a dual-compression event that will shortly breach the physical world. When digital automation and physical robotics arrive in the same facilities sequentially, the traditional 'safe harbor' of dextrous work disappears. The cognitive Barbell is just Phase One.
             </p>
 
             <p className="mb-6">
@@ -248,15 +248,15 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">Why the EU Approach Carries a Risk Most People Are Not Discussing</h3>
 
             <p className="mb-6">
-              The standard critique of the EU approach is that it slows innovation and creates competitive disadvantage. That is true, but it is the least of its structural problems. 
+              The standard critique of the EU approach is that it slows innovation and creates competitive disadvantage. That is true, but it is the least of its structural problems.
             </p>
 
             <p className="mb-6">
-              The more important critique is epistemic. Regulatory frameworks derive their quality from understanding the thing they regulate. That understanding comes primarily from observing how systems behave in the real world, at scale, under conditions that designers did not anticipate. The EU is attempting to write comprehensive rules for AI systems before those systems have generated the volume of real-world failure data that would make those rules well-calibrated. They will address the failure modes that were imaginable in advance rather than the failure modes that actually manifest at scale.
+              The first and most fatal flaw is sovereignty. The EU is attempting to regulate an infrastructure it does not sovereignly own. If a nation relies entirely on US-based hyperscalers, its regulatory framework is an illusion—it exists at the mercy of foreign boardrooms. You cannot build a "framework-first" moat on rented land.
             </p>
 
             <p className="mb-6">
-              The final and most fatal flaw is sovereignty. The EU is attempting to regulate an infrastructure it does not sovereignly own. If a nation relies entirely on US-based hyperscalers, its regulatory framework is an illusion—it exists at the mercy of foreign boardrooms. You cannot build a "framework-first" moat on rented land.
+              The second critique is epistemic. Regulatory frameworks derive their quality from understanding the thing they regulate. That understanding comes primarily from observing how systems behave in the real world, at scale, under conditions that designers did not anticipate. The EU is attempting to write comprehensive rules for AI systems before those systems have generated the volume of real-world failure data that would make those rules well-calibrated. They will address the failure modes that were imaginable in advance rather than the failure modes that actually manifest at scale.
             </p>
 
             <p className="mb-6">
