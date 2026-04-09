@@ -58,7 +58,7 @@ const App = () => {
             </div>
 
             <div className="p-8 rounded-2xl bg-slate-900/40 border border-slate-800/50 text-slate-400 text-sm md:text-base italic leading-relaxed shadow-xl shadow-slate-950/50 mb-12">
-              "This piece is not a data report. It is an argument about where AI takes the economy, institutions, and societies over the next decade. References to data come from the April 2026 Strategic Brief. Where this piece speculates, it says so. Opinions are our own."
+              "This piece is not a data report. It is an argument about where AI takes the economy, institutions, and societies over the next decade. References to data come from the <a href="https://ai-strategic-report-april-2026.vercel.app" className="text-indigo-400 hover:text-indigo-300 transition-colors font-semibold not-italic">April 2026 Strategic Brief</a>. Where this piece speculates, it says so. Opinions are our own."
             </div>
 
             <DiscoveryCallout />
@@ -92,7 +92,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The data from the Strategic Brief makes this concrete. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Entry-level developer job postings are down 67% since 2022. Senior AI-role salaries are up 40%. Salesforce announced zero new engineering hires for 2025. These are not rounding errors. They are structural signals arriving simultaneously across companies and sectors.
+              The data from the <a href="https://ai-strategic-report-april-2026.vercel.app" className="text-indigo-400 hover:text-indigo-300 transition-colors font-semibold">Strategic Brief</a> makes this concrete. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Entry-level developer job postings are down 67% since 2022. Senior AI-role salaries are up 40%. Salesforce announced zero new engineering hires for 2025. These are not rounding errors. They are structural signals arriving simultaneously across companies and sectors.
             </p>
 
             <p className="mb-12">
@@ -122,7 +122,7 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              The Strategic Brief documents an approximately eight-month cycle in which AI capability tests get mastered, retired, and replaced with harder ones. ARC-AGI-1 essentially solved. ARC-AGI-2 approaching saturation within twelve months of launch. ARC-AGI-3 launched March 2026 with frontier AI models scoring under 1%, and the prediction based on the same pattern is 30 to 50% scores by end of 2026 via reinforcement learning approaches. The measuring sticks keep breaking because the underlying capability keeps moving.
+              The <a href="https://ai-strategic-report-april-2026.vercel.app" className="text-indigo-400 hover:text-indigo-300 transition-colors font-semibold">Strategic Brief</a> documents an approximately eight-month cycle in which AI capability tests get mastered, retired, and replaced with harder ones. ARC-AGI-1 essentially solved. ARC-AGI-2 approaching saturation within twelve months of launch. ARC-AGI-3 launched March 2026 with frontier AI models scoring under 1%, and the prediction based on the same pattern is 30 to 50% scores by end of 2026 via reinforcement learning approaches. The measuring sticks keep breaking because the underlying capability keeps moving.
             </p>
 
             <p className="mb-6">
@@ -208,7 +208,7 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">The Shape of Coming Failures</h3>
 
             <p className="mb-6">
-              The Strategic Brief documents where reliability currently stands. Without proper system design, AI confidently produces wrong answers more than 10% of the time on standard tasks. Legal AI fails at rates of 69 to 88% on specific legal queries without mitigation. Medical AI, without the right architecture, hallucinates at rates that would be immediately disqualifying if applied to a human doctor.
+              The <a href="https://ai-strategic-report-april-2026.vercel.app" className="text-indigo-400 hover:text-indigo-300 transition-colors font-semibold">Strategic Brief</a> documents where reliability currently stands. Without proper system design, AI confidently produces wrong answers more than 10% of the time on standard tasks. Legal AI fails at rates of 69 to 88% on specific legal queries without mitigation. Medical AI, without the right architecture, hallucinates at rates that would be immediately disqualifying if applied to a human doctor.
             </p>
 
             <p className="mb-6">
@@ -292,7 +292,7 @@ const App = () => {
             </p>
             
             <p className="mb-12">
-              The MCP ecosystem that the Strategic Brief documents is an early version of this dynamic playing out in AI integration. Developers who build on open standards control their own destiny, while those who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. The lesson of every previous platform cycle is available to every developer who wants to learn it.
+              The MCP ecosystem that the <a href="https://ai-strategic-report-april-2026.vercel.app" className="text-indigo-400 hover:text-indigo-300 transition-colors font-semibold">Strategic Brief</a> documents is an early version of this dynamic playing out in AI integration. Developers who build on open standards control their own destiny, while those who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. The lesson of every previous platform cycle is available to every developer who wants to learn it.
             </p>
 
             <h3 className="text-2xl font-bold text-white mb-6 mt-16 tracking-tight">What Governments Actually Need to Get Right</h3>
