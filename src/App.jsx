@@ -298,15 +298,15 @@ const App = () => {
             </p>
 
             <p className="mb-6">
-              Three areas where the incentive structures are currently wrong. The liability framework for AI-assisted decisions in high-stakes domains is almost entirely unresolved. When an AI-assisted medical diagnosis is wrong, who carries the liability? The answer to that question determines whether AI providers have any incentive to improve reliability, or whether professionals face such severe liability risk that they avoid AI tools that would genuinely improve their work.
+              Three areas where the incentive structures are currently wrong. First, the liability framework for AI-assisted decisions in high-stakes domains is almost entirely unresolved. When an AI-assisted medical diagnosis is wrong, who carries the liability? The answer to that question determines whether AI providers have any incentive to improve reliability, or whether professionals face such severe liability risk that they avoid AI tools that would genuinely improve their work.
             </p>
 
             <p className="mb-6">
-              <strong>Strategic Compute Reserve:</strong> Applying 50-year infrastructure analogies to GPUs with 36-month depreciation cycles is a financial fallacy, but an entirely justified national security mandate. Governments must treat bare-metal clusters as a Strategic Compute Reserve. Relying entirely on foreign hyperscalers subjects critical national infrastructure to foreign jurisdiction, corporate de-platforming, and geofencing. Governments must own and subsidize compute not because it is financially efficient, but because sovereign independence requires a baseline of intelligence that a foreign boardroom cannot switch off.
+              Second is the <strong>Strategic Compute Reserve</strong>. Applying 50-year infrastructure analogies to GPUs with 36-month depreciation cycles is a financial fallacy, but an entirely justified national security mandate. Governments must treat bare-metal clusters as a Strategic Compute Reserve. Relying entirely on foreign hyperscalers subjects critical national infrastructure to foreign jurisdiction, corporate de-platforming, and geofencing. Governments must own and subsidize compute not because it is financially efficient, but because sovereign independence requires a baseline of intelligence that a foreign boardroom cannot switch off.
             </p>
 
             <p className="mb-6">
-              Third, and most relevant to Act I's territory: the education and transition support systems are calibrated for a labor market that no longer exists. Retraining programs built around a two-year model are not matched to a capability environment that changes on eight-month benchmark cycles. The brief period before these two squeezes fully converge is the most valuable time for building the transition infrastructure that will be needed when physical automation arrives at scale. Most governments are not using it.
+              Third, and most relevant to Act I&apos;s territory: the education and transition support systems are calibrated for a labor market that no longer exists. Retraining programs built around a two-year model are not matched to a capability environment that changes on eight-month benchmark cycles. The brief period before these two squeezes fully converge is the most valuable time for building the transition infrastructure that will be needed when physical automation arrives at scale. Most governments are not using it.
             </p>
           </article>
         </main>
