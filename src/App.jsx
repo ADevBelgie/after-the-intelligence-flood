@@ -402,7 +402,7 @@ const App = () => {
             </p>
 
             <p className="mb-12">
-              The infrastructure of the future is being built right now, by those who recognize the central economic reality of the next decade: when the cost of creation drops to zero, the value of verification goes to infinity.
+              The infrastructure of the future is being built right now, by those who recognize the central economic reality of the next decade: when the cost of creation collapses to the price of compute, the ability to verify becomes the true limit of scale.
             </p>
 
             <ShareRow 
