@@ -520,7 +520,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Cognitive AI automatiseert niet alleen softwarefuncties. Zij versnelt elk vakgebied dat voorheen werd afgeremd door menselijke cognitieve arbeid, in het bijzonder robotica en fysieke besturingssystemen. Met de rijping van simulatieomgevingen zoals NVIDIA Omniverse is de \"Muur van de fysieke data\" grotendeels gevallen. Wij kunnen nu robotische foundation models trainen in fysisch-accurate simulaties, waarbij wij in een weekend levenslange hoeveelheden edge case-gegevens genereren."
+            text: "Cognitieve AI automatiseert niet alleen softwarefuncties. Zij versnelt elk vakgebied dat voorheen werd afgeremd door menselijke cognitieve arbeid, in het bijzonder robotica en fysieke besturingssystemen. Met de rijping van simulatieomgevingen zoals NVIDIA Omniverse is de \"Muur van de fysieke data\" grotendeels gevallen. Wij kunnen nu robotische foundation models trainen in fysisch-accurate simulaties, waarbij wij in een weekend levenslange hoeveelheden edge case-gegevens genereren."
           },
           {
             type: "p",
@@ -602,7 +602,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Met goed ontworpen systemen dalen die cijfers drastisch. Multi-agent-verificatie brengt enterprise-foutenpercentages onder 2%. Zelfreflectieve architecturen brengen klinische hallucinatie onder 6%. Het betrouwbaarheidsprobleem is grotendeels een probleem van systeemengineering, niet een fundamentele beperking van AI. Dat is de optimistische lezing, en de data ondersteunen haar voor gestructureerde, begrensde tasks in gecontroleerde omgevingen."
+            text: "Met goed ontworpen systemen dalen die cijfers drastisch. Multi-agent-verificatie brengt enterprise-foutenpercentages onder 2%. Zelfreflectieve architecturen brengen klinische hallucinatie onder 6%. Het betrouwbaarheidsprobleem is grotendeels een probleem van systeemengineering, niet een fundamentele beperking van AI. Dat is de optimistische lezing, en de data ondersteunen haar voor gestructureerde, begrensde taken in gecontroleerde omgevingen."
           },
           {
             type: "p",
@@ -626,7 +626,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De Europese Unie heeft gekozen voor \"eerst kader\". De EU AI Act is een ambitieuze poging om een omvattend bestuur te cre\u00ebert v\u00f3\u00f3r brede inzet in plaats van erna. De intentie is werkelijk bewonderenswaardig. Het praktische effect op korte termijn is dat Europese ondernemingen hun engineering-cycli optimaliseren voor juridische conformiteit in plaats van operationele grenstoetsing. Zij bouwen systemen om audits te doorstaan, terwijl hun concurrenten systemen bouwen die contact met de werkelijkheid kunnen doorstaan."
+            text: "De Europese Unie heeft gekozen voor \"eerst kader\". De EU AI Act is een ambitieuze poging om een omvattend bestuur te creëren vóór brede inzet in plaats van erna. De intentie is werkelijk bewonderenswaardig. Het praktische effect op korte termijn is dat Europese ondernemingen hun engineering-cycli optimaliseren voor juridische conformiteit in plaats van operationele grenstoetsing. Zij bouwen systemen om audits te doorstaan, terwijl hun concurrenten systemen bouwen die contact met de werkelijkheid kunnen doorstaan."
           },
           {
             type: "p",
@@ -646,7 +646,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De eerste en meest fatale zwakte is soevereiniteit. De EU poogt een infrastructuur te reguleren die zij niet soeverein bezit. Als een natie volledig afhankelijk is van in de VS gevestigde hyperscalers, haar regelgevingskader een illusie \u2014 het bestaat bij de gratie van buitenlandse bestuurskamers. U kunt geen \"kader-eerst\"-bolwerk bouwen op gehuurde grond."
+            text: "De eerste en meest fatale zwakte is soevereiniteit. De EU poogt een infrastructuur te reguleren die zij niet soeverein bezit. Als een natie volledig afhankelijk is van in de VS gevestigde hyperscalers, is haar regelgevingskader een illusie \u2014 het bestaat bij de gratie van buitenlandse bestuurskamers. U kunt geen \"kader-eerst\"-bolwerk bouwen op gehuurde grond."
           },
           {
             type: "p",
@@ -678,7 +678,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Er bestaat een structureel antwoord op de concentration risks that the current AI landscape generates, and it is not in the first place a government response. It is a architecturaal antwoord."
+            text: "Er bestaat een structureel antwoord op de concentratierisico's die het huidige AI-landschap genereert, en het is niet in de eerste plaats een overheidsreactie. Het is een architecturaal antwoord."
           },
           {
             type: "p",
@@ -690,7 +690,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Het MCP-ecosysteem dat de {link} documenteer, is een vroege versie van deze dynamiek die zich ontrolt in AI-integratie. Ontwikkelaars die bouwen op open standaarden beheersen hun eigen lot, terwijl zij die bouwen op gesloten platformen blijvend onderworpen zijn aan de prijsbeslissingen, de beleidswijzigingen en het voortbestaan van dat platform. De les van elke eerdere platformcyclus ligt voor iedere ontwikkelaar beschikbaar die haar wil leren.",
+            text: "Het MCP-ecosysteem dat de {link} documenteert, is een vroege versie van deze dynamiek die zich ontrolt in AI-integratie. Ontwikkelaars die bouwen op open standaarden beheersen hun eigen lot, terwijl zij die bouwen op gesloten platformen blijvend onderworpen zijn aan de prijsbeslissingen, de beleidswijzigingen en het voortbestaan van dat platform. De les van elke eerdere platformcyclus ligt voor iedere ontwikkelaar beschikbaar die haar wil leren.",
             link_text: "Strategic Brief"
           },
           {
@@ -766,11 +766,11 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De Analoge Blokkade (nabije toekomst): Voordat elegante cryptografische oplossingen arriveren, instellingen zullen terugvallen op brute frictie. Wij zullen een meerjarige periode van \u201cAnaloge Blokkade\u201d waarin rechtbanken, medische raden en regelgevers reageren op de Epistemische Vloed door fysieke aanwezigheid op te leggen. Verwacht een opleving in eisen voor notari\u00eble bekrachtiging met natte handtekening, persoonlijke mondelinge verdediging van schriftelijke stukken, en gelokaliseerde, air-gapped servers. Bureaucratie\u00ebn vallen altijd terug op fysieke frictie wanneer digitaal vertrouwen wegvalt."
+            text: "De Analoge Blokkade (nabije toekomst): Voordat elegante cryptografische oplossingen arriveren, zullen instellingen terugvallen op brute frictie. Wij zullen een meerjarige periode van \u201cAnaloge Blokkade\u201d meemaken waarin rechtbanken, medische raden en regelgevers reageren op de Epistemische Vloed door fysieke aanwezigheid op te leggen. Verwacht een opleving in eisen voor notari\u00eble bekrachtiging met natte handtekening, persoonlijke mondelinge verdediging van schriftelijke stukken, en gelokaliseerde, air-gapped servers. Bureaucratie\u00ebn vallen altijd terug op fysieke frictie wanneer digitaal vertrouwen wegvalt."
           },
           {
             type: "p",
-            text: "Institutionele realiteit: Binnen formal instellingen zal de samenleving overstappen op cryptografische keten van bewaring (Zero-Knowledge Proofs). De focus zal niet langer liggen op of de tekst waar klinkt, maar op of de digitale herkomst bewijst dat hij werd gegenereerd door een gecertificeerde menselijke sensor of een geautoriseerd model. Waarheid wordt een functie van cryptografie, niet van proza."
+            text: "Institutionele realiteit: Binnen formele instellingen zal de samenleving overstappen op cryptografische keten van bewaring (Zero-Knowledge Proofs). De focus zal niet langer liggen op of de tekst waar klinkt, maar op of de digitale herkomst bewijst dat hij werd gegenereerd door een gecertificeerde menselijke sensor of een geautoriseerd model. Waarheid wordt een functie van cryptografie, niet van proza."
           },
           {
             type: "p",
@@ -799,7 +799,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De organisaties die de jaren 2030 overleven, zullen diegene zijn die uitvissen hoe zij de frictie van uitvoering opzettelijk terug in de opleiding van hun junior personeel kunnen brengen. Zij zullen dat behandalen als een dure maar noodzakelijke stage, om de Meta-Verificateurs van de toekomst te smeden \u2014 seniors wier taak niet langer zal zijn om handmatig de output te lezen, maar om de structurele intu\u00eftie te bezitten die vereist is om geautomatiseerde testagents te ontwerpen, operationele beperkingen in te stellen, en de machines te besturen die de verificatie uitvoeren."
+            text: "De organisaties die de jaren 2030 overleven, zullen diegene zijn die uitvissen hoe zij de frictie van uitvoering opzettelijk terug in de opleiding van hun junior personeel kunnen brengen. Zij zullen dat behandelen als een dure maar noodzakelijke stage, om de Meta-Verificateurs van de toekomst te smeden \u2014 seniors wier taak niet langer zal zijn om handmatig de output te lezen, maar om de structurele intu\u00eftie te bezitten die vereist is om geautomatiseerde testagents te ontwerpen, operationele beperkingen in te stellen, en de machines te besturen die de verificatie uitvoeren."
           },
           {
             type: "h3",
