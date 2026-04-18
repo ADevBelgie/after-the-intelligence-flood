@@ -53,7 +53,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The bottom is not holding. It is collapsing. Entry-level developer postings are down 67% since 2022. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Some of this was the end of the cheap-money era that inflated the 2020 hiring boom \u2014 but when capital returned to tech budgets in 2025, junior headcount did not return with it. The money went to compute and to senior engineers. The roles that used to be the first rung of the ladder \u2014 the ones that turned graduates into professionals \u2014 are simply being removed."
+            text: "The bottom is not holding. It is collapsing. Entry-level developer postings are down 67% since 2022. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Some of this was the end of the cheap-money era that inflated the 2020 hiring boom \u2014 but when capital returned to tech budgets in 2025, junior headcount did not return with it. Big Tech capex rose from roughly $256 billion in 2024 to $427 billion in 2025 and a projected $562 to $700 billion in 2026, while entry-level tech hiring kept contracting across the same period. The money went to compute and to senior engineers. The full data is in the Strategic Brief's \u00a75. The roles that used to be the first rung of the ladder \u2014 the ones that turned graduates into professionals \u2014 are simply being removed."
           },
           {
             type: "p",
@@ -485,7 +485,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De bodem houdt niet stand. Hij stort in. Vacatures voor junior ontwikkelaars zijn sinds 2022 met 67% gedaald. Het aandeel van junior wervingen binnen IT-functies is in drie jaar gedaald van 15% naar 7%. Een deel daarvan was het einde van het goedkoop-geldtijdperk dat de aanwervingshausse van 2020 had opgeblazen \u2014 maar toen er in 2025 opnieuw kapitaal naar technologiebudgetten vloeide, keerde de junior headcount niet mee terug. Het geld ging naar computekracht en naar senior engineers. De functies die vroeger de eerste tree van de ladder waren \u2014 de functies die pas-afgestudeerden tot professionals omvormden \u2014 worden simpelweg weggenomen."
+            text: "De bodem houdt niet stand. Hij stort in. Vacatures voor junior ontwikkelaars zijn sinds 2022 met 67% gedaald. Het aandeel van junior wervingen binnen IT-functies is in drie jaar gedaald van 15% naar 7%. Een deel daarvan was het einde van het goedkoop-geldtijdperk dat de aanwervingshausse van 2020 had opgeblazen \u2014 maar toen er in 2025 opnieuw kapitaal naar technologiebudgetten vloeide, keerde de junior headcount niet mee terug. De Capex van de grote technologiebedrijven steeg van ongeveer $256 miljard in 2024 naar $427 miljard in 2025 en een verwachte $562 tot $700 miljard in 2026, terwijl de IT-aanwervingen op instapniveau in dezelfde periode bleven krimpen. Het geld ging naar computekracht en naar senior engineers. De volledige gegevens staan in \u00a75 van de Strategic Brief. De functies die vroeger de eerste tree van de ladder waren \u2014 de functies die pas-afgestudeerden tot professionals omvormden \u2014 worden simpelweg weggenomen."
           },
           {
             type: "p",
