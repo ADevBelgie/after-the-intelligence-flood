@@ -325,7 +325,7 @@ export const translations = {
         content: [
           {
             type: "p",
-            text: "When an economic transition happens, it does not just change what people do for a living. It changes what society implicitly trusts, what it penalizes, and how it defines human value. The Barbell Economy and the Regulatory Triad are the mechanics of this transition. Act III is about the reality of living inside it."
+            text: "When an economic transition happens, it does not just change what people do for a living. It changes what society implicitly trusts, what it penalizes, and how it defines human value. The compression of work and the three regulatory experiments are the mechanics of this transition. Act III is about the reality of living inside it."
           },
           {
             type: "h3",
@@ -411,7 +411,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The Dual-Compression event is not an ending; it is a recalibration. The Barbell Economy is forcing a clear choice: compete with the baseline at your peril, or move to the verification layer."
+            text: "The compression of cognitive and physical work is not an ending; it is a recalibration. It is forcing a clear choice: compete with the baseline at your peril, or move to the verification layer."
           },
           {
             type: "p",
@@ -756,7 +756,7 @@ export const translations = {
         content: [
           {
             type: "p",
-            text: "Wanneer er een economische transitie plaatsvindt, verandert zij niet alleen wat mensen doen om brood op de plank te brengen. Zij verandert wat de samenleving impliciet vertrouwt, wat zij bestraft, en hoe zij menselijke waarde definieert. De Barbell-economie en de regulatoire triade zijn de mechanica van deze transitie. Akte III gaat over de werkelijkheid van het leven erbinnen."
+            text: "Wanneer er een economische transitie plaatsvindt, verandert zij niet alleen wat mensen doen om brood op de plank te brengen. Zij verandert wat de samenleving impliciet vertrouwt, wat zij bestraft, en hoe zij menselijke waarde definieert. De samendrukking van werk en de drie regelgevende experimenten zijn de mechanica van deze transitie. Akte III gaat over de werkelijkheid van het leven erbinnen."
           },
           {
             type: "h3",
@@ -842,7 +842,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Het dubbele compressie-evenement is geen einde; het is een herijking. De Barbell-economie dwingt een heldere keuze af: concurreer met de basislijn op uw risico, of verplaats u naar de verificatielaag."
+            text: "De samendrukking van cognitief en fysiek werk is geen einde; het is een herijking. Het dwingt tot een heldere keuze: concurreer met de basislijn op uw risico, of verplaats u naar de verificatielaag."
           },
           {
             type: "p",
