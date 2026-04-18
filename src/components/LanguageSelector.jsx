@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Globe, ChevronDown } from 'lucide-react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 
 const languages = [
@@ -12,8 +13,10 @@ const languages = [
 
 const LanguageSelector = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { language: currentLang, setLanguage } = useLanguage();
+  const { language: currentLang } = useLanguage();
   const dropdownRef = useRef(null);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -24,6 +27,13 @@ const LanguageSelector = () => {
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
+
+  const handleLanguageChange = (code) => {
+    const lowerCode = code.toLowerCase();
+    // Preserve current hash if present
+    navigate(`/${lowerCode}${location.hash}`, { replace: false });
+    setIsOpen(false);
+  };
 
   return (
     <div className="relative" ref={dropdownRef}>
@@ -47,8 +57,7 @@ const LanguageSelector = () => {
               disabled={lang.status === 'placeholder'}
               onClick={() => {
                 if (lang.status !== 'placeholder') {
-                  setLanguage(lang.code);
-                  setIsOpen(false);
+                  handleLanguageChange(lang.code);
                 }
               }}
               className={`w-full text-left px-4 py-2 text-sm flex items-center justify-between transition-colors

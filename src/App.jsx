@@ -8,10 +8,11 @@ import PullQuote from './components/PullQuote';
 import ActDivider from './components/ActDivider';
 import ShareRow from './components/ShareRow';
 import DiscoveryCallout from './components/DiscoveryCallout';
+import LanguageRouter from './components/LanguageRouter';
 import { useLanguage } from './context/LanguageContext';
 import { translations } from './data/translations';
 
-const App = () => {
+const AppContent = () => {
   const { language } = useLanguage();
   const t = translations[language];
 
@@ -179,6 +180,14 @@ const App = () => {
       {/* Mobile Navigation */}
       <ActNavigationMobile />
     </div>
+  );
+};
+
+const App = () => {
+  return (
+    <LanguageRouter>
+      <AppContent />
+    </LanguageRouter>
   );
 };
 
