@@ -90,11 +90,6 @@ export const translations = {
           },
           {
             type: "p",
-            className: "font-medium text-slate-300",
-            text: "Here is the part of the conversation that most strategic forecasts stop short of."
-          },
-          {
-            type: "p",
             text: "The picture above assumes a relatively stable ceiling on AI capability \u2014 that today's senior roles are secure because they require the kind of judgment AI cannot yet replicate. That assumption has a half-life. And we know roughly how long that half-life is, because the benchmark data tells us."
           },
           {
@@ -108,7 +103,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "What's changing, though, is not mainly the AI models themselves getting smarter. It's the engineering around them \u2014 the ways models are being taught to check their own work, break problems into pieces, and coordinate with other models. That's where the capability gains are coming from now. Which means the senior human role does not disappear when the ceiling rises. It migrates. The valuable work shifts from providing the answers to designing the systems that find the answers, and from executing tasks to orchestrating the machines that execute them."
+            text: "What's changing is not mainly the AI models themselves getting smarter. It's the engineering around them \u2014 the ways models are being taught to check their own work, break problems into pieces, and coordinate with other models. That's where the capability gains are coming from now. Which means the senior human role does not disappear when the ceiling rises. It migrates. The valuable work shifts from providing the answers to designing the systems that find the answers, and from executing tasks to orchestrating the machines that execute them."
           },
           {
             type: "quote",
@@ -528,11 +523,6 @@ export const translations = {
           },
           {
             type: "p",
-            className: "font-medium text-slate-300",
-            text: "Hier komt het deel van het gesprek waar de meeste strategische voorspellingen bij stilhouden."
-          },
-          {
-            type: "p",
             text: "Het beeld hierboven veronderstelt een betrekkelijk stabiel plafond voor AI-capaciteit \u2014 dat de senior rollen van vandaag veilig zijn omdat zij het soort oordeel vereisen dat AI nog niet kan reproduceren. Die veronderstelling heeft een halfwaardetijd. En wij weten ongeveer hoe lang die halfwaardetijd is, want de benchmark-data vertellen ons dat."
           },
           {
@@ -546,7 +536,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Wat verandert, is echter niet zozeer dat de AI-modellen zelf slimmer worden. Het zijn de engineering eromheen \u2014 de manieren waarop modellen worden geleerd hun eigen werk te controleren, problemen op te splitsen en met andere modellen samen te werken. D\u00e1\u00e1r komen de capaciteitswinsten nu vandaan. Wat betekent dat de senior menselijke rol niet verdwijnt wanneer het plafond stijgt. Hij verschuift. Het waardevolle werk beweegt van het leveren van de antwoorden naar het ontwerpen van de systemen die de antwoorden vinden, en van het uitvoeren van taken naar het orkestreren van de machines die ze uitvoeren."
+            text: "Wat verandert is niet zozeer dat de AI-modellen zelf slimmer worden. Het zijn de engineering eromheen \u2014 de manieren waarop modellen worden geleerd hun eigen werk te controleren, problemen op te splitsen en met andere modellen samen te werken. D\u00e1\u00e1r komen de capaciteitswinsten nu vandaan. Wat betekent dat de senior menselijke rol niet verdwijnt wanneer het plafond stijgt. Hij verschuift. Het waardevolle werk beweegt van het leveren van de antwoorden naar het ontwerpen van de systemen die de antwoorden vinden, en van het uitvoeren van taken naar het orkestreren van de machines die ze uitvoeren."
           },
           {
             type: "quote",
