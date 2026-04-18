@@ -23,6 +23,12 @@
   .prose-container {
     @apply mx-auto px-5 md:px-0 max-w-reading text-[17px] md:text-[18px];
   }
+
+  .hyphens-auto {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+  }
 }
 
 /* Custom scrollbar */

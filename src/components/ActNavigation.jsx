@@ -34,26 +34,26 @@ const ActNavigation = () => {
   if (!isVisible) return null;
 
   return (
-    <nav className="fixed left-8 top-1/2 -translate-y-1/2 hidden lg:flex flex-col gap-6 z-40 animate-in fade-in duration-500">
-      <div className="flex flex-col gap-8 border-l border-slate-800 pl-6">
+    <nav className="fixed left-2 xl:left-4 2xl:left-12 top-1/2 -translate-y-1/2 hidden lg:flex flex-col z-40 animate-in fade-in duration-500 max-w-[120px] xl:max-w-[180px] 2xl:max-w-[280px]">
+      <div className="flex flex-col gap-6 border-l border-slate-800 pl-3 xl:pl-6">
         {acts.map((act) => (
           <a
             key={act.id}
             href={`#${act.id}`}
-            className="group flex flex-col gap-1 transition-all"
+            className="group flex flex-col gap-1 transition-all relative"
           >
-            <span className={`text-[10px] uppercase tracking-[0.2em] transition-colors
+            <span className={`text-[10px] uppercase tracking-[0.2em] transition-colors whitespace-normal break-words
               ${activeAct === act.id ? 'text-indigo-400 font-bold' : 'text-slate-500 group-hover:text-slate-400'}
             `}>
               {act.label.split(' \u2014 ')[0]}
             </span>
-            <span className={`text-xs transition-colors
+            <span className={`text-xs transition-colors whitespace-normal break-words hyphens-auto leading-relaxed
               ${activeAct === act.id ? 'text-slate-200' : 'text-slate-500 group-hover:text-slate-400'}
             `}>
               {act.subtitle}
             </span>
             {activeAct === act.id && (
-              <div className="absolute left-0 w-[2px] h-10 bg-indigo-500 -translate-x-[25px] rounded-full shadow-[0_0_8px_rgba(99,102,241,0.5)]" />
+              <div className="absolute left-0 w-[2px] h-full bg-indigo-500 -translate-x-[18px] xl:-translate-x-[25px] rounded-full shadow-[0_0_8px_rgba(99,102,241,0.5)]" />
             )}
           </a>
         ))}
