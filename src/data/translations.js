@@ -21,7 +21,7 @@ export const translations = {
       read_time: "~20 min read",
       intro_quote: "This piece is not a data report. It is an argument about where AI takes the economy, institutions, and societies over the next decade. References to data come from the {link}. Where this piece speculates, it says so. Opinions are our own.",
       link_text: "April 2026 Strategic Brief",
-      discovery_cta: "Want the data behind this essay? Visit the 2026 Strategic Brief."
+      discovery_cta: "Want the data behind this essay? Read the 2026 Strategic Report"
     },
     acts: [
       {
@@ -36,6 +36,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "We are in that moment now. Unlike previous transitions, we have reasonably good data on the shape of what's coming \u2014 not because we can predict the future, but because the early numbers are already in."
           },
           {
@@ -52,15 +53,18 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "The data from the {link} makes this concrete. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Entry-level developer job postings are down 67% since 2022. Senior AI-role salaries are up 40%. Salesforce announced zero new engineering hires for 2025. These are not rounding errors. They are structural signals arriving simultaneously across companies and sectors.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
+            className: "mb-12",
             text: "But the Barbell is not simply a story about job losses. It is a story about a fundamental repricing of what human cognitive labor is worth, and to whom."
           },
           {
             type: "p",
+            className: "mb-12",
             text: "The Klarna case is the most instructive single data point in the current landscape, not because it proves AI replacement fails, but because it reveals the grain of the wood. Klarna replaced most of its customer service team with AI, celebrated the savings publicly, and within under two years was scrambling to rehire as customer satisfaction collapsed. The lesson is not that AI cannot do customer service. In many measurable ways it can. The lesson is that the domains where human judgment is hardest to replace are precisely the domains where trust, context, and institutional memory are the product, not the response time or the cost per ticket."
           },
           {
@@ -69,6 +73,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "That distinction matters because the Barbell in its current form is not the end state. It is the first movement of a longer story."
           },
           {
@@ -172,6 +177,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "The history of every technology we now consider safe and unremarkable follows this pattern. Aviation, pharmaceuticals, financial systems, nuclear power, food safety. The frameworks that govern them were not written in advance by wise regulators who foresaw all the failure modes. They were written in response to crashes, drug disasters, market collapses, meltdowns, and outbreaks. The regulation is almost always a consequence of the failure, not a prevention of it."
           },
           {
@@ -193,10 +199,12 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "The part that remains genuinely uncertain is what happens as these systems move into territory that is neither structured nor bounded. Real hospitals. Real courts. Real infrastructure. The history of complex engineering suggests that every time you add a verification layer to an automated system, you create new failure modes at the interfaces between layers that are often harder to detect than the original problem."
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Nobody should be surprised when this happens with AI systems at scale. The productive response is to build institutions that can catch and contain those failures fast, not to prevent deployment until perfection is guaranteed. Perfection is not available. The dangerous intersection does not wait for a perfect traffic management system before generating accidents."
           },
           {
@@ -245,10 +253,12 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "None of these three experiments is running the optimal approach. The optimal approach probably borrows from all three: China's willingness to deploy at scale and learn from real failures, the EU's insistence on explicit rights protection and accountability frameworks, and the US adversarial process that forces failures into public record. No existing political system is configured to combine these things cleanly, which means the next decade will involve watching all three approaches generate both successes and failures that the others could have avoided."
           },
           {
             type: "p",
+            className: "mb-12",
             text: "The US approach, for all its messiness, retains one structural backstop: when catastrophic failures breach the NDA firewall\u2014either because a plaintiff refuses to settle or the harm is too public to hide\u2014the adversarial legal process forces them into the open. When an AI system produces a wrong output that reaches open court, the resulting litigation creates public record, legal precedent, and institutional pressure for correction."
           },
           {
@@ -277,7 +287,8 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The MCP ecosystem that the {link} documents is an early version of this dynamic playing out in AI integration. Developers who build on open standards control their own destiny, while those who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival.",
+            className: "mb-12",
+            text: "The MCP ecosystem that the {link} documents is an early version of this dynamic playing out in AI integration. Developers who build on open standards control their own destiny, while those who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. The lesson of every previous platform cycle is available to every developer who wants to learn it.",
             link_text: "Strategic Brief"
           },
           {
@@ -336,6 +347,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "We are moving from a society that optimized for the friction-less sharing of information to a society that must urgently construct toll roads for truth."
           },
           {
@@ -349,6 +361,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "By the late 2020s, trusting the content of digital media without verification will be an act of systemic negligence. But this shift will bifurcate along institutional lines."
           },
           {
@@ -361,6 +374,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Ambient Social Reality: The broader social layer will not adopt ZKPs. It cannot. Instead, society will default to a new baseline heuristic: all unverified digital media is assumed to be synthetic until proven otherwise. The psychological toll of this shift is difficult to overstate. An entire generation will train its intuition to ignore what its eyes and ears process and look instead for the institutional watermark. Seeing will no longer be believing. The absence of a verified source will be the signal."
           },
           {
@@ -397,11 +411,11 @@ export const translations = {
             text: "The Dual-Compression event is not an ending; it is a recalibration. The Barbell Economy is forcing a clear choice: compete with the baseline at your peril, or move to the verification layer."
           },
           {
-            type: "p",
             text: "The messy middle is where we land. The dangerous intersection eventually gets a traffic light. But in the Epistemic Flood, those who wait for the traffic light to be installed before they change their route will be underwater."
           },
           {
             type: "p",
+            className: "mb-12",
             text: "The infrastructure of the future is being built right now, by those who recognize the central economic reality of the next decade: when the cost of creation collapses to the price of compute, the ability to verify becomes the true limit of scale."
           }
         ]
@@ -450,6 +464,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Wij bevinden ons nu op dat moment. In tegenstelling tot eerdere transities beschikken wij over redelijk goede data over de vorm van wat komt \u2014 niet omdat wij de toekomst kunnen voorspellen, maar omdat de vroege cijfers er al zijn."
           },
           {
@@ -466,15 +481,18 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "De data uit de {link} maken dit concreet. Het aandeel van junior wervingen binnen IT-functies is in drie jaar gedaald van 15% naar 7%. Vacatures voor instap-ontwikkelaars zijn sinds 2022 met 67% gedaald. Salarissen in senior AI-rollen zijn met 40% gestegen. Salesforce kondigde aan nul nieuwe engineering-aanwervingen te doen voor 2025. Dit zijn geen afrondingsfouten. Het zijn structurele signalen die gelijktijdig opduiken in verschillende ondernemingen en sectoren.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Maar de Barbell is niet eenvoudigweg een verhaal over banenverlies. Het is een verhaal over een fundamentele herwaardering van wat menselijke cognitieve arbeid waard is, en voor wie."
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Het geval Klarna is het meest leerzame data-punt in het huidige landschap \u2014 niet omdat het bewijst dat AI-vervanging mislukt, maar omdat het de nerf van het hout blootlegt. Klarna verving het grootste deel van zijn klantendienstteam door AI, vierde de besparingen publiekelijk, en moest binnen minder dan twee jaar halsoverkop herwerven omdat de klanttevredenheid instortte. De les is niet dat AI geen klantendienst kan verlenen. Op veel meetbare manieren kan zij dat. De les is dat de domeinen waarin menselijk oordeel het moeilijkst te vervangen valt, precies de domeinen zijn waarin vertrouwen, context en institutioneel geheugen het product zijn \u2014 niet de reactiesnelheid of de kostprijs per ticket."
           },
           {
@@ -483,6 +501,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Dat onderscheid is van belang, want de Barbell in haar huidige vorm is niet de eindfase. Het is het eerste deel van een langer verhaal."
           },
           {
@@ -585,6 +604,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "De geschiedenis van elke technologie die wij nu als veilig en onopvallend beschouwen, volgt dit patroon. Luchtvaart, farmaceutica, financi\u00eble stelsels, kernenergie, voedselveiligheid. De kaders die hen besturen, werden niet vooraf geschreven door wijze regelgevers die alle faalwijzen voorzagen. Zij werden geschreven als reactie op crashes, medicijnrampen, marktinstortingen, meltdowns en uitbraken. De regelgeving is bijna altijd een gevolg van het falen, niet een preventie ervan."
           },
           {
@@ -606,6 +626,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Het stuk dat werkelijk onzeker blijft is wat er gebeurt wanneer deze systemen zich naar terrein begeven dat noch gestructureerd, noch begrensd is. Echte ziekenhuizen. Echte rechtbanken. Echte infrastructuur. De geschiedenis van complexe engineering suggereert dat u telkens wanneer u een verificatielaag aan een geautomatiseerd systeem toevoegt, nieuwe faalwijzen cre\u00ebert op de raakvlakken tussen lagen, die vaak moeilijker op te sporen zijn dan het oorspronkelijke probleem."
           },
           {
@@ -658,6 +679,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Geen van deze drie experimenten voert de optimale benadering uit. De optimale benadering leent waarschijnlijk bij alle drie: de Chinese bereidheid om op schaal in te zetten en uit werkelijke mislukkingen te leren, het EU-beginsel van expliciete rechtenbescherming en verantwoordingskaders, en het Amerikaanse contradictoire proces dat mislukkingen in het publieke dossier forceert. Geen bestaand politiek systeem is ingericht om deze zaken zuiver te combineren, wat betekent dat het volgende decennium zal bestaan uit het observeren hoe alle drie de benaderingen zowel successen als mislukkingen genereren die de andere hadden kunnen vermijden."
           },
           {
@@ -690,6 +712,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Het MCP-ecosysteem dat de {link} documenteert, is een vroege versie van deze dynamiek die zich ontrolt in AI-integratie. Ontwikkelaars die bouwen op open standaarden beheersen hun eigen lot, terwijl zij die bouwen op gesloten platformen blijvend onderworpen zijn aan de prijsbeslissingen, de beleidswijzigingen en het voortbestaan van dat platform. De les van elke eerdere platformcyclus ligt voor iedere ontwikkelaar beschikbaar die haar wil leren.",
             link_text: "Strategic Brief"
           },
@@ -749,6 +772,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Wij bewegen ons weg van een samenleving die optimaliseerde voor het frictieloos delen van informatie, naar een samenleving die dringend tolwegen voor de waarheid moet bouwen."
           },
           {
@@ -762,6 +786,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Tegen het einde van de jaren 2020 zal het vertrouwen op de inhoud van digitale media zonder verificatie een daad van systemische nalatigheid zijn. Maar deze verschuiving zal zich langs institutionele lijnen bifurqueren."
           },
           {
@@ -774,6 +799,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "Alledaagse sociale realiteit: De bredere sociale laag zal geen ZKP's aannemen. Zij kan dat niet. In plaats daarvan zal de samenleving terugvallen op een nieuwe basisheuristiek: alle ongeverifieerde digitale media worden verondersteld synthetisch te zijn tot het tegendeel is bewezen. De psychologische tol van deze verschuiving is moeilijk te overschatten. Een hele generatie zal haar intu\u00eftie trainen om te negeren wat haar ogen en oren verwerken, en in plaats daarvan te zoeken naar het institutionele watermerk. Zien zal niet langer geloven zijn. De afwezigheid van een geverifieerde bron zal het signaal zijn."
           },
           {
@@ -815,6 +841,7 @@ export const translations = {
           },
           {
             type: "p",
+            className: "mb-12",
             text: "De infrastructuur van de toekomst wordt nu gebouwd, door degenen die de centrale economische realiteit van het volgende decennium erkennen: wanneer de kostprijs van creatie inzakt tot de prijs van compute, wordt het vermogen tot verificeren de ware grens van schaal."
           }
         ]

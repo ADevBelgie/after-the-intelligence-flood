@@ -39,7 +39,7 @@ const App = () => {
       switch (item.type) {
         case 'p':
           return (
-            <p key={index} className={`mb-6 ${item.className || ''}`}>
+            <p key={index} className={item.className || 'mb-6'}>
               {renderTextWithLink(item.text, item.link_text)}
             </p>
           );
