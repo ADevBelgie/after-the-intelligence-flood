@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
-
-const acts = [
-  { id: 'act1', title: 'Act I', subtitle: 'The Two Squeezes' },
-  { id: 'act2', title: 'Act II', subtitle: 'The Reliability Reckoning' },
-  { id: 'act3', title: 'Act III', subtitle: 'The Epistemic Floor' },
-];
+import { useLanguage } from '../context/LanguageContext';
+import { translations } from '../data/translations';
 
 const ActNavigation = () => {
+  const { language } = useLanguage();
+  const acts = translations[language].acts;
   const [activeAct, setActiveAct] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -31,7 +29,7 @@ const ActNavigation = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [acts]);
 
   if (!isVisible) return null;
 
@@ -47,7 +45,7 @@ const ActNavigation = () => {
             <span className={`text-[10px] uppercase tracking-[0.2em] transition-colors
               ${activeAct === act.id ? 'text-indigo-400 font-bold' : 'text-slate-500 group-hover:text-slate-400'}
             `}>
-              {act.title}
+              {act.label.split(' \u2014 ')[0]}
             </span>
             <span className={`text-xs transition-colors
               ${activeAct === act.id ? 'text-slate-200' : 'text-slate-500 group-hover:text-slate-400'}

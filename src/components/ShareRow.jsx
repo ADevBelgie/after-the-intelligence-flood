@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import { Share2, Link, Twitter, Linkedin, Check } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
+import { translations } from '../data/translations';
 
 const ShareRow = ({ url, title }) => {
   const [copied, setCopied] = useState(false);
+  const { language } = useLanguage();
+  const t = translations[language].common;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(url);
@@ -22,17 +26,17 @@ const ShareRow = ({ url, title }) => {
     <div className="flex flex-col items-center gap-6 py-16 border-t border-slate-800/50 mt-24">
       <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-slate-500">
         <Share2 size={14} />
-        <span>Share this essay</span>
+        <span>{t.share}</span>
       </div>
       
       <div className="flex items-center gap-4">
         <button
           onClick={handleCopy}
           className="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800/50 border border-slate-700 hover:bg-slate-800 transition-all text-xs font-medium text-slate-300 group"
-          title="Copy Link"
+          title={t.copy_link}
         >
           {copied ? <Check size={14} className="text-emerald-400" /> : <Link size={14} className="group-hover:text-indigo-400 transition-colors" />}
-          <span>{copied ? 'Copied!' : 'Copy Link'}</span>
+          <span>{copied ? t.copied : t.copy_link}</span>
         </button>
 
         <button

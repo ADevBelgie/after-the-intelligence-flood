@@ -1,17 +1,18 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Globe, ChevronDown } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 
 const languages = [
   { code: 'EN', name: 'English', status: 'active' },
   { code: 'FR', name: 'Français', status: 'placeholder' },
-  { code: 'NL', name: 'Nederlands', status: 'placeholder' },
+  { code: 'NL', name: 'Nederlands', status: 'active' },
   { code: 'ES', name: 'Español', status: 'placeholder' },
   { code: 'DE', name: 'Deutsch', status: 'placeholder' },
 ];
 
 const LanguageSelector = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [currentLang, setCurrentLang] = useState('EN');
+  const { language: currentLang, setLanguage } = useLanguage();
   const dropdownRef = useRef(null);
 
   useEffect(() => {
@@ -46,7 +47,7 @@ const LanguageSelector = () => {
               disabled={lang.status === 'placeholder'}
               onClick={() => {
                 if (lang.status !== 'placeholder') {
-                  setCurrentLang(lang.code);
+                  setLanguage(lang.code);
                   setIsOpen(false);
                 }
               }}

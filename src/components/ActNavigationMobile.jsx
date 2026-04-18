@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronRight } from 'lucide-react';
-
-const acts = [
-  { id: 'act1', title: 'Act I', subtitle: 'The Two Squeezes' },
-  { id: 'act2', title: 'Act II', subtitle: 'The Reliability Reckoning' },
-  { id: 'act3', title: 'Act III', subtitle: 'The Concentration Question' },
-];
+import { useLanguage } from '../context/LanguageContext';
+import { translations } from '../data/translations';
 
 const ActNavigationMobile = () => {
+  const { language } = useLanguage();
+  const acts = translations[language].acts;
+  const navStrings = translations[language].nav;
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -60,7 +59,7 @@ const ActNavigationMobile = () => {
                   className="group flex items-center justify-between p-4 rounded-2xl bg-slate-800/50 hover:bg-slate-800 border border-slate-700/50 transition-all active:scale-[0.98]"
                 >
                   <div className="flex flex-col gap-1">
-                    <span className="text-[10px] uppercase tracking-widest text-indigo-400 font-bold">{act.title}</span>
+                    <span className="text-[10px] uppercase tracking-widest text-indigo-400 font-bold">{act.label.split(' \u2014 ')[0]}</span>
                     <span className="text-sm text-slate-200 font-medium">{act.subtitle}</span>
                   </div>
                   <ChevronRight size={16} className="text-slate-600 group-hover:text-slate-400 transition-colors" />
@@ -75,7 +74,7 @@ const ActNavigationMobile = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ← Strategic Report
+                ← {navStrings.report}
               </a>
             </div>
           </div>
