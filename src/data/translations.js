@@ -28,7 +28,7 @@ export const translations = {
         id: "act1",
         label: "ACT I \u2014 The Two Squeezes",
         title: "ACT I \u2014 The Two Squeezes",
-        subtitle: "How the Barbell Economy Forms, Peaks, and Gets Compressed from Both Sides",
+        subtitle: "How cognitive work gets compressed first, physical work gets compressed next, and why the gap between them is narrower than it looks",
         content: [
           {
             type: "p",
@@ -41,40 +41,48 @@ export const translations = {
           },
           {
             type: "h3",
-            text: "Movement I \u2014 The Barbell Forms"
+            text: "Movement I \u2014 The Shape of the Disruption"
           },
           {
             type: "p",
-            text: "The term \"Barbell Economy\" entered the conversation as a prediction. It has since become a description. While the Barbell currently describes cognitive labor, it is merely the leading edge of a dual-compression event that will shortly breach the physical world. When digital automation and physical robotics arrive in the same facilities sequentially, the traditional 'safe harbor' of dextrous work disappears. The cognitive Barbell is just Phase One."
+            text: "A year ago, the expected shape of AI's impact on cognitive work was straightforward. The middle of the job market would hollow out as AI absorbed routine synthesis work. The top would hold because judgment is hard to automate. The bottom would hold because somebody had to feed the machines their prompts. It was a reasonable guess."
           },
           {
             type: "p",
-            text: "Picture a barbell: heavy weight on both ends, nothing in the middle. On one end, AI capability handles more and more of what used to be entry-level cognitive work \u2014 drafting, coding, research, analysis, data processing. Those roles are being automated or dramatically reduced. On the other end, the senior roles responsible for judgment, oversight, and accountability become more valuable precisely because that judgment is now the scarce resource. The middle \u2014 the large population of knowledge workers who were neither directing the work nor doing the most routine parts of it \u2014 is where the pressure concentrates first. The 2026 data has sharpened this picture \u2014 the bottom weight is not stable, it is also contracting. Entry-level collapse arrived before mid-level squeeze. Junior developer postings are down 67% since 2022. The shape is asymmetric, not a true barbell. They are being squeezed out from below by AI, not replaced by it from above. In practice, the middle is project managers, business analysts, generalist coordinators \u2014 people whose core value was synthesising information, managing routine complexity, or executing well-defined tasks. Those are exactly the things AI is getting good at, fast. It is not that these people lack skill. It is that the specific skills they built their careers around are precisely the ones the capability curve is climbing fastest."
+            text: "The 2026 data tells a messier story."
+          },
+          {
+            type: "p",
+            text: "The bottom is not holding. It is collapsing. Entry-level developer postings are down 67% since 2022. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Some of this was the end of the cheap-money era that inflated the 2020 hiring boom \u2014 but when capital returned to tech budgets in 2025, junior headcount did not return with it. The money went to compute and to senior engineers. The roles that used to be the first rung of the ladder \u2014 the ones that turned graduates into professionals \u2014 are simply being removed."
+          },
+          {
+            type: "p",
+            text: "Salesforce announced zero new engineering hires for 2025. Block cut its headcount from ten thousand to under six thousand. These are the companies closest to the technology, and they are the first to figure out that a senior engineer with good tooling now does the work of a small team. The rest of the economy is two or three years behind, but moving in the same direction."
+          },
+          {
+            type: "p",
+            text: "The middle is under a different kind of pressure. Project managers, business analysts, generalist coordinators \u2014 people whose core value was synthesising information and managing routine complexity \u2014 are finding their work absorbed upward into the tools their seniors use. These are not unskilled people. Their specific skills are just the ones AI is getting good at fastest."
+          },
+          {
+            type: "p",
+            text: "The top is being repriced. Senior salaries for AI-literate roles are up forty percent. The scarce resource is no longer execution. It is judgment \u2014 the ability to catch the errors that look right, to make the calls that carry accountability, to build the relationships that require trust."
+          },
+          {
+            type: "p",
+            text: "Three things are happening at once: the bottom is being removed, the middle is being absorbed, the top is being repriced. It is less a reshaping of the job market than a compression of it \u2014 pressure concentrating where judgment lives, and everything else being pulled toward automation."
+          },
+          {
+            type: "p",
+            text: "The Klarna case is worth sitting with. Klarna replaced most of its customer service team with AI, announced the savings publicly, and within two years was quietly rehiring. The lesson is not that AI cannot do customer service \u2014 in measurable ways, it can. The lesson is that trust, context, and institutional memory were the product all along. Response time and cost-per-ticket were how Klarna measured the work, not what the work actually was."
+          },
+          {
+            type: "p",
+            text: "The companies navigating this well are the ones that figured out which parts of their operations are genuinely routine and automated those parts hard, while keeping and elevating the people doing the judgment work. The companies that treated AI as a headcount line item are the ones now doing the expensive rehiring."
           },
           {
             type: "p",
             className: "mb-12",
-            text: "The data from the {link} makes this concrete. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Entry-level developer job postings are down 67% since 2022. Senior AI-role salaries are up 40%. Salesforce announced zero new engineering hires for 2025. These are not rounding errors. They are structural signals arriving simultaneously across companies and sectors.",
-            link_text: "Strategic Brief"
-          },
-          {
-            type: "p",
-            className: "mb-12",
-            text: "But the Barbell is not simply a story about job losses. It is a story about a fundamental repricing of what human cognitive labor is worth, and to whom."
-          },
-          {
-            type: "p",
-            className: "mb-12",
-            text: "The Klarna case is the most instructive single data point in the current landscape, not because it proves AI replacement fails, but because it reveals the grain of the wood. Klarna replaced most of its customer service team with AI, celebrated the savings publicly, and within under two years was scrambling to rehire as customer satisfaction collapsed. The lesson is not that AI cannot do customer service. In many measurable ways it can. The lesson is that the domains where human judgment is hardest to replace are precisely the domains where trust, context, and institutional memory are the product, not the response time or the cost per ticket."
-          },
-          {
-            type: "p",
-            text: "The companies executing the Barbell well are not the ones replacing humans wholesale. They are the ones identifying which parts of their workflow are genuinely routine and automating those aggressively, while retaining and elevating the people capable of doing what AI currently cannot: catching the errors that look right, making the calls that require accountability, and building the relationships that require trust."
-          },
-          {
-            type: "p",
-            className: "mb-12",
-            text: "That distinction matters because the Barbell in its current form is not the end state. It is the first movement of a longer story."
+            text: "This shape is not the end state. It is the first movement of a longer story."
           },
           {
             type: "h3",
@@ -87,24 +95,29 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The Barbell as described above assumes a relatively stable ceiling on AI capability \u2014 that today's senior roles are secure because they require the kind of judgment AI cannot yet replicate. That assumption has a half-life. And we know roughly how long that half-life is, because the benchmark data tells us."
+            text: "The picture above assumes a relatively stable ceiling on AI capability \u2014 that today's senior roles are secure because they require the kind of judgment AI cannot yet replicate. That assumption has a half-life. And we know roughly how long that half-life is, because the benchmark data tells us."
           },
           {
             type: "p",
-            text: "The {link} documents an approximately eight-month cycle in which AI capability tests get mastered, retired, and replaced with harder ones. ARC-AGI-1 essentially solved. ARC-AGI-2 approaching saturation within twelve months of launch. ARC-AGI-3 launched March 2026 with frontier AI models scoring under 1%, and the prediction based on the same pattern is 30 to 50% scores by end of 2026 via reinforcement learning approaches. The measuring sticks keep breaking because the underlying capability keeps moving.",
+            text: "The {link} documents an eight-month cycle in which AI capability tests get mastered, retired, and replaced with harder ones. ARC-AGI-1 essentially solved. ARC-AGI-2 approaching saturation within twelve months of launch. ARC-AGI-3 launched March 2026 with frontier AI models scoring under 1% \u2014 though a specialized non-LLM approach has already reached 12% in preview, which tells you the benchmark is solvable. The forecast based on the same historical pattern is 30 to 50% scores by end of 2026. The measuring sticks keep breaking because the underlying capability keeps moving.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
-            text: "What this means for the Barbell is not immediately obvious, but it is important. The senior roles that are currently valuable \u2014 the engineers who architect the systems, the analysts who synthesise the data, the managers who direct the AI agents \u2014 are valuable because they sit above the current capability ceiling. They provide the judgment the AI cannot yet provide. But that ceiling is not fixed. Crucially, the ceiling is no longer rising because the base models are getting inherently smarter \u2014 it is rising because the architectures around them (reinforcement learning, multi-agent orchestration, self-reflective RAG) are maturing."
-          },
-          {
-            type: "quote",
-            text: "The human judgment premium is real. It is also temporary in its current form."
+            text: "What this means is not immediately obvious, but it is important. The senior roles that are currently valuable \u2014 the engineers who architect the systems, the analysts who synthesise the data, the managers who direct the AI agents \u2014 are valuable because they sit above the current capability ceiling. They provide the judgment the AI cannot yet provide. But that ceiling is not fixed."
           },
           {
             type: "p",
-            text: "The honest projection is not that senior roles disappear. It is that the nature of senior value shifts faster than most organisations, or most individuals, are currently planning for. The human judgment premium is real, but its nature is shifting. It does not evaporate; it moves from providing the answers to designing the systems that find the answers."
+            text: "What's changing, though, is not mainly the AI models themselves getting smarter. It's the engineering around them \u2014 the ways models are being taught to check their own work, break problems into pieces, and coordinate with other models. That's where the capability gains are coming from now. Which means the senior human role does not disappear when the ceiling rises. It migrates. The valuable work shifts from providing the answers to designing the systems that find the answers, and from executing tasks to orchestrating the machines that execute them."
+          },
+          {
+            type: "quote",
+            text: "The human judgment premium is real. Its nature is shifting."
+          },
+          {
+            type: "p",
+            className: "mb-12",
+            text: "The honest projection is not that senior roles evaporate. It is that what makes a senior role valuable is changing faster than most organisations, or most individuals, are currently planning for."
           },
           {
             type: "h3",
@@ -112,11 +125,15 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Cognitive AI does not just automate software jobs. It accelerates every field that was previously bottlenecked by human cognitive labor, crucially including robotics and physical control systems. With the maturation of simulation environments like NVIDIA Omniverse, the \u201cPhysical Data Wall\u201d has largely fallen. We can now train robotic foundation models in physics-accurate simulations, generating lifetimes of edge-case data in a weekend."
+            text: "Cognitive AI does not just automate software jobs. It accelerates every field that was previously bottlenecked by human cognitive labor \u2014 and that includes robotics."
           },
           {
             type: "p",
-            text: "So why is the physical squeeze still delayed? The barrier is no longer cognitive; it is manufacturing and maintenance."
+            text: "Until recently, robots were stuck behind a simple problem: you could train a language model on the entire internet, but you couldn't train a robot on the entire physical world. That has changed. Simulation environments like NVIDIA Omniverse can now generate years of realistic physical practice data in a weekend. The cognitive wall is down."
+          },
+          {
+            type: "p",
+            text: "What remains is a manufacturing problem, and it is a real one."
           },
           {
             type: "p",
@@ -124,35 +141,27 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Furthermore, while organizations will accept physical failure because the labor savings are too massive to ignore, the physical repair loop remains a hard constraint. A software hallucination can be patched globally over-the-air in seconds. When a robot hallucinates and shatters a physical sensor against a wall, patching the software does not fix the hardware. It requires a human technician, a replacement part, and physical downtime."
+            text: "There is also a repair problem most software people underestimate. When an AI agent produces a hallucinated answer, you patch the model over-the-air in seconds and every instance is fixed. When a robot hallucinates and shatters a sensor against a wall, the software fix does nothing for the hardware. It requires a technician, a replacement part, and physical downtime. Physical failure does not scale the way digital failure does."
           },
           {
             type: "p",
-            text: "Consider the global logistics sector: it is the vanguard of Dual-Compression. On the cognitive side, predictive AI is already automating demand forecasting and route optimization today. Simultaneously, because warehouses are highly structured environments that satisfy the 'Actuarial Boundary' for physical liability, heavy robotics are deploying right behind it. The workforce is not shifting from cognitive to physical tasks as a safe harbor; they are being compressed sequentially\u2014first in the back office, and shortly after on the facility floor."
+            text: "So the physical squeeze will not arrive everywhere at once. It will arrive first where the environment is controlled and the insurance math works. Warehouses. Logistics hubs. Industrial zones. Not because robots cannot handle a sidewalk, but because insurers will underwrite a controlled warehouse and will not yet underwrite a public street."
           },
           {
             type: "p",
-            text: "Consequently, the physical squeeze will not arrive everywhere at once. It will be governed by the actuarial boundary. Robots are being deployed right now in warehouses, logistics hubs, and industrial zones\u2014not because they are incapable of navigating a public sidewalk, but because the insurance liability of physical edge-cases in unstructured human environments dictates a phased rollout. The physical squeeze is coming, but it moves at the speed of physical supply chains, not digital networks."
-          },
-          {
-            type: "h3",
-            text: "The Dual-Compression Event"
+            text: "Global logistics is the clearest preview of what full compression looks like. On the cognitive side, AI is already handling demand forecasting and route optimization. On the physical side, because warehouses are structured environments that insurers can price, heavy robotics is deploying right behind it. The workforce is not shifting from cognitive tasks to physical ones as a safe harbor; both are being compressed, sequentially, in the same buildings."
           },
           {
             type: "p",
-            text: "We are not facing a sequential timeline where displaced knowledge workers can safely retreat to physical coordination. We are facing a dual-compression event. The cognitive squeeze is happening now; the physical squeeze will trail it, delayed by the literal laws of thermodynamics and the sim-to-real entropy gap."
+            text: "This is the trap of the current moment. As cognitive tasks automate, the instinctive reaction is to pivot toward physical, dextrous work \u2014 plumbing, electrical, skilled trades, anything involving hands. But the same AI models displacing knowledge workers are accelerating the materials science and control systems behind the robots that will eventually handle much of that physical work too. The window is real, but it is not a thirty-year career pivot. It is a temporary, compressed gap between two squeezes."
           },
           {
             type: "p",
-            text: "But this creates a dangerous macroeconomic trap: the False Refuge. As cognitive tasks automate, the natural labor market reaction is a massive flight to physical, dextrous work. But the very same models displacing knowledge workers are accelerating materials science and physical control systems. The \"window between\" is not a safe harbor for a 30-year career pivot; it is a temporary, highly compressed trap."
+            text: "Survival means moving to the governance, orchestration, and verification layers of both digital and physical systems \u2014 concurrently, not sequentially. The people positioning around system design rather than execution are already pulling ahead."
           },
           {
             type: "p",
-            text: "Survival requires moving to the governance, orchestration, and verification layers of both digital and physical systems concurrently. The people who position around orchestration and system design rather than execution are already pulling ahead."
-          },
-          {
-            type: "p",
-            text: "For organisations: the Klarna pattern predicts that companies rushing to full replacement in this phase will face a correction. The companies that use this time to genuinely understand which parts of their operations require human judgment, and invest in elevating those people rather than replacing them, will have a structural talent advantage when the dual-compression peaks and the scramble begins."
+            text: "For organisations: the Klarna pattern predicts that companies rushing to full replacement now will face a correction. The companies using this period to genuinely understand which parts of their operations require human judgment \u2014 and investing in elevating those people rather than replacing them \u2014 will have a structural talent advantage when the second squeeze arrives and the scramble begins."
           },
           {
             type: "p",
