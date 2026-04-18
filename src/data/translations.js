@@ -19,7 +19,7 @@ export const translations = {
       author: "By Arthur Devresse & Claude Sonnet 4.6",
       date: "April 2026",
       read_time: "~20 min read",
-      intro_quote: "\"This piece is not a data report. It is an argument about where AI takes the economy, institutions, and societies over the next decade. References to data come from the {link}. Where this piece speculates, it says so. Opinions are our own.\"",
+      intro_quote: "This piece is not a data report. It is an argument about where AI takes the economy, institutions, and societies over the next decade. References to data come from the {link}. Where this piece speculates, it says so. Opinions are our own.",
       link_text: "April 2026 Strategic Brief",
       discovery_cta: "Want the data behind this essay? Read the 2026 Strategic Report"
     },
@@ -448,7 +448,7 @@ export const translations = {
       author: "Door Arthur Devresse & Claude Sonnet 4.6",
       date: "April 2026",
       read_time: "~20 min. leestijd",
-      intro_quote: "\"Dit stuk is geen datarapport. Het is een betoog over waar AI de economie, de instellingen en de samenlevingen heen leidt in het komende decennium. Verwijzingen naar cijfers komen uit de {link}. Waar dit stuk speculeert, wordt dat vermeld. De meningen zijn de onze.\"",
+      intro_quote: "Dit stuk is geen datarapport. Het is een betoog over waar AI de economie, de instellingen en de samenlevingen heen leidt in het komende decennium. Verwijzingen naar cijfers komen uit de {link}. Waar dit stuk speculeert, wordt dat vermeld. De meningen zijn de onze.",
       link_text: "Strategic Brief van april 2026",
       discovery_cta: "Wilt u de data achter dit essay lezen? Raadpleeg het Strategisch Rapport 2026."
     },
