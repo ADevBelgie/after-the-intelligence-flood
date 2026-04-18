@@ -73,7 +73,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The Klarna case is worth sitting with. Klarna replaced most of its customer service team with AI, announced the savings publicly, and within two years was quietly rehiring. The lesson is not that AI cannot do customer service \u2014 in measurable ways, it can. The lesson is that trust, context, and institutional memory were the product all along. Response time and cost-per-ticket were how Klarna measured the work, not what the work actually was."
+            text: "The Klarna case is worth sitting with. Klarna replaced most of its customer service team with AI, announced the savings publicly, and within two years was quietly rehiring. The lesson is not that AI cannot do customer service \u2014 in measurable ways, it can. The lesson is that trust, context, and institutional memory were the product all along. Response time and cost-per-ticket were how Klarna measured the work, not what the work actually was. Harvard research across sixty-two million workers and 285,000 firms has since named the broader pattern \"seniority-biased technological change\" \u2014 the value of accumulated judgment rising precisely as the entry-level work that used to build it is automated away."
           },
           {
             type: "p",
@@ -221,7 +221,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "China has essentially chosen deployment first. Autonomous vehicles operate at scale in multiple major cities. Roughly ten million autonomous vehicle tests have been logged on public roads in real conditions, generating data that no simulation can replicate. The safety record is better than human driving in the specific contexts where these systems are deployed. Not perfect. Better. The iteration cycle is fast because the feedback loop is real. When something goes wrong, the system learns. When something goes right, it gets expanded. The political system tolerates a different level of visible failure than democratic systems tend to, which creates both advantages and risks. The advantage is speed. The risk is that failures which should force policy revision can be absorbed and suppressed rather than corrected."
+            text: "China has essentially chosen deployment first. Autonomous vehicles operate at scale in multiple major cities. Autonomous and semi-autonomous vehicles have now logged billions of miles on public roads in real conditions, generating volumes of edge-case data that no simulation can fully replicate. The safety record is better than human driving in the specific contexts where these systems are deployed. Not perfect. Better. The iteration cycle is fast because the feedback loop is real. When something goes wrong, the system learns. When something goes right, it gets expanded. The political system tolerates a different level of visible failure than democratic systems tend to, which creates both advantages and risks. The advantage is speed. The risk is that failures which should force policy revision can be absorbed and suppressed rather than corrected."
           },
           {
             type: "p",
@@ -257,13 +257,16 @@ export const translations = {
           },
           {
             type: "p",
-            className: "mb-12",
-            text: "None of these three experiments is running the optimal approach. The optimal approach probably borrows from all three: China's willingness to deploy at scale and learn from real failures, the EU's insistence on explicit rights protection and accountability frameworks, and the US adversarial process that forces failures into public record. No existing political system is configured to combine these things cleanly, which means the next decade will involve watching all three approaches generate both successes and failures that the others could have avoided."
+            text: "It is tempting to say the optimal approach borrows from all three \u2014 China's willingness to deploy at scale, the EU's insistence on explicit rights protection, the US adversarial process that forces failures into public record. That framing is wrong. These are not engineering choices a state can mix and match. Each approach is downstream of a political system that produced it. China's deployment speed depends on a political culture that can absorb visible failure without electoral consequence. The EU's rights framework depends on a supranational legal architecture that took fifty years to build. The US adversarial process depends on a legal culture organised around civil discovery and class action. You cannot transplant the mechanism without the substrate."
+          },
+          {
+            type: "p",
+            text: "What this means is that the next decade is not a contest to find the best regulatory design. It is a natural experiment in which three political systems will produce three patterns of success and failure, none of them fully transferable. The honest question is narrower: what pieces of each approach might actually travel? China's tolerance for early deployment requires an authoritarian absorption capacity most democracies lack. The EU's framework-first approach requires sovereign control over the infrastructure being regulated, which the EU itself does not have. The US adversarial backstop \u2014 when catastrophic failures breach the NDA firewall, the legal process forces them into public record \u2014 is the most portable mechanism, but only to systems with the underlying legal culture to support it."
           },
           {
             type: "p",
             className: "mb-12",
-            text: "The US approach, for all its messiness, retains one structural backstop: when catastrophic failures breach the NDA firewall\u2014either because a plaintiff refuses to settle or the harm is too public to hide\u2014the adversarial legal process forces them into the open. When an AI system produces a wrong output that reaches open court, the resulting litigation creates public record, legal precedent, and institutional pressure for correction."
+            text: "Most states will end up with hybrids shaped less by design than by which failures force their hand first."
           },
           {
             type: "h3",
@@ -318,7 +321,7 @@ export const translations = {
         id: "act3",
         label: "ACT III \u2014 The Epistemic Floor",
         title: "ACT III \u2014 The Epistemic Floor",
-        subtitle: "How We Live in the Verification Layer, the Death of Probabilistic Trust, and the Shepherd Generation",
+        subtitle: "How We Live in the Verification Layer, the Death of Probabilistic Trust, and the Apprenticeship Problem",
         content: [
           {
             type: "p",
@@ -383,8 +386,8 @@ export const translations = {
           },
           {
             type: "h3",
-            id: "shepherd-generation",
-            text: "Section III \u2014 The Shepherd Generation"
+            id: "apprenticeship-problem",
+            text: "Section III \u2014 The Apprenticeship Problem"
           },
           {
             type: "p",
@@ -392,19 +395,15 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The \"senior bulge\" of engineers and managers who cut their teeth during the 2010\u20132022 boom currently possess the structural intuition to govern complex AI systems. They know how systems break because they spent a decade breaking them manually."
+            text: "The senior bulge of engineers and managers who cut their teeth during the 2010\u20132022 boom currently possesses the structural intuition to govern complex AI systems. They know how systems break because they spent a decade breaking them manually. Harvard research across sixty-two million workers names this dynamic \"seniority-biased technological change\" \u2014 a pattern where the value of accumulated judgment rises precisely as the entry-level work that used to build it is automated away. The people who can verify AI output are the ones who once had to produce it by hand."
           },
           {
             type: "p",
-            text: "The cohort entering the workforce today faces a radically different pedagogical environment. We are creating the \"Shepherd Generation\"\u2014a cohort of knowledge workers who will not learn their trade by writing drafts, coding modules, or building financial models from scratch. Their entire professional existence will begin as Human-In-The-Loop (HITL) orchestrators."
+            text: "The cohort entering the workforce today will not get that training by default. Their professional existence begins as orchestrators of AI systems \u2014 doing the messy translation between rigid agents and chaotic legacy infrastructure, catching errors rather than producing work from scratch. Whether this builds the same kind of expertise is an open question, and almost certainly domain-specific. Some kinds of judgment may form faster when an apprentice can run a thousand experiments in a week. Others may require the friction of execution to form at all. A financial analyst who never built a model by hand may miss the structural instinct for when one is wrong. A writer who never drafted by hand may miss the sense of when a sentence is load-bearing. Or they may not. We genuinely do not know yet."
           },
           {
             type: "p",
-            text: "Their job will be to do the messy translation between rigid AI agents and undocumented, chaotic legacy enterprise systems. They will spend their 20s not learning how to make things, but learning how to catch the errors of an alien intelligence. The cognitive toll of being an orchestrator instead of a creator is unknown. Human mastery has historically been built through the physical and mental repetition of execution. How do you build a master architect if the apprentice never lays a brick?"
-          },
-          {
-            type: "p",
-            text: "The organizations that survive the 2030s will be the ones that figure out how to deliberately engineer the friction of execution back into the training of their junior staff. They will treat it as an expensive but necessary apprenticeship to forge the Meta-Verifiers of the future\u2014seniors whose job is no longer to manually read the output, but to possess the structural intuition required to design automated testing agents, set operational constraints, and govern the machines that do the verifying."
+            text: "What we do know is that the organisations treating this as a solved problem are making a bet, not a decision. The organisations treating it as an open question are designing deliberately \u2014 engineering the friction of execution back into junior training, domain by domain, to figure out which forms of expertise survive the shortcut and which do not. They are betting that some kinds of mastery still have to be earned by hand, and they are willing to pay for the apprenticeship to find out which ones. These are the organisations that will produce the Meta-Verifiers of the 2030s \u2014 seniors whose job is no longer to read the output manually, but to possess the structural intuition required to design the systems that read it for them."
           },
           {
             type: "h3",
@@ -506,7 +505,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Het geval Klarna verdient aandacht. Klarna verving het grootste deel van zijn klantendienstteam door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen \u2014 op meetbare wijzen kan zij dat. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was."
+            text: "Het geval Klarna verdient aandacht. Klarna verving het grootste deel van zijn klantendienstteam door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen \u2014 op meetbare wijzen kan zij dat. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was. Harvard-onderzoek onder twee\u00ebnveertig miljoen werknemers en 285.000 ondernemingen heeft het bredere patroon sindsdien 'ancienniteitsgestuurde technologische verandering' genoemd \u2014 de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd."
           },
           {
             type: "p",
@@ -653,7 +652,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "China heeft in wezen gekozen voor \"eerst inzetten\". Autonome voertuigen rijden op grote schaal in verschillende grote steden. Ongeveer tien miljoen tests met autonome voertuigen zijn opgetekend op openbare wegen onder re\u00eble omstandigheden, en genereren gegevens die geen enkele simulatie kan nabootsen. De veiligheidsbalans is beter dan het rijgedrag van mensen in de specifieke contexten waarin deze systemen zijn ingezet. Niet perfect. Beter. De iteratiecyclus is snel omdat de feedbacklus re\u00ebel is. Wanneer er iets fout gaat, leert het systeem. Wanneer er iets goed gaat, wordt het uitgebreid. Het politieke systeem tolereert een ander niveau van zichtbaar falen dan democratische systemen doorgaans verdragen, wat zowel voordelen als risico's cre\u00ebert. Het voordeel is snelheid. Het risico is dat mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden opgevangen en onderdrukt in plaats van gecorrigeerd."
+            text: "China heeft in wezen gekozen voor \"eerst inzetten\". Autonome voertuigen rijden op grote schaal in verschillende grote steden. Autonome en semi-autonome voertuigen hebben inmiddels miljarden kilometers afgelegd op openbare wegen onder re\u00eble omstandigheden, en genereren daarbij volumes aan edge case-gegevens die geen enkele simulatie volledig kan nabootsen. De veiligheidsbalans is beter dan het rijgedrag van mensen in de specifieke contexten waarin deze systemen zijn ingezet. Niet perfect. Beter. De iteratiecyclus is snel omdat de feedbacklus re\u00ebel is. Wanneer er iets fout gaat, leert het systeem. Wanneer er iets goed gaat, wordt het uitgebreid. Het politieke systeem tolereert een ander niveau van zichtbaar falen dan democratische systemen doorgaans verdragen, wat zowel voordelen als risico's cre\u00ebert. Het voordeel is snelheid. Het risico is dat mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden opgevangen en onderdrukt in plaats van gecorrigeerd."
           },
           {
             type: "p",
@@ -689,12 +688,16 @@ export const translations = {
           },
           {
             type: "p",
-            className: "mb-12",
-            text: "Geen van deze drie experimenten voert de optimale benadering uit. De optimale benadering leent waarschijnlijk bij alle drie: de Chinese bereidheid om op schaal in te zetten en uit werkelijke mislukkingen te leren, het EU-beginsel van expliciete rechtenbescherming en verantwoordingskaders, en het Amerikaanse contradictoire proces dat mislukkingen in het publieke dossier forceert. Geen bestaand politiek systeem is ingericht om deze zaken zuiver te combineren, wat betekent dat het volgende decennium zal bestaan uit het observeren hoe alle drie de benaderingen zowel successen als mislukkingen genereren die de andere hadden kunnen vermijden."
+            text: "Het is verleidelijk te zeggen dat de optimale benadering bij alle drie leent \u2014 de Chinese bereidheid om op schaal in te zetten, de EU-nadruk op expliciete rechtenbescherming, het Amerikaanse contradictoire proces dat mislukkingen in het publieke dossier forceert. Die formulering is onjuist. Dit zijn geen engineeringkeuzes die een staat naar believen kan combineren. Elke benadering is een afgeleide van het politieke systeem dat haar heeft voortgebracht. De Chinese inzetsnelheid hangt af van een politieke cultuur die zichtbaar falen kan absorberen zonder electorale gevolgen. Het EU-rechtenkader steunt op een supranationale rechtsarchitectuur die vijftig jaar in de opbouw heeft gevergd. Het Amerikaanse contradictoire proces rust op een rechtscultuur die is georganiseerd rond civiele disclosure en class actions. U kunt het mechanisme niet transplanteren zonder het substraat."
           },
           {
             type: "p",
-            text: "De Amerikaanse benadering behoudt, bij al haar rommeligheid, \u00e9\u00e9n structurele vangrail: wanneer catastrofale mislukkingen de NDA-firewall doorbreken \u2014 ofwel omdat een eiser weigert te schikken, ofwel omdat de schade te openbaar is om te verbergen \u2014 dwingt het contradictoire rechtsproces hen in de openbaarheid. Wanneer een AI-systeem een verkeerde output produceert die voor een openbare rechtbank komt, schept de daaruit volgende rechtszaak publieke registratie, jurisprudentie en institutionele druk tot correctie."
+            text: "Wat dit betekent is dat het volgende decennium geen wedstrijd is om het beste regelgevingsontwerp te vinden. Het is een natuurlijk experiment waarin drie politieke systemen drie patronen van succes en mislukking zullen voortbrengen, die geen van alle volledig overdraagbaar zijn. De eerlijke vraag is beperkter: welke onderdelen van elke benadering kunnen daadwerkelijk reizen? De Chinese tolerantie voor vroege inzet vereist een autoritaire absorptiecapaciteit die de meeste democratie\u00ebn ontberen. De EU-benadering van kader-eerst vereist soevereine controle over de infrastructuur die wordt gereguleerd \u2014 controle die de EU zelf niet heeft. Het Amerikaanse contradictoire vangnet \u2014 wanneer catastrofale mislukkingen de NDA-firewall doorbreken, dwingt het rechtsproces hen in het publieke dossier \u2014 is het meest overdraagbare mechanisme, maar alleen naar systemen met de onderliggende rechtscultuur om het te dragen."
+          },
+          {
+            type: "p",
+            className: "mb-12",
+            text: "De meeste staten zullen uitkomen op hybride vormen die minder door ontwerp worden bepaald dan door welke mislukkingen hen als eerste tot handelen dwingen."
           },
           {
             type: "h3",
@@ -749,7 +752,7 @@ export const translations = {
         id: "act3",
         label: "AKTE III \u2014 De epistemische vloer",
         title: "AKTE III \u2014 De epistemische vloer",
-        subtitle: "Hoe wij leven in de verificatielaag, de dood van probabilistisch vertrouwen, en de Herdersgeneratie",
+        subtitle: "Hoe wij leven in de verificatielaag, de dood van probabilistisch vertrouwen, en het leerlingschapsprobleem",
         content: [
           {
             type: "p",
@@ -814,8 +817,8 @@ export const translations = {
           },
           {
             type: "h3",
-            id: "shepherd-generation",
-            text: "Afdeling III \u2014 De Herdersgeneratie"
+            id: "apprenticeship-problem",
+            text: "Afdeling III \u2014 Het leerlingschapsprobleem"
           },
           {
             type: "p",
@@ -823,19 +826,15 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De \"senior bobbel\" van engineers en managers die hun sporen verdienden tijdens de hausse van 2010-2022 bezit op dit ogenblik de structurele intu\u00eftie om complexe AI-systemen te besturen. Zij weten hoe systemen breken omdat zij een decennium lang zelf systemen handmatig hebben gebroken."
+            text: "De \"senior bobbel\" van engineers en managers die hun sporen verdienden tijdens de hausse van 2010-2022 bezit op dit ogenblik de structurele intu\u00eftie om complexe AI-systemen te besturen. Zij weten hoe systemen breken omdat zij een decennium lang zelf systemen handmatig hebben gebroken. Harvard-onderzoek onder twee\u00ebnveertig miljoen werknemers en 285.000 ondernemingen noemt deze dynamiek 'ancienniteitsgestuurde technologische verandering' \u2014 een patroon waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd. De mensen die AI-output kunnen verifi\u00ebren, zijn degenen die het vroeger met de hand moesten produceren."
           },
           {
             type: "p",
-            text: "De cohorte die vandaag de arbeidsmarkt betreedt, staat voor een radicaal andere pedagogische omgeving. Wij scheppen de \"Herdersgeneratie\"\u2014een cohorte kenniswerkers die hun vak niet zullen leren door concepten te schrijven, modules te coderen of financi\u00eble modellen vanaf nul te bouwen. Hun hele professionele bestaan zal beginnen als Human-In-The-Loop (HITL)-orkestrators."
+            text: "De cohorte die vandaag de arbeidsmarkt betreedt, zal die opleiding niet vanzelfsprekend meekrijgen. Hun professionele bestaan begint als orkestrators van AI-systemen \u2014 zij verrichten de rommelige vertaling tussen rigide agents en chaotische verouderde infrastructuur, en vangen fouten op in plaats van werk van nul op te bouwen. Of dit hetzelfde soort expertise opbouwt is een open vraag, en vrijwel zeker domeinspecifiek. Sommige vormen van oordeel kunnen zich sneller vormen wanneer een leerling in een week duizend experimenten kan uitvoeren. Andere vereisen misschien de frictie van uitvoering om zich \u00fcberhaupt te vormen. Een financieel analist die nooit zelf een model heeft gebouwd, mist misschien het structurele instinct voor wanneer er iets niet klopt. Een schrijver die nooit zelf een tekst heeft geredigeerd, mist misschien het gevoel voor wanneer een zin dragend is. Of misschien niet. Wij weten het werkelijk nog niet."
           },
           {
             type: "p",
-            text: "Hun taak zal zijn de rommelige vertaling te verrichten tussen rigide AI-agents en ongedocumenteerde, chaotische verouderde enterprise-systemen. Zij zullen hun twintiger jaren niet doorbrengen met leren hoe men dingen maakt, maar met leren hoe men de fouten van een vreemde intelligentie opvangt. De cognitieve tol van het zijn van een orkestrator in plaats van een maker is onbekend. Menselijk meesterschap werd historisch gebouwd op de fysieke en mentale herhaling van uitvoering. Hoe bouwt u een meester-architect als de leerling nooit een baksteen legt?"
-          },
-          {
-            type: "p",
-            text: "De organisaties die de jaren 2030 overleven, zullen diegene zijn die uitvissen hoe zij de frictie van uitvoering opzettelijk terug in de opleiding van hun junior personeel kunnen brengen. Zij zullen dat behandelen als een dure maar noodzakelijke stage, om de Meta-Verificateurs van de toekomst te smeden \u2014 seniors wier taak niet langer zal zijn om handmatig de output te lezen, maar om de structurele intu\u00eftie te bezitten die vereist is om geautomatiseerde testagents te ontwerpen, operationele beperkingen in te stellen, en de machines te besturen die de verificatie uitvoeren."
+            text: "Wat wij wel weten is dat de organisaties die dit als een opgelost probleem behandelen, een gok aangaan, geen beslissing nemen. De organisaties die het als een open vraag behandelen, ontwerpen doelbewust \u2014 zij brengen de frictie van uitvoering domein voor domein terug in de junior-opleiding, om te achterhalen welke vormen van expertise de kortere weg overleven en welke niet. Zij wedden dat sommige vormen van meesterschap nog steeds met de hand verdiend moeten worden, en zij zijn bereid het leerlingschap te bekostigen om te ontdekken welke dat zijn. Dit zijn de organisaties die de Meta-Verificateurs van de jaren 2030 zullen voortbrengen \u2014 seniors wier taak niet langer zal zijn om de output handmatig te lezen, maar om de structurele intu\u00eftie te bezitten die vereist is om de systemen te ontwerpen die het voor hen lezen."
           },
           {
             type: "h3",
