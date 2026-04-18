@@ -505,7 +505,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Het geval Klarna verdient aandacht. Klarna verving het grootste deel van zijn klantendienstteam door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen \u2014 op meetbare wijzen kan zij dat. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was. Harvard-onderzoek onder twee\u00ebnveertig miljoen werknemers en 285.000 ondernemingen heeft het bredere patroon sindsdien 'ancienniteitsgestuurde technologische verandering' genoemd \u2014 de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd."
+            text: "Het geval Klarna verdient aandacht. Klarna verving het grootste deel van zijn klantendienstteam door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen \u2014 op meetbare wijzen kan zij dat. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen heeft het bredere patroon sindsdien 'ancienniteitsgestuurde technologische verandering' genoemd \u2014 de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd."
           },
           {
             type: "p",
@@ -773,7 +773,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De Epistemische Vloed breekt deze asymmetrie. Wij betreden een tijdperk waarin het genereren van een pleidooi van 500 pagina's, juridisch hoogst plausibel en synthetisch becommentarieerd, fracties van een cent kost, maar het verifi\u00ebren van de juistheid ervan nog steeds dollars per minuut aan senior mensenwerk kost. Wanneer de productiekost tot nul nadert, maar de verificatiekost vastgeketend blijft aan menselijke tijd, storten open systemen in onder het gewicht van adversariaal volume."
+            text: "De Epistemische Vloed breekt deze asymmetrie. Wij betreden een tijdperk waarin het genereren van een pleidooi van 500 pagina's, juridisch hoogst plausibel en voorzien van synthetische bronverwijzingen, fracties van een cent kost, maar het verifi\u00ebren van de juistheid ervan nog steeds dollars per minuut aan senior mensenwerk kost. Wanneer de productiekost tot nul nadert, maar de verificatiekost vastgeketend blijft aan menselijke tijd, storten open systemen in onder het gewicht van adversariaal volume."
           },
           {
             type: "p",
@@ -826,7 +826,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De \"senior bobbel\" van engineers en managers die hun sporen verdienden tijdens de hausse van 2010-2022 bezit op dit ogenblik de structurele intu\u00eftie om complexe AI-systemen te besturen. Zij weten hoe systemen breken omdat zij een decennium lang zelf systemen handmatig hebben gebroken. Harvard-onderzoek onder twee\u00ebnveertig miljoen werknemers en 285.000 ondernemingen noemt deze dynamiek 'ancienniteitsgestuurde technologische verandering' \u2014 een patroon waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd. De mensen die AI-output kunnen verifi\u00ebren, zijn degenen die het vroeger met de hand moesten produceren."
+            text: "De senior laag van engineers en managers die hun sporen verdienden tijdens de hausse van 2010-2022 bezit op dit ogenblik de structurele intu\u00eftie om complexe AI-systemen te besturen. Zij weten hoe systemen breken omdat zij een decennium lang zelf systemen handmatig hebben gebroken. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen noemt deze dynamiek 'ancienniteitsgestuurde technologische verandering' \u2014 een patroon waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd. De mensen die AI-output kunnen verifi\u00ebren, zijn degenen die het vroeger met de hand moesten produceren."
           },
           {
             type: "p",
