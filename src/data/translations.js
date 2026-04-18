@@ -19,15 +19,15 @@ export const translations = {
       author: "By Arthur Devresse & Claude Sonnet 4.6",
       date: "April 2026",
       read_time: "~20 min read",
-      intro_quote: "This piece is not a data report. It is an argument about where AI takes the economy, institutions, and societies over the next decade. References to data come from the {link}. Where this piece speculates, it says so. Opinions are our own.",
+      intro_quote: "\"This piece is not a data report. It is an argument about where AI takes the economy, institutions, and societies over the next decade. References to data come from the {link}. Where this piece speculates, it says so. Opinions are our own.\"",
       link_text: "April 2026 Strategic Brief",
       discovery_cta: "Want the data behind this essay? Read the 2026 Strategic Report"
     },
     acts: [
       {
         id: "act1",
-        label: "Act I \u2014 The Two Squeezes",
-        title: "Act I \u2014 The Two Squeezes",
+        label: "ACT I \u2014 The Two Squeezes",
+        title: "ACT I \u2014 The Two Squeezes",
         subtitle: "How the Barbell Economy Forms, Peaks, and Gets Compressed from Both Sides",
         content: [
           {
@@ -163,8 +163,8 @@ export const translations = {
       },
       {
         id: "act2",
-        label: "Act II \u2014 The Reliability Reckoning",
-        title: "Act II \u2014 The Reliability Reckoning",
+        label: "ACT II \u2014 The Reliability Reckoning",
+        title: "ACT II \u2014 The Reliability Reckoning",
         subtitle: "How Societies Learn to Live With Systems That Fail in New Ways",
         content: [
           {
@@ -312,8 +312,8 @@ export const translations = {
       },
       {
         id: "act3",
-        label: "Act III \u2014 The Epistemic Floor",
-        title: "Act III \u2014 The Epistemic Floor",
+        label: "ACT III \u2014 The Epistemic Floor",
+        title: "ACT III \u2014 The Epistemic Floor",
         subtitle: "How We Live in the Verification Layer, the Death of Probabilistic Trust, and the Shepherd Generation",
         content: [
           {
@@ -411,6 +411,7 @@ export const translations = {
             text: "The Dual-Compression event is not an ending; it is a recalibration. The Barbell Economy is forcing a clear choice: compete with the baseline at your peril, or move to the verification layer."
           },
           {
+            type: "p",
             text: "The messy middle is where we land. The dangerous intersection eventually gets a traffic light. But in the Epistemic Flood, those who wait for the traffic light to be installed before they change their route will be underwater."
           },
           {
