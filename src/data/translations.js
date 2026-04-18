@@ -57,7 +57,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Salesforce announced zero new engineering hires for 2025. Block cut its headcount from ten thousand to under six thousand. These are the companies closest to the technology, and they are the first to figure out that a senior engineer with good tooling now does the work of a small team. The rest of the economy is two or three years behind, but moving in the same direction."
+            text: "Salesforce announced zero new engineering hires for 2025 \u2014 taken as a directional signal rather than a literal headcount, since executive announcements carry their own positioning incentives. Block cut its headcount from ten thousand to under six thousand. These are the companies closest to the technology, and they are the first to figure out that a senior engineer with good tooling now does the work of a small team. The rest of the economy is two or three years behind, but moving in the same direction."
           },
           {
             type: "p",
@@ -103,7 +103,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "What's changing is not mainly the AI models themselves getting smarter. It's the engineering around them \u2014 the ways models are being taught to check their own work, break problems into pieces, and coordinate with other models. That's where the capability gains are coming from now. Which means the senior human role does not disappear when the ceiling rises. It migrates. The valuable work shifts from providing the answers to designing the systems that find the answers, and from executing tasks to orchestrating the machines that execute them."
+            text: "What's changing is not mainly the AI models themselves getting smarter. It's the engineering around them \u2014 the ways models are being taught to check their own work, break problems into pieces, and coordinate with other models. That's where the capability gains are coming from now. The Strategic Brief documents this directly: three different agent systems running the same base model score between fifty and fifty-five percent on the same contamination-resistant benchmark. The five-point spread is the engineering, not the model. Which means the senior human role does not disappear when the ceiling rises. It migrates. The valuable work shifts from providing the answers to designing the systems that find the answers, and from executing tasks to orchestrating the machines that execute them."
           },
           {
             type: "quote",
@@ -124,7 +124,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Until recently, robots were stuck behind a simple problem: you could train a language model on the entire internet, but you couldn't train a robot on the entire physical world. That has changed. Simulation environments like NVIDIA Omniverse can now generate years of realistic physical practice data in a weekend. The cognitive wall is down."
+            text: "Until recently, robots were stuck behind a simple problem: you could train a language model on the entire internet, but you couldn't train a robot on the entire physical world. That has changed. Simulation environments like NVIDIA Omniverse can now generate years of realistic physical practice data in a weekend, and the combination of differentiable physics, massively parallel GPU simulation, and foundation models trained across thousands of embodiments has fundamentally shifted what's possible. The bottleneck in robotics has moved \u2014 from whether robots can learn at all to how well learned policies transfer to novel environments. That transfer problem is not solved, but it is no longer the wall. The wall is now physical \u2014 manufacturing, deployment, and repair at scale."
           },
           {
             type: "p",
@@ -217,7 +217,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The most interesting feature of the current global moment is that three fundamentally different approaches to this problem are being tested in parallel, in real economies, on real populations, in real time. China, the European Union, and the United States are running what amounts to a multi-decade natural experiment in how to govern transformative technology. The results will not be fully visible for years, but the early evidence is already instructive."
+            text: "The most interesting feature of the current global moment is that three fundamentally different approaches to this problem are being tested in parallel, in real economies, on real populations, in real time. China, the European Union, and the United States are running what amounts to a multi-decade natural experiment in how to govern transformative technology. The results will not be fully visible for years, but the early evidence is already instructive. A caveat before the comparison: each of these systems contains elements of all three approaches. China has substantial algorithmic registration and content regulation. The US has meaningful sectoral oversight through the FDA, NHTSA, and NIST. The EU is pursuing industrial policy alongside its regulatory framework. What follows describes dominant tendencies, not complete characterizations."
           },
           {
             type: "p",
@@ -373,7 +373,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The Analog Gridlock (Near-Term): Before elegant cryptographic solutions arrive, institutions will default to brute-force friction. We will see a multi-year period of \"Analog Gridlock\" where courts, medical boards, and regulators respond to the Epistemic Flood by mandating physical presence. Expect a surge in demands for wet-ink notarization, in-person oral defenses of written submissions, and localized, air-gapped servers. Bureaucracies always default to physical friction when digital trust breaks down."
+            text: "The Analog Gridlock (Near-Term): Before cryptographic solutions become institutionally standard, expect a 36-to-60 month period of brute-force friction. Courts, medical boards, and regulators will respond to the Epistemic Flood with a reversion to physical mandates: wet-ink notarization of any document generated with AI assistance, in-person oral defenses of written submissions, and API-enforced querying where AI systems can only read from certified, closed institutional databases like Westlaw. In some proposed designs, submitting a legal filing or scientific paper will require financial staking \u2014 a bond posted by the submitter, forfeited if an automated auditing system detects hallucinations. Bureaucracies default to physical friction when digital trust breaks down, and the specific mechanisms are already being prototyped."
           },
           {
             type: "p",
@@ -489,7 +489,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Salesforce kondigde aan nul nieuwe engineering-aanwervingen te doen voor 2025. Block snoeide zijn personeelsbestand van tienduizend naar minder dan zesduizend medewerkers. Dit zijn de ondernemingen die het nauwst bij de technologie staan, en zij zijn de eersten om te doorgronden dat een senior engineer met goede tooling het werk van een klein team verricht. De rest van de economie loopt twee \u00e0 drie jaar achter, maar beweegt in dezelfde richting."
+            text: "Salesforce kondigde voor 2025 nul nieuwe engineering-aanwervingen aan \u2014 eerder op te vatten als een richtinggevend signaal dan als een letterlijke headcount, aangezien aankondigingen op directieniveau hun eigen positioneringsprikkels met zich meebrengen. Block snoeide zijn personeelsbestand van tienduizend naar minder dan zesduizend medewerkers. Dit zijn de ondernemingen die het nauwst bij de technologie staan, en zij zijn de eersten om te doorgronden dat een senior engineer met goede tooling het werk van een klein team verricht. De rest van de economie loopt twee \u00e0 drie jaar achter, maar beweegt in dezelfde richting."
           },
           {
             type: "p",
@@ -535,7 +535,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Wat verandert is niet zozeer dat de AI-modellen zelf slimmer worden. Het zijn de engineering eromheen \u2014 de manieren waarop modellen worden geleerd hun eigen werk te controleren, problemen op te splitsen en met andere modellen samen te werken. D\u00e1\u00e1r komen de capaciteitswinsten nu vandaan. Wat betekent dat de senior menselijke rol niet verdwijnt wanneer het plafond stijgt. Hij verschuift. Het waardevolle werk beweegt van het leveren van de antwoorden naar het ontwerpen van de systemen die de antwoorden vinden, en van het uitvoeren van taken naar het orkestreren van de machines die ze uitvoeren."
+            text: "Wat verandert is niet zozeer dat de AI-modellen zelf slimmer worden. Het zijn de engineering eromheen \u2014 de manieren waarop modellen worden geleerd hun eigen werk te controleren, problemen op te splitsen en met andere modellen samen te werken. D\u00e1\u00e1r komen de capaciteitswinsten nu vandaan. De Strategic Brief documenteert dit rechtstreeks: drie verschillende agent-systemen die op hetzelfde basismodel draaien, scoren tussen de vijftig en vijfenvijftig procent op dezelfde contaminatie-bestendige benchmark. Het verschil van vijf procentpunten is de engineering, niet het model. Wat betekent dat de senior menselijke rol niet verdwijnt wanneer het plafond stijgt. Hij verschuift. Het waardevolle werk beweegt van het leveren van de antwoorden naar het ontwerpen van de systemen die de antwoorden vinden, en van het uitvoeren van taken naar het orkestreren van de machines die ze uitvoeren."
           },
           {
             type: "quote",
@@ -556,7 +556,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Tot voor kort zaten robots vast achter een eenvoudig probleem: u kon een taalmodel trainen op het volledige internet, maar u kon een robot niet trainen op de volledige fysieke wereld. Dat is veranderd. Simulatieomgevingen zoals NVIDIA Omniverse kunnen nu jarenlange realistische fysieke oefendata in een weekend genereren. De cognitieve muur is gevallen."
+            text: "Tot voor kort zaten robots vast achter een eenvoudig probleem: je kon een taalmodel trainen op het volledige internet, maar je kon een robot niet trainen op de volledige fysieke wereld. Dat is veranderd. Simulatieomgevingen zoals NVIDIA Omniverse kunnen nu jaren aan realistische fysieke oefendata genereren in een weekend, en de combinatie van differentieerbare fysica, massaal parallelle GPU-simulatie en foundation-modellen getraind over duizenden verschijningsvormen heeft wat mogelijk is fundamenteel verschoven. Het knelpunt in de robotica is verschoven \u2014 van de vraag of robots \u00fcberhaupt kunnen leren naar hoe goed aangeleerde policies vertalen naar nieuwe omgevingen. Dat transferprobleem is niet opgelost, maar het is niet langer de muur. De muur is nu fysiek \u2014 productie, inzet en reparatie op schaal."
           },
           {
             type: "p",
@@ -648,7 +648,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Het meest interessante kenmerk van het huidige mondiale moment is dat drie fundamenteel verschillende benaderingen van dit probleem parallel worden getest, in re\u00eble economie\u00ebn, op re\u00eble populaties, in re\u00eble tijd. China, de Europese Unie en de Verenigde Staten voeren wat neerkomt op een meerdecennia-durend natuurlijk experiment uit over hoe men een transformatieve technologie bestuurt. De resultaten zullen jaren niet volledig zichtbaar zijn, maar de vroege aanwijzingen zijn al leerzaam."
+            text: "Het meest interessante kenmerk van het huidige mondiale moment is dat drie fundamenteel verschillende benaderingen van dit probleem parallel worden getest, in re\u00eble economie\u00ebn, op re\u00eble populaties, in re\u00eble tijd. China, de Europese Unie en de Verenigde Staten voeren wat neerkomt op een meerdecennia-durend natuurlijk experiment uit over hoe men een transformatieve technologie bestuurt. De resultaten zullen jaren niet volledig zichtbaar zijn, maar de vroege aanwijzingen zijn al leerzaam. Een kanttekening voorafgaand aan de vergelijking: elk van deze systemen bevat elementen van alle drie de benaderingen. China heeft aanzienlijke algoritmische registratie en inhoudelijke regulering. De VS hebben betekenisvol sectoraal toezicht via de FDA, NHTSA en NIST. De EU voert industrieel beleid naast haar regelgevend kader. Wat volgt beschrijft dominante tendensen, geen volledige karakteriseringen."
           },
           {
             type: "p",
@@ -804,7 +804,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De Analoge Blokkade (nabije toekomst): Voordat elegante cryptografische oplossingen arriveren, zullen instellingen terugvallen op brute frictie. Wij zullen een meerjarige periode van \u201cAnaloge Blokkade\u201d meemaken waarin rechtbanken, medische raden en regelgevers reageren op de Epistemische Vloed door fysieke aanwezigheid op te leggen. Verwacht een opleving in eisen voor notari\u00eble bekrachtiging met natte handtekening, persoonlijke mondelinge verdediging van schriftelijke stukken, en gelokaliseerde, air-gapped servers. Bureaucratie\u00ebn vallen altijd terug op fysieke frictie wanneer digitaal vertrouwen wegvalt."
+            text: "De Analoge Blokkade (nabije toekomst): Voordat cryptografische oplossingen institutioneel standaard worden, valt een periode van 36 tot 60 maanden aan brute frictie te verwachten. Rechtbanken, medische raden en regelgevers zullen op de Epistemische Vloed reageren met een terugkeer naar fysieke mandaten: natte handtekening-notarisatie van elk document gegenereerd met AI-ondersteuning, persoonlijke mondelinge verdediging van schriftelijke stukken, en door API's afgedwongen bevraging waarbij AI-systemen alleen kunnen lezen uit gecertificeerde, gesloten institutionele databanken zoals Westlaw. In sommige voorgestelde ontwerpen zal het indienen van een juridisch dossier of wetenschappelijk artikel een financi\u00eble borg vereisen \u2014 een inzet door de indiener, die verbeurd wordt verklaard als een geautomatiseerd auditsysteem hallucinaties vaststelt. Bureaucratie\u00ebn vallen terug op fysieke frictie wanneer digitaal vertrouwen wegvalt, en de specifieke mechanismen worden al geprototypeerd."
           },
           {
             type: "p",
