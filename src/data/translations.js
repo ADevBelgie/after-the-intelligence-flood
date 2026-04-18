@@ -466,7 +466,7 @@ export const translations = {
         id: "act1",
         label: "AKTE I \u2014 De twee knelpunten",
         title: "AKTE I \u2014 De twee knelpunten",
-        subtitle: "Hoe de Barbell-economie ontstaat, piekt en van beide kanten wordt samengedrukt",
+        subtitle: "Hoe cognitief werk als eerste wordt samengedrukt, fysiek werk als volgende, en waarom de kloof ertussen kleiner is dan zij lijkt",
         content: [
           {
             type: "p",
@@ -479,40 +479,48 @@ export const translations = {
           },
           {
             type: "h3",
-            text: "Deel I \u2014 De Barbell neemt vorm aan"
+            text: "Deel I \u2014 De vorm van de ontwrichting"
           },
           {
             type: "p",
-            text: "De term \"Barbell-economie\" kwam in het debat als voorspelling. Zij is sindsdien een beschrijving geworden. Hoewel de Barbell op dit ogenblik de cognitieve arbeid beschrijft, is zij slechts het voorfront van een dubbel compressie-evenement dat weldra de fysieke wereld zal binnendringen. Wanneer digitale automatisering en fysieke robotica opeenvolgend in dezelfde vestigingen aankomen, verdwijnt de traditionele \"veilige haven\" van vaardig handwerk. De cognitieve Barbell is louter fase één."
+            text: "Een jaar geleden was de verwachte vorm van AI's impact op cognitief werk eenvoudig. Het midden van de arbeidsmarkt zou uithollen naarmate AI routinematig synthesewerk absorbeerde. De top zou standhouden, want oordeelsvorming laat zich moeilijk automatiseren. De bodem zou standhouden, want iemand moest de machines van prompts voorzien. Het was een redelijke veronderstelling."
           },
           {
             type: "p",
-            text: "Stel u een halter voor: zwaar gewicht aan beide uiteinden, niets in het midden. Aan het ene uiteinde neemt AI-capaciteit steeds meer over van wat vroeger instapwerk op cognitief gebied was \u2014 concepten opstellen, coderen, onderzoek doen, analyses maken, gegevens verwerken. Die functies worden geautomatiseerd of drastisch teruggebracht. Aan het andere uiteinde worden de senior rollen die verantwoordelijk zijn voor oordeelsvorming, toezicht en verantwoording juist waardevoller, omdat dat oordeel nu de schaarse hulpbron is. Het midden \u2014 de grote populatie kenniswerkers die noch het werk aanstuurden, noch de meest routinematige onderdelen ervan uitvoerden \u2014 is waar de druk zich als eerste concentreert. De data van 2026 hebben dit beeld aangescherpt: het onderste gewicht is niet stabiel, het krimpt ook. De instortingen aan de instapzijde kwamen v\u00f3\u00f3r de druk op het middenveld. Vacatures voor junior ontwikkelaars zijn sinds 2022 met 67% gedaald. De vorm is asymmetrisch, geen echte halter. Zij worden er van onderaf uit geperst door AI, niet van bovenaf door AI vervangen. In de praktijk bestaat het midden uit projectmanagers, bedrijfsanalisten en generalistische co\u00f6rdinatoren \u2014 mensen wier kernwaarde lag in het synthetiseren van informatie, het beheren van routinematige complexiteit of het uitvoeren van welomschreven taken. Dat zijn precies de dingen waar AI snel goed in wordt. Het is niet zo dat deze mensen geen vaardigheden bezitten. Het is zo dat de specifieke vaardigheden waarop zij hun loopbaan hebben gebouwd, precies die zijn waar de capaciteitscurve het snelst tegenop klimt."
+            text: "De data van 2026 vertellen een rommeliger verhaal."
+          },
+          {
+            type: "p",
+            text: "De bodem houdt niet stand. Hij stort in. Vacatures voor junior ontwikkelaars zijn sinds 2022 met 67% gedaald. Het aandeel van junior wervingen binnen IT-functies is in drie jaar gedaald van 15% naar 7%. Een deel daarvan was het einde van het goedkoop-geldtijdperk dat de aanwervingshausse van 2020 had opgeblazen \u2014 maar toen er in 2025 opnieuw kapitaal naar technologiebudgetten vloeide, keerde de junior headcount niet mee terug. Het geld ging naar computekracht en naar senior engineers. De functies die vroeger de eerste tree van de ladder waren \u2014 de functies die pas-afgestudeerden tot professionals omvormden \u2014 worden simpelweg weggenomen."
+          },
+          {
+            type: "p",
+            text: "Salesforce kondigde aan nul nieuwe engineering-aanwervingen te doen voor 2025. Block snoeide zijn personeelsbestand van tienduizend naar minder dan zesduizend medewerkers. Dit zijn de ondernemingen die het nauwst bij de technologie staan, en zij zijn de eersten om te doorgronden dat een senior engineer met goede tooling het werk van een klein team verricht. De rest van de economie loopt twee \u00e0 drie jaar achter, maar beweegt in dezelfde richting."
+          },
+          {
+            type: "p",
+            text: "Het midden staat onder een ander soort druk. Projectmanagers, bedrijfsanalisten, generalistische co\u00f6rdinatoren \u2014 mensen wier kernwaarde lag in het synthetiseren van informatie en het beheren van routinematige complexiteit \u2014 stellen vast dat hun werk opwaarts wordt geabsorbeerd in de tools die hun seniors gebruiken. Het zijn geen ongeschoolde mensen. Hun specifieke vaardigheden zijn simpelweg die waar AI het snelst goed in wordt."
+          },
+          {
+            type: "p",
+            text: "De top wordt geherprijsd. Senior salarissen voor AI-geletterde functies zijn met veertig procent gestegen. De schaarse hulpbron is niet langer uitvoering. Het is oordeel \u2014 het vermogen om de fouten te opmerken die er kloppend uitzien, de beslissingen te nemen die verantwoording dragen, de relaties op te bouwen die vertrouwen vergen."
+          },
+          {
+            type: "p",
+            text: "Drie dingen gebeuren tegelijkertijd: de bodem wordt weggenomen, het midden wordt geabsorbeerd, de top wordt geherprijsd. Het is minder een hervorming van de arbeidsmarkt dan een samendrukking ervan \u2014 druk die zich concentreert waar oordeel leeft, en alles wat overblijft dat richting automatisering wordt getrokken."
+          },
+          {
+            type: "p",
+            text: "Het geval Klarna verdient aandacht. Klarna verving het grootste deel van zijn klantendienstteam door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen \u2014 op meetbare wijzen kan zij dat. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was."
+          },
+          {
+            type: "p",
+            text: "De ondernemingen die dit goed navigeren, zijn de ondernemingen die uitgevogeld hebben welke delen van hun werking werkelijk routinematig zijn en die delen hard hebben geautomatiseerd, terwijl zij de mensen die het oordeelswerk verrichten hebben behouden en opgewaardeerd. De ondernemingen die AI als een kostenpost voor headcount behandelden, zijn nu duur aan het herwerven."
           },
           {
             type: "p",
             className: "mb-12",
-            text: "De data uit de {link} maken dit concreet. Het aandeel van junior wervingen binnen IT-functies is in drie jaar gedaald van 15% naar 7%. Vacatures voor instap-ontwikkelaars zijn sinds 2022 met 67% gedaald. Salarissen in senior AI-rollen zijn met 40% gestegen. Salesforce kondigde aan nul nieuwe engineering-aanwervingen te doen voor 2025. Dit zijn geen afrondingsfouten. Het zijn structurele signalen die gelijktijdig opduiken in verschillende ondernemingen en sectoren.",
-            link_text: "Strategic Brief"
-          },
-          {
-            type: "p",
-            className: "mb-12",
-            text: "Maar de Barbell is niet eenvoudigweg een verhaal over banenverlies. Het is een verhaal over een fundamentele herwaardering van wat menselijke cognitieve arbeid waard is, en voor wie."
-          },
-          {
-            type: "p",
-            className: "mb-12",
-            text: "Het geval Klarna is het meest leerzame data-punt in het huidige landschap \u2014 niet omdat het bewijst dat AI-vervanging mislukt, maar omdat het de nerf van het hout blootlegt. Klarna verving het grootste deel van zijn klantendienstteam door AI, vierde de besparingen publiekelijk, en moest binnen minder dan twee jaar halsoverkop herwerven omdat de klanttevredenheid instortte. De les is niet dat AI geen klantendienst kan verlenen. Op veel meetbare manieren kan zij dat. De les is dat de domeinen waarin menselijk oordeel het moeilijkst te vervangen valt, precies de domeinen zijn waarin vertrouwen, context en institutioneel geheugen het product zijn \u2014 niet de reactiesnelheid of de kostprijs per ticket."
-          },
-          {
-            type: "p",
-            text: "De ondernemingen die de Barbell goed uitvoeren, zijn niet degene die mensen massaal vervangen. Het zijn degene die identificeren welke delen van hun werkstroom werkelijk routinematig zijn en die agressief automatiseren, terwijl zij de mensen behouden en opwaarderen die in staat zijn tot wat AI op dit moment niet kan: de fouten opmerken die er kloppend uitzien, de beslissingen nemen die verantwoording vereisen, en de relaties opbouwen die vertrouwen vergen."
-          },
-          {
-            type: "p",
-            className: "mb-12",
-            text: "Dat onderscheid is van belang, want de Barbell in haar huidige vorm is niet de eindfase. Het is het eerste deel van een langer verhaal."
+            text: "Deze vorm is niet de eindfase. Het is het eerste deel van een langer verhaal."
           },
           {
             type: "h3",
@@ -520,28 +528,34 @@ export const translations = {
           },
           {
             type: "p",
+            className: "font-medium text-slate-300",
             text: "Hier komt het deel van het gesprek waar de meeste strategische voorspellingen bij stilhouden."
           },
           {
             type: "p",
-            text: "De Barbell zoals hierboven beschreven veronderstelt een betrekkelijk stabiel plafond voor AI-capaciteit \u2014 dat de senior rollen van vandaag veilig zijn omdat zij het soort oordeel vereisen dat AI nog niet kan reproduceren. Die veronderstelling heeft een halfwaardetijd. En wij weten ongeveer hoe lang die halfwaardetijd is, want de benchmark-data vertellen ons dat."
+            text: "Het beeld hierboven veronderstelt een betrekkelijk stabiel plafond voor AI-capaciteit \u2014 dat de senior rollen van vandaag veilig zijn omdat zij het soort oordeel vereisen dat AI nog niet kan reproduceren. Die veronderstelling heeft een halfwaardetijd. En wij weten ongeveer hoe lang die halfwaardetijd is, want de benchmark-data vertellen ons dat."
           },
           {
             type: "p",
-            text: "De {link} documenteert een cyclus van ongeveer acht maanden waarin AI-capaciteitstoetsen worden beheerst, uitgefaseerd en vervangen door moeilijkere. ARC-AGI-1 is in essentie opgelost. ARC-AGI-2 nadert verzadiging binnen twaalf maanden na lancering. ARC-AGI-3 werd in maart 2026 gelanceerd met frontier AI-modellen die lager dan 1% scoren, en de voorspelling op basis van hetzelfde patroon is 30 tot 50% scores tegen eind 2026 via benaderingen met reinforcement learning. De meetlatten blijven breken omdat de onderliggende capaciteit blijft opschuiven.",
+            text: "De {link} documenteert een cyclus van acht maanden waarin AI-capaciteitstoetsen worden beheerst, uitgefaseerd en vervangen door moeilijkere. ARC-AGI-1 is in essentie opgelost. ARC-AGI-2 nadert verzadiging binnen twaalf maanden na lancering. ARC-AGI-3 werd in maart 2026 gelanceerd met frontier AI-modellen die lager dan 1% scoren \u2014 hoewel een gespecialiseerde niet-LLM-benadering in preview al 12% heeft bereikt, wat u vertelt dat de benchmark oplosbaar is. De prognose op basis van hetzelfde historische patroon is 30 tot 50% scores tegen eind 2026. De meetlatten blijven breken omdat de onderliggende capaciteit blijft opschuiven.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
-            text: "Wat dit voor de Barbell betekent is niet meteen evident, maar het is belangrijk. De senior rollen die op dit moment waardevol zijn \u2014 de engineers die de systemen ontwerpen, de analisten die de gegevens synthetiseren, de managers die de AI-agents aansturen \u2014 zijn waardevol omdat zij boven het huidige capaciteitsplafond zitten. Zij leveren het oordeel dat de AI nog niet kan leveren. Maar dat plafond is niet vast. Cruciaal is dat het plafond niet langer stijgt omdat de basismodellen intrinsiek slimmer worden \u2014 het stijgt omdat de architecturen eromheen (reinforcement learning, multi-agent-orkestratie, zelfreflectieve RAG) tot wasdom komen."
-          },
-          {
-            type: "quote",
-            text: "De premie op menselijk oordeel is re\u00ebel. Zij is ook tijdelijk in haar huidige vorm."
+            text: "Wat dit betekent is niet meteen evident, maar het is belangrijk. De senior rollen die op dit moment waardevol zijn \u2014 de engineers die de systemen ontwerpen, de analisten die de gegevens synthetiseren, de managers die de AI-agents aansturen \u2014 zijn waardevol omdat zij boven het huidige capaciteitsplafond zitten. Zij leveren het oordeel dat de AI nog niet kan leveren. Maar dat plafond is niet vast."
           },
           {
             type: "p",
-            text: "De eerlijke prognose is niet dat senior rollen verdwijnen. Het is dat de aard van senior-waarde sneller verschuift dan de meeste organisaties, of de meeste individuen, op dit moment plannen. De premie op menselijk oordeel is re\u00ebel, maar haar aard verschuift. Zij verdampt niet; zij verschuift van het leveren van de antwoorden naar het ontwerpen van de systemen die de antwoorden vinden."
+            text: "Wat verandert, is echter niet zozeer dat de AI-modellen zelf slimmer worden. Het zijn de engineering eromheen \u2014 de manieren waarop modellen worden geleerd hun eigen werk te controleren, problemen op te splitsen en met andere modellen samen te werken. D\u00e1\u00e1r komen de capaciteitswinsten nu vandaan. Wat betekent dat de senior menselijke rol niet verdwijnt wanneer het plafond stijgt. Hij verschuift. Het waardevolle werk beweegt van het leveren van de antwoorden naar het ontwerpen van de systemen die de antwoorden vinden, en van het uitvoeren van taken naar het orkestreren van de machines die ze uitvoeren."
+          },
+          {
+            type: "quote",
+            text: "De premie op menselijk oordeel is re\u00ebel. Haar aard verschuift."
+          },
+          {
+            type: "p",
+            className: "mb-12",
+            text: "De eerlijke prognose is niet dat senior rollen verdampen. Het is dat wat een senior rol waardevol maakt sneller verandert dan de meeste organisaties, of de meeste individuen, op dit moment plannen."
           },
           {
             type: "h3",
@@ -549,11 +563,15 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Cognitieve AI automatiseert niet alleen softwarefuncties. Zij versnelt elk vakgebied dat voorheen werd afgeremd door menselijke cognitieve arbeid, in het bijzonder robotica en fysieke besturingssystemen. Met de rijping van simulatieomgevingen zoals NVIDIA Omniverse is de \"Muur van de fysieke data\" grotendeels gevallen. Wij kunnen nu robotische foundation models trainen in fysisch-accurate simulaties, waarbij wij in een weekend levenslange hoeveelheden edge case-gegevens genereren."
+            text: "Cognitieve AI automatiseert niet alleen softwarefuncties. Zij versnelt elk vakgebied dat voorheen werd afgeremd door menselijke cognitieve arbeid \u2014 en dat omvat robotica."
           },
           {
             type: "p",
-            text: "Waarom blijft de fysieke druk dan uitgesteld? De barri\u00e8re is niet langer cognitief; het is productie en onderhoud."
+            text: "Tot voor kort zaten robots vast achter een eenvoudig probleem: u kon een taalmodel trainen op het volledige internet, maar u kon een robot niet trainen op de volledige fysieke wereld. Dat is veranderd. Simulatieomgevingen zoals NVIDIA Omniverse kunnen nu jarenlange realistische fysieke oefendata in een weekend genereren. De cognitieve muur is gevallen."
+          },
+          {
+            type: "p",
+            text: "Wat overblijft is een productieprobleem, en het is een re\u00ebel probleem."
           },
           {
             type: "p",
@@ -561,35 +579,27 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Bovendien blijft, hoewel organisaties fysieke fouten zullen accepteren omdat de arbeidsbesparingen te massaal zijn om te negeren, de fysieke reparatielus een harde beperking. Een softwarehallucinatie kan wereldwijd, over-the-air, in seconden worden verholpen. Wanneer een robot hallucineert en een fysieke sensor tegen een muur verbrijzelt, lost het patchen van de software de hardware niet op. Het vergt een menselijke technicus, een vervangingsonderdeel en fysieke stilstand."
+            text: "Er is ook een reparatieprobleem dat de meeste software-mensen onderschatten. Wanneer een AI-agent een gehallucineerd antwoord produceert, patcht u het model over-the-air in seconden en elk exemplaar is hersteld. Wanneer een robot hallucineert en een sensor tegen een muur verbrijzelt, doet de software-fix niets voor de hardware. Het vergt een technicus, een vervangingsonderdeel en fysieke stilstand. Fysiek falen schaalt niet zoals digitaal falen dat doet."
           },
           {
             type: "p",
-            text: "Neem de wereldwijde logistieke sector: zij is de voorhoede van de dubbele compressie. Aan de cognitieve zijde automatiseert predictieve AI vandaag al vraagvoorspelling en routeoptimalisering. Tegelijkertijd, omdat magazijnen sterk gestructureerde omgevingen zijn die voldoen aan de \"Actuari\u00eble Grens\" voor fysieke aansprakelijkheid, volgt zware robotica er vlak achter. Het personeel verschuift niet van cognitieve naar fysieke taken als veilige haven; het wordt sequentieel samengedrukt \u2014 eerst in de back office, en kort daarna op de werkvloer."
+            text: "De fysieke druk zal dus niet overal tegelijk arriveren. Hij zal als eerste arriveren waar de omgeving gecontroleerd is en de verzekeringswiskunde klopt. Magazijnen. Logistieke knooppunten. Industri\u00eble zones. Niet omdat robots een stoep niet aankunnen, maar omdat verzekeraars een gecontroleerd magazijn wel kunnen prijzen en een openbare straat nog niet."
           },
           {
             type: "p",
-            text: "Bijgevolg zal de fysieke druk niet overal tegelijk arriveren. Zij zal worden bepaald door de actuari\u00eble grens. Robots worden op dit moment ingezet in magazijnen, logistieke knooppunten en industri\u00eble zones \u2014 niet omdat zij niet in staat zouden zijn zich over een openbare stoep te verplaatsen, maar omdat de verzekeringsaansprakelijkheid voor fysieke edge cases in ongestructureerde menselijke omgevingen een gefaseerde uitrol dicteert. De fysieke druk komt eraan, maar zij beweegt zich aan de snelheid van fysieke toeleveringsketens, niet aan die van digitale netwerken."
-          },
-          {
-            type: "h3",
-            text: "Het dubbele compressie-evenement"
+            text: "De wereldwijde logistieke sector is het duidelijkste vooruitblik op hoe volledige compressie eruitziet. Aan de cognitieve zijde verwerkt AI al vraagvoorspelling en routeoptimalisering. Aan de fysieke zijde, omdat magazijnen gestructureerde omgevingen zijn die verzekeraars kunnen prijzen, volgt zware robotica er vlak achter. Het personeel verschuift niet van cognitieve naar fysieke taken als veilige haven; beide worden sequentieel samengedrukt, in dezelfde gebouwen."
           },
           {
             type: "p",
-            text: "Wij staan niet voor een sequenti\u00eble tijdlijn waarin ontslagen kenniswerkers zich veilig kunnen terugtrekken op fysieke co\u00f6rdinatie. Wij staan voor een dubbel compressie-evenement. De cognitieve druk voltrekt zich nu; de fysieke druk volgt, vertraagd door de letterlijke wetten van de thermodynamica en de entropiekloof tussen simulatie en realiteit."
+            text: "Dit is de valstrik van het huidige moment. Naarmate cognitieve taken worden geautomatiseerd, is de instinctieve reactie te pivotten naar fysiek, vaardig werk \u2014 loodgieterswerk, elektriciteit, vakmanschap, alles wat handen vergt. Maar diezelfde AI-modellen die kenniswerkers verdrijven, versnellen de materiaalkunde en de besturingssystemen achter de robots die uiteindelijk veel van dat fysieke werk zullen overnemen. Het venster is re\u00ebel, maar het is geen carri\u00e8rewisseling van dertig jaar. Het is een tijdelijke, samengedrukte kloof tussen twee knelpunten."
           },
           {
             type: "p",
-            text: "Maar dit cre\u00ebert een gevaarlijke macro-economische valstrik: de Valse Toevlucht. Naarmate cognitieve taken worden geautomatiseerd, is de natuurlijke reactie van de arbeidsmarkt een massale vlucht naar fysiek, vaardig werk. Maar precies dezelfde modellen die kenniswerkers verdrijven, versnellen materiaalkunde en fysieke besturingssystemen. Het \"venster ertussen\" is geen veilige haven voor een carri\u00e8rewisseling van dertig jaar; het is een tijdelijke, sterk samengedrukte valstrik."
+            text: "Overleven betekent zich gelijktijdig \u2014 niet opeenvolgend \u2014 bewegen naar de bestuurs-, orkestratie- en verificatielagen van zowel digitale als fysieke systemen. De mensen die zich positioneren rond systeemontwerp in plaats van uitvoering, lopen reeds voor."
           },
           {
             type: "p",
-            text: "Overleven vereist dat men zich gelijktijdig naar de bestuurs-, orkestratie- en verificatielagen van zowel digitale als fysieke systemen beweegt. De mensen die zich positioneren rond orkestratie en systeemontwerp in plaats van uitvoering, lopen reeds voor."
-          },
-          {
-            type: "p",
-            text: "Voor organisaties: het Klarna-patroon voorspelt dat ondernemingen die in deze fase haastig overgaan tot volledige vervanging een correctie zullen ondergaan. De ondernemingen die deze tijd gebruiken om werkelijk te begrijpen welke delen van hun werking menselijk oordeel vergen, en investeren in het opwaarderen van die mensen in plaats van hen te vervangen, zullen over een structureel talentvoordeel beschikken wanneer de dubbele compressie piekt en het gedrang losbreekt."
+            text: "Voor organisaties: het Klarna-patroon voorspelt dat ondernemingen die nu haastig overgaan tot volledige vervanging een correctie zullen ondergaan. De ondernemingen die deze periode gebruiken om werkelijk te begrijpen welke delen van hun werking menselijk oordeel vergen \u2014 en die investeren in het opwaarderen van die mensen in plaats van hen te vervangen \u2014 zullen over een structureel talentvoordeel beschikken wanneer het tweede knelpunt arriveert en het gedrang losbreekt."
           },
           {
             type: "p",
