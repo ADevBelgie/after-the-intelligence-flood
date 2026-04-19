@@ -489,23 +489,23 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Salesforce kondigde voor 2025 nul nieuwe engineering-aanwervingen aan \u2014 eerder op te vatten als een richtinggevend signaal dan als een letterlijke headcount, aangezien aankondigingen op directieniveau hun eigen positioneringsprikkels met zich meebrengen. Block snoeide zijn personeelsbestand van tienduizend naar minder dan zesduizend medewerkers. Dit zijn de ondernemingen die het nauwst bij de technologie staan, en zij zijn de eersten om te doorgronden dat een senior engineer met goede tooling het werk van een klein team verricht. De rest van de economie loopt twee \u00e0 drie jaar achter, maar beweegt in dezelfde richting."
+            text: "Salesforce kondigde voor 2025 nul nieuwe engineering-aanwervingen aan; dit was eerder op te vatten als een richtinggevend signaal dan als een letterlijke headcount. Block (de Amerikaanse fintech, voorheen Square) snoeide zijn personeelsbestand van tienduizend naar minder dan zesduizend medewerkers. Amerikaanse ondernemingen zoals deze staan het nauwst bij de technologie en zijn de eersten om te doorgronden dat een senior engineer met goede tooling het werk van een klein team verricht. De rest van de economie loopt twee \u00e0 drie jaar achter, maar beweegt in dezelfde richting."
           },
           {
             type: "p",
-            text: "Het midden staat onder een ander soort druk. Projectmanagers, bedrijfsanalisten, generalistische co\u00f6rdinatoren \u2014 mensen wier kernwaarde lag in het synthetiseren van informatie en het beheren van routinematige complexiteit \u2014 stellen vast dat hun werk opwaarts wordt geabsorbeerd in de tools die hun seniors gebruiken. Het zijn geen ongeschoolde mensen. Hun specifieke vaardigheden zijn simpelweg die waar AI het snelst goed in wordt."
+            text: "Het midden staat onder een ander soort druk. Projectmanagers, bedrijfsanalisten, generalistische co\u00f6rdinatoren, mensen wier kernwaarde lag in het synthetiseren van informatie en het beheren van routinematige complexiteit, stellen vast dat hun werk opwaarts wordt geabsorbeerd in de tools die hun seniors gebruiken. Het zijn geen ongeschoolde mensen. Hun specifieke vaardigheden zijn simpelweg die waar AI het snelst goed in wordt."
           },
           {
             type: "p",
-            text: "De top wordt geherprijsd. Senior salarissen voor AI-geletterde functies zijn met veertig procent gestegen. De schaarse hulpbron is niet langer uitvoering. Het is oordeel \u2014 het vermogen om de fouten te opmerken die er kloppend uitzien, de beslissingen te nemen die verantwoording dragen, de relaties op te bouwen die vertrouwen vergen."
+            text: "De top wordt geherprijsd. Senior salarissen voor AI-geletterde functies zijn met veertig procent gestegen (in de Amerikaanse markt; de Europese premies zijn re\u00ebel, maar doorgaans lager door andere loonstructuren). De schaarse hulpbron is niet langer uitvoering. Het is oordeel: het vermogen om de fouten te opmerken die er kloppend uitzien, de beslissingen te nemen die verantwoording dragen, de relaties op te bouwen die vertrouwen vergen."
           },
           {
             type: "p",
-            text: "Drie dingen gebeuren tegelijkertijd: de bodem wordt weggenomen, het midden wordt geabsorbeerd, de top wordt geherprijsd. Het is minder een hervorming van de arbeidsmarkt dan een samendrukking ervan \u2014 druk die zich concentreert waar oordeel leeft, en alles wat overblijft dat richting automatisering wordt getrokken."
+            text: "Drie dingen gebeuren tegelijkertijd: de bodem wordt weggenomen, het midden wordt geabsorbeerd, de top wordt geherprijsd. Het is minder een hervorming van de arbeidsmarkt dan een samendrukking ervan: druk die zich concentreert waar oordeel leeft, en alles wat overblijft dat richting automatisering wordt getrokken."
           },
           {
             type: "p",
-            text: "Het geval Klarna verdient aandacht. Klarna verving het grootste deel van zijn klantendienstteam door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen \u2014 op meetbare wijzen kan zij dat. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen heeft het bredere patroon sindsdien 'ancienniteitsgestuurde technologische verandering' genoemd \u2014 de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd."
+            text: "Het geval van de Zweedse fintech Klarna verdient aandacht. Klarna verving het grootste deel van zijn klantendienstteam door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen; op meetbare wijzen kan zij dat wel. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen (gebaseerd op Amerikaanse arbeidsmarktdata; vergelijkbare Europese analyses zijn beperkter, maar Eurostat-data over 10+ miljoen ICT-specialisten in de EU tonen een soortgelijke verschuiving naar senior-specialistische rollen) heeft het bredere patroon sindsdien 'ancienniteitsgestuurde technologische verandering' genoemd, waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd."
           },
           {
             type: "p",
@@ -605,7 +605,7 @@ export const translations = {
         content: [
           {
             type: "p",
-            text: "In de buurt waar ik ben opgegroeid ligt een gevaarlijk kruispunt. Jarenlang eiste het met deprimerende regelmaat ongevallen. De gemeenteraad debatteerde erover, bewoners klaagden, en er gebeurde niets \u2014 tot een bijzonder zwaar ongeval de zaak afdwong. Binnen zes maanden stond er een verkeerslicht. De ongevallen hielden op. Niemand had het probleem van menselijke fouten achter het stuur volledig hoeven op te lossen vooraleer er auto's op die weg mochten rijden. Wat men nodig had waren voldoende falen, op een voldoende zichtbare plek, om een specifieke institutionele reactie af te dwingen."
+            text: "In de buurt waar ik ben opgegroeid ligt een gevaarlijk kruispunt. Jarenlang eiste het met deprimerende regelmaat ongevallen. De gemeenteraad debatteerde erover, bewoners klaagden, en er gebeurde niets, tot een bijzonder zwaar ongeval de zaak afdwong. Binnen zes maanden stond er een verkeerslicht. De ongevallen hielden op. Niemand had het probleem van menselijke fouten achter het stuur volledig hoeven op te lossen vooraleer er auto's op die weg mochten rijden. Wat men nodig had waren voldoende falen, op een voldoende zichtbare plek, om een specifieke institutionele reactie af te dwingen."
           },
           {
             type: "p",
@@ -656,7 +656,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De Europese Unie heeft gekozen voor \"eerst kader\". De EU AI Act is een ambitieuze poging om een omvattend bestuur te creëren vóór brede inzet in plaats van erna. De intentie is werkelijk bewonderenswaardig. Het praktische effect op korte termijn is dat Europese ondernemingen hun engineering-cycli optimaliseren voor juridische conformiteit in plaats van operationele grenstoetsing. Zij bouwen systemen om audits te doorstaan, terwijl hun concurrenten systemen bouwen die contact met de werkelijkheid kunnen doorstaan."
+            text: "De Europese Unie heeft gekozen voor \"eerst kader\", de omgeving waarin Belgische en Nederlandse bedrijven nu opereren. De EU AI Act is een ambitieuze poging om een omvattend bestuur te cre\u00ebren v\u00f3\u00f3r brede inzet in plaats van erna. De intentie is werkelijk bewonderenswaardig. Het praktische effect op korte termijn is dat Europese ondernemingen hun engineering-cycli optimaliseren voor juridische conformiteit in plaats van operationele grenstoetsing. Zij bouwen systemen om audits te doorstaan, terwijl hun concurrenten systemen bouwen die contact met de werkelijkheid kunnen doorstaan."
           },
           {
             type: "p",
@@ -740,7 +740,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Twee terreinen waar de incentive-structuren op dit moment verkeerd staan. Ten eerste is het aansprakelijkheidskader voor AI-ondersteunde beslissingen in domeinen met hoge inzet vrijwel volledig onopgelost. Wanneer een AI-ondersteunde medische diagnose fout is, wie draagt dan de aansprakelijkheid? Het antwoord op die vraag bepaalt of AI-aanbieders ook maar enige prikkel hebben om de betrouwbaarheid te verbeteren, of dat beroepsbeoefenaars een zodanig zwaar aansprakelijkheidsrisico lopen dat zij AI-instrumenten vermijden die hun werk werkelijk zouden verbeteren."
+            text: "Twee terreinen waar de incentive-structuren op dit moment verkeerd staan. Ten eerste is het aansprakelijkheidskader voor AI-ondersteunde beslissingen in domeinen met hoge inzet in de VS vrijwel volledig onopgelost. In de EU beginnen de AI-verordening en de herziene Richtlijn Productaansprakelijkheid deze vraag te beantwoorden voor hoog-risico-systemen, maar elders blijft het kader grotendeels onbeslist. Wanneer een AI-ondersteunde medische diagnose fout is, wie draagt dan de aansprakelijkheid? Het antwoord op die vraag bepaalt of AI-aanbieders ook maar enige prikkel hebben om de betrouwbaarheid te verbeteren, of dat beroepsbeoefenaars een zodanig zwaar aansprakelijkheidsrisico lopen dat zij AI-instrumenten vermijden die hun werk werkelijk zouden verbeteren."
           },
           {
             type: "p",
@@ -804,7 +804,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De Analoge Blokkade (nabije toekomst): Voordat cryptografische oplossingen institutioneel standaard worden, valt een periode van 36 tot 60 maanden aan brute frictie te verwachten. Rechtbanken, medische raden en regelgevers zullen op de Epistemische Vloed reageren met een terugkeer naar fysieke mandaten: natte handtekening-notarisatie van elk document gegenereerd met AI-ondersteuning, persoonlijke mondelinge verdediging van schriftelijke stukken, en door API's afgedwongen bevraging waarbij AI-systemen alleen kunnen lezen uit gecertificeerde, gesloten institutionele databanken zoals Westlaw. In sommige voorgestelde ontwerpen zal het indienen van een juridisch dossier of wetenschappelijk artikel een financi\u00eble borg vereisen \u2014 een inzet door de indiener, die verbeurd wordt verklaard als een geautomatiseerd auditsysteem hallucinaties vaststelt. Bureaucratie\u00ebn vallen terug op fysieke frictie wanneer digitaal vertrouwen wegvalt, en de specifieke mechanismen worden al geprototypeerd."
+            text: "De Analoge Blokkade (nabije toekomst): Voordat cryptografische oplossingen institutioneel standaard worden, valt een periode van 36 tot 60 maanden aan brute frictie te verwachten. Rechtbanken, medische raden en regelgevers zullen op de Epistemische Vloed reageren met een terugkeer naar fysieke mandaten: natte handtekening-notarisatie van elk document gegenereerd met AI-ondersteuning, persoonlijke mondelinge verdediging van schriftelijke stukken, en door API's afgedwongen bevraging waarbij AI-systemen alleen kunnen lezen uit gecertificeerde juridische databanken zoals Jura, Stradalex of Kluwer Navigator. In sommige voorgestelde ontwerpen zal het indienen van een juridisch dossier of wetenschappelijk artikel een financi\u00eble borg vereisen, een inzet door de indiener, die verbeurd wordt verklaard als een geautomatiseerd auditsysteem hallucinaties vaststelt. Bureaucratie\u00ebn vallen terug op fysieke frictie wanneer digitaal vertrouwen wegvalt, en de specifieke mechanismen worden al geprototypeerd."
           },
           {
             type: "p",
@@ -826,7 +826,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De senior laag van engineers en managers die hun sporen verdienden tijdens de hausse van 2010-2022 bezit op dit ogenblik de structurele intu\u00eftie om complexe AI-systemen te besturen. Zij weten hoe systemen breken omdat zij een decennium lang zelf systemen handmatig hebben gebroken. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen noemt deze dynamiek 'ancienniteitsgestuurde technologische verandering' \u2014 een patroon waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd. De mensen die AI-output kunnen verifi\u00ebren, zijn degenen die het vroeger met de hand moesten produceren."
+            text: "De senior laag van engineers en managers die hun sporen verdienden tijdens de hausse van 2010\u20132022 bezit op dit ogenblik de structurele intu\u00eftie om complexe AI-systemen te besturen. Zij weten hoe systemen breken omdat zij een decennium lang zelf systemen handmatig hebben gebroken. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen (gebaseerd op dezelfde Amerikaanse datasets als eerder vermeld) noemt deze dynamiek 'ancienniteitsgestuurde technologische verandering', een patroon waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd. De mensen die AI-output kunnen verifi\u00ebren, zijn degenen die het vroeger met de hand moesten produceren."
           },
           {
             type: "p",
@@ -834,7 +834,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Wat wij wel weten is dat de organisaties die dit als een opgelost probleem behandelen, een gok aangaan, geen beslissing nemen. De organisaties die het als een open vraag behandelen, ontwerpen doelbewust \u2014 zij brengen de frictie van uitvoering domein voor domein terug in de junior-opleiding, om te achterhalen welke vormen van expertise de kortere weg overleven en welke niet. Zij wedden dat sommige vormen van meesterschap nog steeds met de hand verdiend moeten worden, en zij zijn bereid het leerlingschap te bekostigen om te ontdekken welke dat zijn. Dit zijn de organisaties die de Meta-Verificateurs van de jaren 2030 zullen voortbrengen \u2014 seniors wier taak niet langer zal zijn om de output handmatig te lezen, maar om de structurele intu\u00eftie te bezitten die vereist is om de systemen te ontwerpen die het voor hen lezen."
+            text: "Wat wij wel weten is dat de organisaties die dit als een opgelost probleem behandelen, een gok aangaan, geen beslissing nemen. De organisaties die het als een open vraag behandelen, ontwerpen doelbewust: zij brengen de frictie van uitvoering domein voor domein terug in een leerling-meester-structuur, om te achterhalen welke vormen van expertise de kortere weg overleven en welke niet. Zij wedden dat sommige vormen van meesterschap nog steeds handmatig verdiend moeten worden, en zij zijn bereid te investeren in dit hernieuwde leerlingschap om te ontdekken welke dat zijn. Dit zijn de organisaties die de Meta-Verificateurs van de jaren 2030 zullen voortbrengen, seniors wier taak niet langer zal zijn om de output handmatig te lezen, maar om de structurele intu\u00eftie te bezitten die vereist is om de systemen te ontwerpen die het voor hen lezen."
           },
           {
             type: "h3",
