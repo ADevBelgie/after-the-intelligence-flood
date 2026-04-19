@@ -501,11 +501,11 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Drie dingen gebeuren tegelijkertijd: de bodem wordt weggenomen, het midden wordt geabsorbeerd, de top wordt herprijsd. Het is minder een hervorming van de arbeidsmarkt dan een samendrukking ervan: druk die zich concentreert waar oordeel leeft, en alles wat overblijft dat richting automatisering wordt getrokken."
+            text: "Drie dingen gebeuren tegelijkertijd: de bodem wordt weggenomen, het midden wordt geabsorbeerd, de top wordt herprijsd. Het is minder een hervorming van de arbeidsmarkt dan een samendrukking ervan: druk die zich samentrekt rond oordeelsvorming, waarbij de rest onherroepelijk naar automatisering wordt getrokken."
           },
           {
             type: "p",
-            text: "Het geval van de Zweedse fintech Klarna verdient aandacht. Klarna verving het grootste deel van zijn klantendienstteam door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen; op meetbare wijzen kan zij dat wel. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen (gebaseerd op Amerikaanse arbeidsmarktdata; vergelijkbare Europese analyses zijn beperkter, maar Eurostat-data over 10+ miljoen ICT-specialisten in de EU tonen een soortgelijke verschuiving naar senior-specialistische rollen) heeft het bredere patroon sindsdien 'ancienniteitsgestuurde technologische verandering' genoemd, waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd."
+            text: "Het geval van de Zweedse fintech Klarna verdient aandacht. Klarna heeft het grootste deel van zijn klantenserviceteam vervangen door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen; op meetbare wijzen kan zij dat wel. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen (gebaseerd op Amerikaanse arbeidsmarktdata; vergelijkbare Europese analyses zijn beperkter, maar Eurostat-data over 10+ miljoen ICT-specialisten in de EU tonen een soortgelijke verschuiving naar senior-specialistische rollen) heeft het bredere patroon sindsdien 'ancienniteitsgestuurde technologische verandering' genoemd, waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd."
           },
           {
             type: "p",
@@ -556,7 +556,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Tot voor kort zaten robots vast achter een eenvoudig probleem: je kon een taalmodel trainen op het volledige internet, maar je kon een robot niet trainen op de volledige fysieke wereld. Dat is veranderd. Simulatieomgevingen zoals NVIDIA Omniverse kunnen nu jaren aan realistische fysieke oefendata genereren in een weekend, en de combinatie van differentieerbare fysica, massaal parallelle GPU-simulatie en foundation-modellen getraind over duizenden verschijningsvormen heeft wat mogelijk is fundamenteel verschoven. Het knelpunt in de robotica is verschoven \u2014 van de vraag of robots \u00fcberhaupt kunnen leren naar hoe goed aangeleerde policies vertalen naar nieuwe omgevingen. Dat transferprobleem is niet opgelost, maar het is niet langer de muur. De muur is nu fysiek \u2014 productie, inzet en reparatie op schaal."
+            text: "Tot voor kort zaten robots vast achter een eenvoudig probleem: je kon een taalmodel trainen op het volledige internet, maar je kon een robot niet trainen op de volledige fysieke wereld. Dat is veranderd. Simulatieomgevingen zoals NVIDIA Omniverse kunnen nu jaren aan realistische fysieke oefendata genereren in een weekend, en de combinatie van differentieerbare fysica, massaal parallelle GPU-simulatie en foundation-modellen getraind over duizenden uiteenlopende fysieke vormen heeft wat mogelijk is fundamenteel verschoven. Het knelpunt in de robotica is verschoven \u2014 van de vraag of robots \u00fcberhaupt kunnen leren naar hoe goed aangeleerde policies vertalen naar nieuwe omgevingen. Dat transferprobleem is niet opgelost, maar het is niet langer de muur. De muur is nu fysiek \u2014 productie, inzet en reparatie op schaal."
           },
           {
             type: "p",
@@ -688,7 +688,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Het is verleidelijk te zeggen dat de optimale benadering bij alle drie leent \u2014 de Chinese bereidheid om op schaal in te zetten, de EU-nadruk op expliciete rechtenbescherming, het Amerikaanse contradictoire proces dat mislukkingen in het publieke dossier forceert. Die formulering is onjuist. Dit zijn geen engineeringkeuzes die een staat naar believen kan combineren. Elke benadering is een afgeleide van het politieke systeem dat haar heeft voortgebracht. De Chinese inzetsnelheid hangt af van een politieke cultuur die zichtbaar falen kan absorberen zonder electorale gevolgen. Het EU-rechtenkader steunt op een supranationale rechtsarchitectuur die vijftig jaar in de opbouw heeft gevergd. Het Amerikaanse contradictoire proces rust op een rechtscultuur die is georganiseerd rond civiele disclosure en class actions. U kunt het mechanisme niet transplanteren zonder het substraat."
+            text: "Het is verleidelijk te zeggen dat de optimale benadering bij alle drie leent \u2014 de Chinese bereidheid om op schaal in te zetten, de EU-nadruk op expliciete rechtenbescherming, het Amerikaanse contradictoire proces dat mislukkingen in het publieke dossier forceert. Die formulering is onjuist. Dit zijn geen engineeringkeuzes die een staat naar eigen inzicht kan combineren. Elke benadering is een afgeleide van het politieke systeem dat haar heeft voortgebracht. De Chinese inzetsnelheid hangt af van een politieke cultuur die zichtbaar falen kan absorberen zonder electorale gevolgen. Het EU-rechtenkader steunt op een supranationale rechtsarchitectuur die vijftig jaar in de opbouw heeft gevergd. Het Amerikaanse contradictoire proces rust op een rechtscultuur die is georganiseerd rond civiele disclosure en class actions. U kunt het mechanisme niet transplanteren zonder het substraat."
           },
           {
             type: "p",
@@ -752,7 +752,7 @@ export const translations = {
         id: "act3",
         label: "AKTE III \u2014 De epistemische vloer",
         title: "AKTE III \u2014 De epistemische vloer",
-        subtitle: "Hoe wij leven in de verificatielaag, de dood van probabilistisch vertrouwen, en het leerlingschapsprobleem",
+        subtitle: "Hoe wij leven in de verificatielaag, de dood van probabilistisch vertrouwen, en de crisis in de vakkennisoverdracht",
         content: [
           {
             type: "p",
@@ -818,7 +818,7 @@ export const translations = {
           {
             type: "h3",
             id: "apprenticeship-problem",
-            text: "Afdeling III \u2014 Het leerlingschapsprobleem"
+            text: "Afdeling III \u2014 De crisis in de vakkennisoverdracht"
           },
           {
             type: "p",
