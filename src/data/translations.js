@@ -497,11 +497,11 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De top wordt geherprijsd. Senior salarissen voor AI-geletterde functies zijn met veertig procent gestegen (in de Amerikaanse markt; de Europese premies zijn re\u00ebel, maar doorgaans lager door andere loonstructuren). De schaarse hulpbron is niet langer uitvoering. Het is oordeel: het vermogen om de fouten te opmerken die er kloppend uitzien, de beslissingen te nemen die verantwoording dragen, de relaties op te bouwen die vertrouwen vergen."
+            text: "De top wordt herprijsd. Senior salarissen voor AI-geletterde functies zijn met veertig procent gestegen (in de Amerikaanse markt; de Europese premies zijn re\u00ebel, maar doorgaans lager door andere loonstructuren). Niet uitvoering, maar oordeelsvorming is de nieuwe schaarse hulpbron: het vermogen om de fouten te vangen die op het eerste gezicht feilloos lijken, de beslissingen te nemen die verantwoording dragen, de relaties op te bouwen die vertrouwen vergen."
           },
           {
             type: "p",
-            text: "Drie dingen gebeuren tegelijkertijd: de bodem wordt weggenomen, het midden wordt geabsorbeerd, de top wordt geherprijsd. Het is minder een hervorming van de arbeidsmarkt dan een samendrukking ervan: druk die zich concentreert waar oordeel leeft, en alles wat overblijft dat richting automatisering wordt getrokken."
+            text: "Drie dingen gebeuren tegelijkertijd: de bodem wordt weggenomen, het midden wordt geabsorbeerd, de top wordt herprijsd. Het is minder een hervorming van de arbeidsmarkt dan een samendrukking ervan: druk die zich concentreert waar oordeel leeft, en alles wat overblijft dat richting automatisering wordt getrokken."
           },
           {
             type: "p",
