@@ -45,7 +45,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "A year ago, the expected shape of AI's impact on cognitive work was straightforward. The middle of the job market would hollow out as AI absorbed routine synthesis work. The top would hold because judgment is hard to automate. The bottom would hold because somebody had to feed the machines their prompts. It was a reasonable guess."
+            text: "A few years ago, the expected shape of AI's impact on cognitive work was straightforward. The middle of the job market would hollow out as AI absorbed routine synthesis work. The top would hold because judgment is hard to automate. The bottom would hold because somebody had to feed the machines their prompts. It was a reasonable guess."
           },
           {
             type: "p",
@@ -477,7 +477,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Een jaar geleden was de verwachte vorm van AI's impact op cognitief werk eenvoudig. Het midden van de arbeidsmarkt zou uithollen naarmate AI routinematig synthesewerk absorbeerde. De top zou standhouden, want oordeelsvorming laat zich moeilijk automatiseren. De bodem zou standhouden, want iemand moest de machines van prompts voorzien. Het was een redelijke veronderstelling."
+            text: "Enkele jaren geleden was de verwachte vorm van AI's impact op cognitief werk eenvoudig. Het midden van de arbeidsmarkt zou uithollen naarmate AI routinematig synthesewerk absorbeerde. De top zou standhouden, want oordeelsvorming laat zich moeilijk automatiseren. De bodem zou standhouden, want iemand moest de machines van prompts voorzien. Het was een redelijke veronderstelling."
           },
           {
             type: "p",
