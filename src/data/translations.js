@@ -53,11 +53,11 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The bottom is not holding. It is collapsing. Entry-level developer postings are down 67% since 2022. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Some of this was the end of the cheap-money era that inflated the 2020 hiring boom \u2014 but when capital returned to tech budgets in 2025, junior headcount did not return with it. Big Tech capex rose from roughly $256 billion in 2024 to $427 billion in 2025 and a projected $562 to $700 billion in 2026, while entry-level tech hiring kept contracting across the same period. The money went to compute and to senior engineers. The full data is in the Strategic Brief's \u00a75. The roles that used to be the first rung of the ladder \u2014 the ones that turned graduates into professionals \u2014 are simply being removed."
+            text: "The bottom is not holding. It is collapsing. Entry-level developer postings are down 67% since 2022. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Some of this was the end of the cheap-money era that inflated the 2020 hiring boom \u2014 but when capital returned to tech budgets in 2025, junior headcount did not return with it. Big Tech capex rose from roughly $256 billion in 2024 to $427 billion in 2025 and a projected $562 to $700 billion in 2026. The full data is in the Strategic Brief's \u00a75. The roles that used to be the first rung of the ladder \u2014 the ones that turned graduates into professionals \u2014 are simply being removed."
           },
           {
             type: "p",
-            text: "Salesforce announced zero new engineering hires for 2025 \u2014 taken as a directional signal rather than a literal headcount, since executive announcements carry their own positioning incentives. Block cut its headcount from ten thousand to under six thousand. These are the companies closest to the technology, and they are the first to figure out that a senior engineer with good tooling now does the work of a small team. The rest of the economy is two or three years behind, but moving in the same direction."
+            text: "Salesforce announced zero new engineering hires for 2025. Block cut its headcount from ten thousand to under six thousand. These are the companies closest to the technology, and they are the first to figure out that a senior engineer with good tooling now does the work of a small team. The rest of the economy is two or three years behind, but moving in the same direction."
           },
           {
             type: "p",
@@ -90,20 +90,24 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The picture above assumes a relatively stable ceiling on AI capability \u2014 that today's senior roles are secure because they require the kind of judgment AI cannot yet replicate. That assumption has a half-life. And we know roughly how long that half-life is, because the benchmark data tells us."
+            text: "The picture above assumes a relatively stable ceiling on AI capability \u2014 that today's senior roles are secure because they require the kind of judgment AI cannot yet replicate. That assumption has a half-life."
           },
           {
             type: "p",
-            text: "The {link} documents an eight-month cycle in which AI capability tests get mastered, retired, and replaced with harder ones. ARC-AGI-1 essentially solved. ARC-AGI-2 approaching saturation within twelve months of launch. ARC-AGI-3 launched March 2026 with frontier AI models scoring under 1% \u2014 though a specialized non-LLM approach has already reached 12% in preview, which tells you the benchmark is solvable. The forecast based on the same historical pattern is 30 to 50% scores by end of 2026. The measuring sticks keep breaking because the underlying capability keeps moving.",
+            text: "The {link} documents this directly: three different agent systems running the same base model score between fifty and fifty-five percent on the same contamination-resistant benchmark. Five points of capability difference, from the engineering alone. The capability gains of 2025\u20132026 are coming from the way models are being taught to check their own work, break problems into pieces, and coordinate with other models \u2014 not primarily from the underlying models getting smarter. Building beats choosing a better model.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
-            text: "What this means is not immediately obvious, but it is important. The senior roles that are currently valuable \u2014 the engineers who architect the systems, the analysts who synthesise the data, the managers who direct the AI agents \u2014 are valuable because they sit above the current capability ceiling. They provide the judgment the AI cannot yet provide. But that ceiling is not fixed."
+            text: "The benchmark treadmill is context for this, not the proof of it. AI capability tests get mastered, retired, and replaced with harder ones on roughly an eight-month cycle. ARC-AGI-1 essentially solved. ARC-AGI-2 approaching saturation within twelve months of launch. ARC-AGI-3 launched March 2026 with frontier models scoring under 1%, though a specialized non-LLM approach has already reached 12% in preview. The forecast based on the same historical pattern is 30 to 50% by end of 2026. The underlying capability keeps moving, but the engineering around it moves faster \u2014 and that is where the leverage lives."
           },
           {
             type: "p",
-            text: "What's changing is not mainly the AI models themselves getting smarter. It's the engineering around them \u2014 the ways models are being taught to check their own work, break problems into pieces, and coordinate with other models. That's where the capability gains are coming from now. The Strategic Brief documents this directly: three different agent systems running the same base model score between fifty and fifty-five percent on the same contamination-resistant benchmark. The five-point spread is the engineering, not the model. Which means the senior human role does not disappear when the ceiling rises. It migrates. The valuable work shifts from providing the answers to designing the systems that find the answers, and from executing tasks to orchestrating the machines that execute them."
+            text: "The senior roles that are currently valuable \u2014 the engineers who architect the systems, the analysts who synthesise the data, the managers who direct the AI agents \u2014 are valuable because they sit above the current capability ceiling. They provide the judgment the AI cannot yet provide. But that ceiling is not fixed."
+          },
+          {
+            type: "p",
+            text: "This is also the reason the next decade is a builder's decade, not a chooser's decade. Which means the senior human role does not disappear when the ceiling rises. It migrates. The valuable work shifts from executing tasks to orchestrating the machines that execute them."
           },
           {
             type: "quote",
@@ -152,7 +156,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Survival means moving to the governance, orchestration, and verification layers of both digital and physical systems \u2014 concurrently, not sequentially. The people positioning around system design rather than execution are already pulling ahead."
+            text: "Survival means moving to the governance, orchestration, and verification layers of both digital and physical systems \u2014 concurrently, not sequentially. In practice, that looks like a financial analyst who pivots to designing the verification models that check for synthetic hallucinations; a project manager who shifts to governing agent-swarm workflows; an electrician who focuses on the high-level orchestration of automated grid-updates. The people positioning around system design rather than execution are already pulling ahead."
           },
           {
             type: "p",
@@ -221,15 +225,15 @@ export const translations = {
           },
           {
             type: "p",
-            text: "China has essentially chosen deployment first. Autonomous vehicles operate at scale in multiple major cities. Autonomous and semi-autonomous vehicles have now logged billions of miles on public roads in real conditions, generating volumes of edge-case data that no simulation can fully replicate. The safety record is better than human driving in the specific contexts where these systems are deployed. Not perfect. Better. The iteration cycle is fast because the feedback loop is real. When something goes wrong, the system learns. When something goes right, it gets expanded. The political system tolerates a different level of visible failure than democratic systems tend to, which creates both advantages and risks. The advantage is speed. The risk is that failures which should force policy revision can be absorbed and suppressed rather than corrected."
+            text: "China has essentially chosen deployment first. Autonomous vehicles operate at scale in multiple major cities. Autonomous and semi-autonomous vehicles have now logged billions of miles on public roads in real conditions, generating volumes of edge-case data that no simulation can fully replicate. The safety record is better than human driving in the specific contexts where these systems are deployed. Not perfect. Better. The iteration cycle is fast because the feedback loop is real. When something goes wrong, the system learns. When something goes right, it gets expanded. The political system tolerates a different level of visible failure than democratic systems tend to. That tolerance cuts in both directions: it is what lets the feedback loop operate at the speed it does, and it is also what lets failures be absorbed politically rather than corrected institutionally. The advantage is speed. The risk is that failures which should force policy revision can be suppressed rather than corrected \u2014 a dynamic that prioritises the look of progress over the fact of it."
           },
           {
             type: "p",
-            text: "The European Union has chosen framework first. The EU AI Act is an ambitious attempt to create comprehensive governance before widespread deployment rather than after. The intention is genuinely admirable. The practical effect, in the short term, is that European companies are optimising their engineering cycles for legal conformity rather than operational boundary-testing. They are building systems to pass audits, while competitors build systems to survive contact with reality."
+            text: "The European Union has chosen framework first. The EU AI Act is an ambitious attempt to create comprehensive governance before widespread deployment rather than after. The intention is genuinely admirable. The practical effect, in the short term, is a trade-off: European companies are optimising their engineering cycles for legal conformity while competitors optimise for operational boundary-testing."
           },
           {
             type: "p",
-            text: "But the more important critique is not that it slows innovation; it is one of regulatory permeability. The EU AI Act can regulate compliant enterprises. It cannot repeal the existence of open-weight models. European society will still experience the dangerous intersection failures\u2014via open-source deployments, shadow IT, and foreign-hosted services\u2014but European companies will lack the commercial flexibility to have built comparable systems themselves. They absorb the full societal risk of the disruption without the economic upside of having shaped it."
+            text: "European society will still experience the dangerous intersection failures \u2014 via open-source deployments, shadow IT, and foreign-hosted services \u2014 but European companies will lack the commercial flexibility to have built comparable systems themselves. They absorb the full societal risk of the disruption without the sovereign capacity to shape the technology."
           },
           {
             type: "p",
@@ -237,19 +241,11 @@ export const translations = {
           },
           {
             type: "h3",
-            text: "Why the EU Approach Carries a Risk Most People Are Not Discussing"
+            text: "The Epistemic Critique and the Limits of Hybridisation"
           },
           {
             type: "p",
-            text: "The standard critique of the EU approach is that it slows innovation and creates competitive disadvantage. That is true, but it is the least of its structural problems."
-          },
-          {
-            type: "p",
-            text: "The first and most fatal flaw is sovereignty. The EU is attempting to regulate an infrastructure it does not sovereignly own. If a nation relies entirely on US-based hyperscalers, its regulatory framework is an illusion\u2014it exists at the mercy of foreign boardrooms. You cannot build a \"framework-first\" moat on rented land."
-          },
-          {
-            type: "p",
-            text: "The second critique is epistemic. Regulatory frameworks derive their quality from understanding the thing they regulate. That understanding comes primarily from observing how systems behave in the real world, at scale, under conditions that designers did not anticipate. The EU is attempting to write comprehensive rules for AI systems before those systems have generated the volume of real-world failure data that would make those rules well-calibrated. They will address the failure modes that were imaginable in advance rather than the failure modes that actually manifest at scale."
+            text: "The first and most fatal flaw is sovereignty. The EU is attempting to regulate an infrastructure it does not sovereignly own. If a nation relies entirely on US-based hyperscalers, its regulatory framework is an illusion\u2014it exists at the mercy of foreign boardrooms. You cannot build a \"framework-first\" moat on rented land. Regulatory frameworks derive their quality from understanding the thing they regulate, and that understanding comes primarily from observing how systems behave in the real world, at scale, under conditions that designers did not anticipate. The EU is attempting to write comprehensive rules for AI systems before those systems have generated the volume of real-world failure data that would make those rules well-calibrated. They will address the failure modes that were imaginable in advance rather than the failure modes that actually manifest at scale."
           },
           {
             type: "p",
@@ -282,7 +278,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "There is a structural response to the concentration risks that the current AI landscape generates, and it is not primarily a government response. It is an architectural one."
+            text: "These forces operate at different layers of the stack, and both are real. Concentration operates at the integration layer, where the Action Moat consolidates capital and capability inside incumbent workflows. Decentralisation operates at the capability layer, where open-weight models keep the frontier within reach of anyone who can engineer around them. The structural response to concentration is not primarily a government response; it is architectural, and it runs at the capability layer."
           },
           {
             type: "p",
@@ -373,11 +369,11 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The Analog Gridlock (Near-Term): Before cryptographic solutions become institutionally standard, expect a 36-to-60 month period of brute-force friction. Courts, medical boards, and regulators will respond to the Epistemic Flood with a reversion to physical mandates: wet-ink notarization of any document generated with AI assistance, in-person oral defenses of written submissions, and API-enforced querying where AI systems can only read from certified, closed institutional databases like Westlaw. In some proposed designs, submitting a legal filing or scientific paper will require financial staking \u2014 a bond posted by the submitter, forfeited if an automated auditing system detects hallucinations. Bureaucracies default to physical friction when digital trust breaks down, and the specific mechanisms are already being prototyped."
+            text: "The Analog Gridlock (Near-Term): Bureaucracies default to physical friction when digital trust breaks down. Expect a 36-to-60 month period where courts and regulators respond to the Epistemic Flood with two concrete mechanisms: wet-ink notarization of AI-assisted documents, and financial staking \u2014 a bond posted by the submitter that is forfeited if an automated auditing system detects hallucinations. Both mechanisms reintroduce the human caloric cost that used to throttle adversarial volume."
           },
           {
             type: "p",
-            text: "Institutional Reality: Within formal institutions, society will shift to cryptographic chain-of-custody (Zero-Knowledge Proofs). The focus will no longer be on whether the text sounds true, but whether the digital provenance proves it was generated by a certified human sensor or an authorized model. Truth becomes a function of cryptography, not prose."
+            text: "Institutional Reality: Within formal institutions, society will shift to cryptographic chain-of-custody. The transitional mechanism is API-enforced querying, where AI systems are strictly confined to read from certified, closed institutional databases rather than from the open web. The longer-term mechanism is the Zero-Knowledge Proof. The focus will no longer be on whether the text sounds true, but whether the digital provenance proves it was generated by a certified human sensor or an authorized model. Truth becomes a function of cryptography, not prose."
           },
           {
             type: "p",
@@ -411,17 +407,16 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The compression of cognitive and physical work is not an ending; it is a recalibration. It is forcing a clear choice: compete with the baseline at your peril, or move to the verification layer."
+            text: "The compression of cognitive and physical work is not an ending; it is a recalibration. It opens the largest build window of the next decade, and the work ahead is concrete enough to name."
           },
           {
             type: "p",
-            text: "The messy middle is where we land. The dangerous intersection eventually gets a traffic light. But in the Epistemic Flood, those who wait for the traffic light to be installed before they change their route will be underwater."
+            text: "Junior hires are capital expenditure on the senior judgment that will exist in 2035. Training enclaves are how the Meta-Verifiers of the 2030s get manufactured. The Action Moat is where capital should flow. Together, these are where the verification layer gets built."
           },
           {
             type: "p",
-            className: "mb-12",
-            text: "The infrastructure of the future is being built right now, by those who recognize the central economic reality of the next decade: when the cost of creation collapses to the price of compute, the ability to verify becomes the true limit of scale."
-          }
+            text: "When the cost of creation collapses to the price of compute, the ability to verify becomes the true limit of scale. That is not a warning. It is a map. Train the juniors. Stand up the enclaves. Build the moats. The builders of the next decade are already moving."
+          },
         ]
       }
     ],
@@ -485,11 +480,11 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De bodem houdt niet stand. Hij stort in. Vacatures voor junior ontwikkelaars zijn sinds 2022 met 67% gedaald. Het aandeel van junior wervingen binnen IT-functies is in drie jaar gedaald van 15% naar 7%. Een deel daarvan was het einde van het goedkoop-geldtijdperk dat de aanwervingshausse van 2020 had opgeblazen \u2014 maar toen er in 2025 opnieuw kapitaal naar technologiebudgetten vloeide, keerde de junior headcount niet mee terug. De Capex van de grote technologiebedrijven steeg van ongeveer $256 miljard in 2024 naar $427 miljard in 2025 en een verwachte $562 tot $700 miljard in 2026, terwijl de IT-aanwervingen op instapniveau in dezelfde periode bleven krimpen. Het geld ging naar computekracht en naar senior engineers. De volledige gegevens staan in \u00a75 van de Strategic Brief. De functies die vroeger de eerste tree van de ladder waren \u2014 de functies die pas-afgestudeerden tot professionals omvormden \u2014 worden simpelweg weggenomen."
+            text: "De bodem houdt niet stand. Hij stort in. Vacatures voor junior ontwikkelaars zijn sinds 2022 met 67% gedaald. Het interessante feit is niet de daling zelf \u2014 budgetten krompen over de hele lijn tijdens het ZIRP-tijdperk \u2014 maar dat toen het kapitaal in 2025 terugkeerde, de junior headcount niet mee terugkeerde. Het aandeel van junior wervingen binnen IT-functies is in drie jaar gedaald van 15% naar 7%. De Capex van de grote technologiebedrijven steeg van ongeveer $256 miljard in 2024 naar $427 miljard in 2025 en een verwachte $562 tot $700 miljard in 2026, terwijl de IT-aanwervingen op instapniveau in dezelfde periode bleven krimpen. Het geld ging naar computekracht en naar senior engineers. De volledige gegevens staan in \u00a75 van de Strategic Brief. De functies die vroeger de eerste tree van de ladder waren \u2014 de functies die pas-afgestudeerden tot professionals omvormden \u2014 worden simpelweg weggenomen."
           },
           {
             type: "p",
-            text: "Salesforce kondigde voor 2025 nul nieuwe engineering-aanwervingen aan; dit was eerder op te vatten als een richtinggevend signaal dan als een letterlijke headcount. Block (de Amerikaanse fintech, voorheen Square) snoeide zijn personeelsbestand van tienduizend naar minder dan zesduizend medewerkers. Amerikaanse ondernemingen zoals deze staan het nauwst bij de technologie en zijn de eersten om te doorgronden dat een senior engineer met goede tooling het werk van een klein team verricht. De rest van de economie loopt twee \u00e0 drie jaar achter, maar beweegt in dezelfde richting."
+            text: "Salesforce kondigde voor 2025 nul nieuwe engineering-aanwervingen aan. Block (de Amerikaanse fintech, voorheen Square) snoeide zijn personeelsbestand van tienduizend naar minder dan zesduizend medewerkers. Amerikaanse ondernemingen zoals deze staan het nauwst bij de technologie en zijn de eersten om te doorgronden dat een senior engineer met goede tooling het werk van een klein team verricht. De rest van de economie loopt twee \u00e0 drie jaar achter, maar beweegt in dezelfde richting."
           },
           {
             type: "p",
@@ -522,20 +517,24 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Het beeld hierboven veronderstelt een betrekkelijk stabiel plafond voor AI-capaciteit \u2014 dat de senior rollen van vandaag veilig zijn omdat zij het soort oordeel vereisen dat AI nog niet kan reproduceren. Die veronderstelling heeft een halfwaardetijd. En wij weten ongeveer hoe lang die halfwaardetijd is, want de benchmark-data vertellen ons dat."
+            text: "Het beeld hierboven veronderstelt een betrekkelijk stabiel plafond voor AI-capaciteit \u2014 dat de senior rollen van vandaag veilig zijn omdat zij het soort oordeel vereisen dat AI nog niet kan reproduceren. Die veronderstelling heeft een halfwaardetijd. Maar de belangrijkere vaststelling, degene die dragend is voor alles wat volgt, is dat het verschil tussen verschillende agent-systemen die op hetzelfde basismodel draaien, groter is dan het verschil tussen de basismodellen zelf."
           },
           {
             type: "p",
-            text: "De {link} documenteert een cyclus van acht maanden waarin AI-capaciteitstoetsen worden beheerst, uitgefaseerd en vervangen door moeilijkere. ARC-AGI-1 is in essentie opgelost. ARC-AGI-2 nadert verzadiging binnen twaalf maanden na lancering. ARC-AGI-3 werd in maart 2026 gelanceerd met frontier AI-modellen die lager dan 1% scoren \u2014 hoewel een gespecialiseerde niet-LLM-benadering in preview al 12% heeft bereikt, wat u vertelt dat de benchmark oplosbaar is. De prognose op basis van hetzelfde historische patroon is 30 tot 50% scores tegen eind 2026. De meetlatten blijven breken omdat de onderliggende capaciteit blijft opschuiven.",
+            text: "De {link} documenteert dit rechtstreeks: drie verschillende agent-systemen die op hetzelfde basismodel draaien, scoren tussen de vijftig en vijfenvijftig procent op dezelfde contaminatie-bestendige benchmark. Vijf procentpunten capaciteitsverschil, louter uit de engineering. De capaciteitswinsten van 2025\u20132026 komen voort uit de manier waarop modellen worden geleerd hun eigen werk te controleren, problemen op te splitsen en met andere modellen samen te werken \u2014 en niet in de eerste plaats uit onderliggende modellen die slimmer worden. Bouwen verslaat het kiezen van een beter model.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
-            text: "Wat dit betekent is niet meteen evident, maar het is belangrijk. De senior rollen die op dit moment waardevol zijn \u2014 de engineers die de systemen ontwerpen, de analisten die de gegevens synthetiseren, de managers die de AI-agents aansturen \u2014 zijn waardevol omdat zij boven het huidige capaciteitsplafond zitten. Zij leveren het oordeel dat de AI nog niet kan leveren. Maar dat plafond is niet vast."
+            text: "De benchmark-tredmolen is de context hiervoor, niet het bewijs ervan. AI-capaciteitstoetsen worden beheerst, uitgefaseerd en vervangen door moeilijkere volgens een cyclus van ongeveer acht maanden. ARC-AGI-1 is in essentie opgelost. ARC-AGI-2 nadert verzadiging binnen twaalf maanden na lancering. ARC-AGI-3 werd in maart 2026 gelanceerd met frontier-modellen die lager dan 1% scoren, hoewel een gespecialiseerde niet-LLM-benadering in preview al 12% heeft bereikt. De prognose op basis van hetzelfde historische patroon is 30 tot 50% tegen eind 2026. De onderliggende capaciteit blijft opschuiven, maar de engineering eromheen beweegt sneller \u2014 en d\u00e1\u00e1r leeft de hefboom."
           },
           {
             type: "p",
-            text: "Wat verandert is niet zozeer dat de AI-modellen zelf slimmer worden. Het zijn de engineering eromheen \u2014 de manieren waarop modellen worden geleerd hun eigen werk te controleren, problemen op te splitsen en met andere modellen samen te werken. D\u00e1\u00e1r komen de capaciteitswinsten nu vandaan. De Strategic Brief documenteert dit rechtstreeks: drie verschillende agent-systemen die op hetzelfde basismodel draaien, scoren tussen de vijftig en vijfenvijftig procent op dezelfde contaminatie-bestendige benchmark. Het verschil van vijf procentpunten is de engineering, niet het model. Wat betekent dat de senior menselijke rol niet verdwijnt wanneer het plafond stijgt. Hij verschuift. Het waardevolle werk beweegt van het leveren van de antwoorden naar het ontwerpen van de systemen die de antwoorden vinden, en van het uitvoeren van taken naar het orkestreren van de machines die ze uitvoeren."
+            text: "De senior rollen die op dit moment waardevol zijn \u2014 de engineers die de systemen ontwerpen, de analisten die de gegevens synthetiseren, de managers die de AI-agents aansturen \u2014 zijn waardevol omdat zij boven het huidige capaciteitsplafond zitten. Dat plafond is niet vast, maar de senior menselijke rol verdwijnt niet wanneer het stijgt. Hij verschuift. Het waardevolle werk beweegt van het leveren van de antwoorden naar het ontwerpen van de systemen die de antwoorden vinden, en van het uitvoeren van taken naar het orkestreren van de machines die ze uitvoeren."
+          },
+          {
+            type: "p",
+            text: "Dit is ook de reden waarom het volgende decennium een decennium is van bouwers, niet alleen van overlevers. De systeemlaag \u2014 waar een verschil van vijf procentpunten bestaat tussen teams die op hetzelfde model draaien \u2014 is precies waar een breed professioneel publiek nog kan bijdragen. De meeste mensen met domeinexpertise kunnen zich plausibel bewegen naar systeemontwerp, verificatie en orkestratie; de slotgracht is engineering-oordeel, niet toegang tot een beter model."
           },
           {
             type: "quote",
@@ -584,7 +583,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Overleven betekent zich gelijktijdig \u2014 niet opeenvolgend \u2014 bewegen naar de bestuurs-, orkestratie- en verificatielagen van zowel digitale als fysieke systemen. De mensen die zich positioneren rond systeemontwerp in plaats van uitvoering, lopen reeds voor."
+            text: "Overleven betekent zich gelijktijdig \u2014 niet opeenvolgend \u2014 bewegen naar de bestuurs-, orkestratie- en verificatielagen van zowel digitale als fysieke systemen. In de praktijk ziet dit eruit als een financieel analist die stopt met het bouwen van het model en begint met het ontwerpen van de controles op de AI die het produceert; een projectmanager die stopt met het co\u00f6rdineren van statusupdates en begint met het bepalen van de betrouwbaarheidsdrempels waaraan agents moeten voldoen voordat hun output de klant bereikt; een elektricien die de installaties begint te certificeren die robotsystemen later zullen onderhouden. De mensen die zich positioneren rond systeemontwerp in plaats van uitvoering, lopen reeds voor."
           },
           {
             type: "p",
@@ -652,15 +651,15 @@ export const translations = {
           },
           {
             type: "p",
-            text: "China heeft in wezen gekozen voor \"eerst inzetten\". Autonome voertuigen rijden op grote schaal in verschillende grote steden. Autonome en semi-autonome voertuigen hebben inmiddels miljarden kilometers afgelegd op openbare wegen onder re\u00eble omstandigheden, en genereren daarbij volumes aan edge case-gegevens die geen enkele simulatie volledig kan nabootsen. De veiligheidsbalans is beter dan het rijgedrag van mensen in de specifieke contexten waarin deze systemen zijn ingezet. Niet perfect. Beter. De iteratiecyclus is snel omdat de feedbacklus re\u00ebel is. Wanneer er iets fout gaat, leert het systeem. Wanneer er iets goed gaat, wordt het uitgebreid. Het politieke systeem tolereert een ander niveau van zichtbaar falen dan democratische systemen doorgaans verdragen, wat zowel voordelen als risico's cre\u00ebert. Het voordeel is snelheid. Het risico is dat mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden opgevangen en onderdrukt in plaats van gecorrigeerd."
+            text: "China heeft in wezen gekozen voor \"eerst inzetten\". Het voordeel is iteratiesnelheid; het risico, dat het waard is meteen te benoemen, is dat mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden opgevangen en onderdrukt in plaats van gecorrigeerd. Autonome voertuigen rijden op grote schaal in verschillende grote steden. Autonome en semi-autonome voertuigen hebben inmiddels miljarden kilometers afgelegd op openbare wegen onder re\u00eble omstandigheden, en genereren daarbij volumes aan edge case-gegevens die geen enkele simulatie volledig kan nabootsen. De veiligheidsbalans is beter dan het rijgedrag van mensen in de specifieke contexten waarin deze systemen zijn ingezet. Niet perfect. Beter. Wanneer de feedbacklus zich kan sluiten, leert het systeem; wanneer er iets goed gaat, wordt het uitgebreid. Het politieke systeem tolereert een ander niveau van zichtbaar falen dan democratische systemen doorgaans verdragen. Die tolerantie snijdt in twee richtingen: zij is wat de feedbacklus op deze snelheid laat werken, en zij is ook wat mislukkingen politiek doet absorberen in plaats van institutioneel corrigeren. Het voordeel is snelheid. Het risico is dat mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden opgevangen en onderdrukt in plaats van gecorrigeerd \u2014 een dynamiek die prioriteit geeft aan de schijn van vooruitgang boven het feit ervan."
           },
           {
             type: "p",
-            text: "De Europese Unie heeft gekozen voor \"eerst kader\", de omgeving waarin Belgische en Nederlandse bedrijven nu opereren. De EU AI Act is een ambitieuze poging om een omvattend bestuur te cre\u00ebren v\u00f3\u00f3r brede inzet in plaats van erna. De intentie is werkelijk bewonderenswaardig. Het praktische effect op korte termijn is dat Europese ondernemingen hun engineering-cycli optimaliseren voor juridische conformiteit in plaats van operationele grenstoetsing. Zij bouwen systemen om audits te doorstaan, terwijl hun concurrenten systemen bouwen die contact met de werkelijkheid kunnen doorstaan."
+            text: "De Europese Unie heeft gekozen voor \"eerst kader\", de omgeving waarin Belgische en Nederlandse bedrijven nu opereren, en haar meest fundamentele kwetsbaarheid is soevereiniteit. De EU poogt een infrastructuur te reguleren die ze niet bezit. Als een regio volledig afhankelijk is van in de VS gevestigde hyperscalers voor de compute waarop de AI draait die zij reguleert, is haar regelgevingskader een illusie \u2014 het bestaat bij de gratie van buitenlandse bestuurskamers. U kunt geen \"kader-eerst\"-bolwerk bouwen op gehuurde grond. De EU AI Act is een ambitieuze poging om een omvattend bestuur te cre\u00ebren v\u00f3\u00f3r brede inzet in plaats van erna, en de intentie is werkelijk bewonderenswaardig. Het praktische effect op korte termijn is dat Europese ondernemingen hun engineering-cycli optimaliseren voor juridische conformiteit in plaats van operationele grenstoetsing \u2014 zij bouwen systemen om audits te doorstaan, terwijl hun concurrenten systemen bouwen die contact met de werkelijkheid kunnen doorstaan."
           },
           {
             type: "p",
-            text: "Maar de belangrijkere kritiek is niet dat die innovatie afremt; die betreft de doorlaatbaarheid van regelgeving. De EU AI Act kan conforme ondernemingen reguleren. Ze kan het bestaan van open-weight-modellen niet ongedaan maken. De Europese samenleving zal nog steeds de \"gevaarlijke kruispunt\"-mislukkingen ervaren \u2014 via open-source-inzet, schaduw-IT en buitenlands gehoste diensten \u2014 maar Europese ondernemingen zullen de commerci\u00eble flexibiliteit missen om vergelijkbare systemen zelf te hebben gebouwd. Zij absorberen het volledige maatschappelijke risico van de ontwrichting zonder het economische voordeel van vormgeving."
+            text: "Het doorlaatbaarheidsprobleem verergert het soevereiniteitsprobleem. De EU AI Act kan conforme ondernemingen reguleren. Ze kan het bestaan van open-weight-modellen niet ongedaan maken. De Europese samenleving zal nog steeds de \"gevaarlijke kruispunt\"-mislukkingen ervaren \u2014 via open-source-inzet, schaduw-IT en buitenlands gehoste diensten \u2014 maar Europese ondernemingen zullen de commerci\u00eble flexibiliteit missen om vergelijkbare systemen zelf te hebben gebouwd. Zij absorberen het volledige maatschappelijke risico van de ontwrichting zonder het economische voordeel van vormgeving."
           },
           {
             type: "p",
@@ -668,19 +667,11 @@ export const translations = {
           },
           {
             type: "h3",
-            text: "Waarom de EU-benadering een risico draagt dat de meeste mensen niet bespreken"
+            text: "De epistemische kritiek en de grenzen van hybridisering"
           },
           {
             type: "p",
-            text: "De standaardkritiek op de EU-benadering is dat zij innovatie afremt en een concurrentienadeel cre\u00ebert. Dat is waar, maar het is het kleinste van haar structurele problemen."
-          },
-          {
-            type: "p",
-            text: "De eerste en meest fatale zwakte is soevereiniteit. De EU poogt een infrastructuur te reguleren die ze niet soeverein bezit. Als een natie volledig afhankelijk is van in de VS gevestigde hyperscalers, is haar regelgevingskader een illusie \u2014 het bestaat bij de gratie van buitenlandse bestuurskamers. U kunt geen \"kader-eerst\"-bolwerk bouwen op gehuurde grond."
-          },
-          {
-            type: "p",
-            text: "De tweede kritiek is epistemisch. Regelgevingskaders ontlenen hun kwaliteit aan het begrip van wat ze reguleren. Dat begrip komt voornamelijk voort uit het observeren hoe systemen zich in de echte wereld gedragen, op grote schaal, onder omstandigheden die hun ontwerpers niet hadden voorzien. De EU tracht uitvoerige regels te schrijven voor AI-systemen vooraleer die systemen de omvang aan real-world faalgegevens hebben gegenereerd die deze regels goed geijkt zou maken. Ze zullen de faalwijzen behandelen die op voorhand denkbaar waren, in plaats van de faalwijzen die zich daadwerkelijk op schaal manifesteren."
+            text: "Soevereiniteit is het structurele probleem. Het epistemische probleem komt er bovenop. Regelgevingskaders ontlenen hun kwaliteit aan het begrip van wat ze reguleren, en dat begrip komt voornamelijk voort uit het observeren hoe systemen zich in de echte wereld gedragen, op grote schaal, onder omstandigheden die hun ontwerpers niet hadden voorzien. De EU tracht uitvoerige regels te schrijven voor AI-systemen vooraleer die systemen de omvang aan real-world faalgegevens hebben gegenereerd die deze regels goed geijkt zou maken. Ze zal de faalwijzen behandelen die op voorhand denkbaar waren, in plaats van de faalwijzen die zich daadwerkelijk op schaal manifesteren."
           },
           {
             type: "p",
@@ -713,7 +704,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Er bestaat een structureel antwoord op de concentratierisico's die het huidige AI-landschap genereert, en het is niet in de eerste plaats een overheidsreactie. Het is een architecturaal antwoord."
+            text: "Deze krachten opereren op verschillende lagen van de stack, en beide zijn re\u00ebel. Concentratie opereert op de integratielaag, waar de Action Moat kapitaal en capaciteit consolideert binnen bestaande workflows van gevestigde spelers. Decentralisatie opereert op de capaciteitslaag, waar open-weight-modellen de frontier binnen bereik houden van ieder die erin slaagt eromheen te engineeren. Het structurele antwoord op concentratie is niet in de eerste plaats een overheidsreactie; het is architecturaal, en het loopt op de capaciteitslaag."
           },
           {
             type: "p",
@@ -804,11 +795,11 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De Analoge Blokkade (nabije toekomst): Voordat cryptografische oplossingen institutioneel standaard worden, valt een periode van 36 tot 60 maanden aan brute frictie te verwachten. Rechtbanken, medische raden en regelgevers zullen op de Epistemische Vloed reageren met een terugkeer naar fysieke mandaten: natte handtekening-notarisatie van elk document gegenereerd met AI-ondersteuning, persoonlijke mondelinge verdediging van schriftelijke stukken, en door API's afgedwongen bevraging waarbij AI-systemen alleen kunnen lezen uit gecertificeerde juridische databanken zoals Jura, Stradalex of Kluwer Navigator. In sommige voorgestelde ontwerpen zal het indienen van een juridisch dossier of wetenschappelijk artikel een financi\u00eble borg vereisen, een inzet door de indiener, die verbeurd wordt verklaard als een geautomatiseerd auditsysteem hallucinaties vaststelt. Bureaucratie\u00ebn vallen terug op fysieke frictie wanneer digitaal vertrouwen wegvalt, en de specifieke mechanismen worden al geprototypeerd."
+            text: "De Analoge Blokkade (nabije toekomst): Bureaucratie\u00ebn vallen terug op fysieke frictie wanneer digitaal vertrouwen wegvalt. Verwacht een periode van 36 tot 60 maanden waarin rechtbanken en regelgevers op de Epistemische Vloed zullen reageren met twee concrete mechanismen: natte-handtekening-notarisatie van AI-ondersteunde documenten, en financi\u00eble inzet \u2014 een borg die de indiener plaatst en die verbeurd wordt verklaard wanneer een geautomatiseerd auditsysteem hallucinaties vaststelt. Beide mechanismen herintroduceren de menselijke calorische kost die adversariaal volume vroeger afremde."
           },
           {
             type: "p",
-            text: "Institutionele realiteit: Binnen formele instellingen zal de samenleving overstappen op cryptografische keten van bewaring (Zero-Knowledge Proofs). De focus zal niet langer liggen op of de tekst waar klinkt, maar op of de digitale herkomst bewijst dat hij werd gegenereerd door een gecertificeerde menselijke sensor of een geautoriseerd model. Waarheid wordt een functie van cryptografie, niet van proza."
+            text: "Institutionele realiteit: Binnen formele instellingen zal de samenleving overstappen op cryptografische keten van bewaring. Het overgangsmechanisme is door API's afgedwongen bevraging, waarbij AI-systemen strikt worden beperkt tot het lezen uit gecertificeerde, gesloten institutionele databanken zoals Jura, Stradalex of Kluwer Navigator \u2014 in plaats van uit het open web. Het langere-termijnmechanisme is de Zero-Knowledge Proof. De focus zal niet langer liggen op of de tekst waar klinkt, maar op of de digitale herkomst bewijst dat hij werd gegenereerd door een gecertificeerde menselijke sensor of een geautoriseerd model. Waarheid wordt een functie van cryptografie, niet van proza."
           },
           {
             type: "p",
@@ -842,17 +833,16 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De samendrukking van cognitief en fysiek werk is geen einde; het is een herijking. Het dwingt tot een heldere keuze: concurreer met de basislijn op uw risico, of verplaats u naar de verificatielaag."
+            text: "De samendrukking van cognitief en fysiek werk is geen einde; het is een herijking. Zij opent het grootste bouwvenster van het volgende decennium, en het werk dat voor ons ligt is concreet genoeg om bij naam te noemen."
           },
           {
             type: "p",
-            text: "Het rommelige midden is waar wij landen. Het gevaarlijke kruispunt krijgt uiteindelijk een verkeerslicht. Maar in de Epistemische Vloed zullen zij die wachten tot het verkeerslicht ge\u00efnstalleerd is voordat zij hun route aanpassen, onder water staan."
+            text: "Junior aanwervingen zijn kapitaaluitgave voor het senior oordeel dat in 2035 zal bestaan. Trainingsenclaves zijn hoe de Meta-Verificateurs van de jaren 2030 worden gevormd. De Action Moat is waar kapitaal naartoe moet. Samen is dit waar de verificatielaag wordt gebouwd."
           },
           {
             type: "p",
-            className: "mb-12",
-            text: "De infrastructuur van de toekomst wordt nu gebouwd, door degenen die de centrale economische realiteit van het volgende decennium erkennen: wanneer de kostprijs van creatie inzakt tot de prijs van compute, wordt het vermogen tot verificeren de ware grens van schaal."
-          }
+            text: "Wanneer de kostprijs van creatie inzakt tot de prijs van compute, wordt het vermogen tot verificeren de ware grens van schaal. Dat is geen waarschuwing. Het is een kaart. Leid de juniors op. Bouw de enclaves. Bouw de Action Moats. De bouwers van het volgende decennium zijn al in beweging."
+          },
         ]
       }
     ],
