@@ -460,11 +460,11 @@ export const translations = {
         id: "act1",
         label: "AKTE I \u2014 De twee knelpunten",
         title: "AKTE I \u2014 De twee knelpunten",
-        subtitle: "Hoe cognitief werk als eerste wordt samengedrukt, fysiek werk als volgende, en waarom de kloof ertussen kleiner is dan zij lijkt",
+        subtitle: "Hoe cognitief werk als eerste wordt samengedrukt, fysiek werk als volgende, en waarom de kloof ertussen kleiner is dan ze lijkt",
         content: [
           {
             type: "p",
-            text: "Er komt in elke grote economische transitie een moment waarop de mensen die haar doormaken wel kunnen zien wat er aankomt, maar de omvang ervan niet werkelijk kunnen bevatten. Fabrieksarbeiders in 1910 konden de lopende band zien aankomen. Zetters in 1980 zagen de desktopcomputer. Zij hadden geen ongelijk om zich aan te passen. Zij hadden ongelijk over hoe snel en hoe volledig die aanpassing zou moeten gebeuren."
+            text: "Er komt in elke grote economische transitie een moment waarop de mensen die de transitie doormaken wel kunnen zien wat er aankomt, maar de omvang ervan niet werkelijk kunnen bevatten. Fabrieksarbeiders in 1910 konden de lopende band zien aankomen. Zetters in 1980 zagen de desktopcomputer. Zij hadden geen ongelijk om zich aan te passen. Zij hadden ongelijk over hoe snel en hoe volledig die aanpassing zou moeten gebeuren."
           },
           {
             type: "p",
@@ -539,7 +539,7 @@ export const translations = {
           },
           {
             type: "quote",
-            text: "De premie op menselijk oordeel is re\u00ebel. Haar aard verschuift."
+            text: "De premie op menselijk oordeel is re\u00ebel. De aard ervan verschuift."
           },
           {
             type: "p",
@@ -572,7 +572,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De fysieke druk zal dus niet overal tegelijk arriveren. Hij zal als eerste arriveren waar de omgeving gecontroleerd is en de verzekeringswiskunde klopt. Magazijnen. Logistieke knooppunten. Industri\u00eble zones. Niet omdat robots een stoep niet aankunnen, maar omdat verzekeraars een gecontroleerd magazijn wel kunnen prijzen en een openbare straat nog niet."
+            text: "De fysieke druk zal dus niet overal tegelijk arriveren. Die zal als eerste arriveren waar de omgeving gecontroleerd is en de verzekeringswiskunde klopt. Magazijnen. Logistieke knooppunten. Industri\u00eble zones. Niet omdat robots een stoep niet aankunnen, maar omdat verzekeraars een gecontroleerd magazijn wel kunnen prijzen en een openbare straat nog niet."
           },
           {
             type: "p",
@@ -660,7 +660,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Maar de belangrijkere kritiek is niet dat de EU AI Act innovatie afremt; zij betreft de doorlaatbaarheid van regelgeving. De EU AI Act kan conforme ondernemingen reguleren. Zij kan het bestaan van open-weight-modellen niet ongedaan maken. De Europese samenleving zal nog steeds de \"gevaarlijke kruispunt\"-mislukkingen ervaren \u2014 via open-source-inzet, schaduw-IT en buitenlands gehoste diensten \u2014 maar Europese ondernemingen zullen de commerci\u00eble flexibiliteit missen om vergelijkbare systemen zelf te hebben gebouwd. Zij absorberen het volledige maatschappelijke risico van de ontwrichting zonder het economische voordeel van vormgeving."
+            text: "Maar de belangrijkere kritiek is niet dat die innovatie afremt; die betreft de doorlaatbaarheid van regelgeving. De EU AI Act kan conforme ondernemingen reguleren. Ze kan het bestaan van open-weight-modellen niet ongedaan maken. De Europese samenleving zal nog steeds de \"gevaarlijke kruispunt\"-mislukkingen ervaren \u2014 via open-source-inzet, schaduw-IT en buitenlands gehoste diensten \u2014 maar Europese ondernemingen zullen de commerci\u00eble flexibiliteit missen om vergelijkbare systemen zelf te hebben gebouwd. Zij absorberen het volledige maatschappelijke risico van de ontwrichting zonder het economische voordeel van vormgeving."
           },
           {
             type: "p",
@@ -676,15 +676,15 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De eerste en meest fatale zwakte is soevereiniteit. De EU poogt een infrastructuur te reguleren die zij niet soeverein bezit. Als een natie volledig afhankelijk is van in de VS gevestigde hyperscalers, is haar regelgevingskader een illusie \u2014 het bestaat bij de gratie van buitenlandse bestuurskamers. U kunt geen \"kader-eerst\"-bolwerk bouwen op gehuurde grond."
+            text: "De eerste en meest fatale zwakte is soevereiniteit. De EU poogt een infrastructuur te reguleren die ze niet soeverein bezit. Als een natie volledig afhankelijk is van in de VS gevestigde hyperscalers, is haar regelgevingskader een illusie \u2014 het bestaat bij de gratie van buitenlandse bestuurskamers. U kunt geen \"kader-eerst\"-bolwerk bouwen op gehuurde grond."
           },
           {
             type: "p",
-            text: "De tweede kritiek is epistemisch. Regelgevingskaders ontlenen hun kwaliteit aan het begrip van wat zij reguleren. Dat begrip komt voornamelijk voort uit het observeren hoe systemen zich in de echte wereld gedragen, op grote schaal, onder omstandigheden die hun ontwerpers niet hadden voorzien. De EU tracht uitvoerige regels te schrijven voor AI-systemen vooraleer die systemen de omvang aan real-world faalgegevens hebben gegenereerd die deze regels goed geijkt zou maken. Zij zullen de faalwijzen behandelen die op voorhand denkbaar waren, in plaats van de faalwijzen die zich daadwerkelijk op schaal manifesteren."
+            text: "De tweede kritiek is epistemisch. Regelgevingskaders ontlenen hun kwaliteit aan het begrip van wat ze reguleren. Dat begrip komt voornamelijk voort uit het observeren hoe systemen zich in de echte wereld gedragen, op grote schaal, onder omstandigheden die hun ontwerpers niet hadden voorzien. De EU tracht uitvoerige regels te schrijven voor AI-systemen vooraleer die systemen de omvang aan real-world faalgegevens hebben gegenereerd die deze regels goed geijkt zou maken. Ze zullen de faalwijzen behandelen die op voorhand denkbaar waren, in plaats van de faalwijzen die zich daadwerkelijk op schaal manifesteren."
           },
           {
             type: "p",
-            text: "De Chinese benadering heeft een ander risicoprofiel. Inzet op grote schaal genereert de juiste gegevens, maar de verhouding van het politieke systeem tot die gegevens is ingewikkeld. Mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden beheerd in plaats van gecorrigeerd. De iteratiecyclus is snel wanneer falen wordt erkend en waarop wordt gehandeld. Zij loopt vast wanneer falen politiek ongelegen wordt."
+            text: "De Chinese benadering heeft een ander risicoprofiel. Inzet op grote schaal genereert de juiste gegevens, maar de verhouding van het politieke systeem tot die gegevens is ingewikkeld. Mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden beheerd in plaats van gecorrigeerd. De iteratiecyclus is snel wanneer falen wordt erkend en waarop wordt gehandeld. Ze loopt vast wanneer falen politiek ongelegen wordt."
           },
           {
             type: "p",
@@ -756,7 +756,7 @@ export const translations = {
         content: [
           {
             type: "p",
-            text: "Wanneer er een economische transitie plaatsvindt, verandert zij niet alleen wat mensen doen om brood op de plank te brengen. Zij verandert wat de samenleving impliciet vertrouwt, wat zij bestraft, en hoe zij menselijke waarde definieert. De samendrukking van werk en de drie regelgevende experimenten zijn de mechanica van deze transitie. Akte III gaat over de werkelijkheid van het leven erbinnen."
+            text: "Wanneer er een economische transitie plaatsvindt, verandert ze niet alleen wat mensen doen om brood op de plank te brengen. Ze verandert wat de samenleving impliciet vertrouwt, wat ze bestraft, en hoe ze menselijke waarde definieert. De samendrukking van werk en de drie regelgevende experimenten zijn de mechanica van deze transitie. Akte III gaat over de werkelijkheid van het leven erbinnen."
           },
           {
             type: "h3",
