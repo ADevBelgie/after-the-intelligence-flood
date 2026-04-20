@@ -8,7 +8,7 @@ const DiscoveryCallout = () => {
   const t = translations[language].hero;
 
   return (
-    <div className="flex justify-center mb-12">
+    <div className="flex flex-col items-center gap-3 mb-12">
       <a 
         href="https://ai-strategic-report-april-2026.vercel.app"
         target="_blank"
@@ -18,6 +18,15 @@ const DiscoveryCallout = () => {
         <span>{t.discovery_cta}</span>
         <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
       </a>
+      
+      {t.sources_cta && (
+        <a 
+          href="#sources"
+          className="text-xs font-bold text-slate-500 hover:text-indigo-400 transition-colors uppercase tracking-[0.2em] animate-in fade-in slide-in-from-top-2 duration-1000 delay-300"
+        >
+          {t.sources_cta}
+        </a>
+      )}
     </div>
   );
 };

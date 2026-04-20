@@ -21,7 +21,8 @@ export const translations = {
       read_time: "~20 min read",
       intro_quote: "This piece is not a data report. It is an argument about where AI takes the economy, institutions, and societies over the next decade. References to data come from the {link}. Where this piece speculates, it says so. Opinions are our own.",
       link_text: "April 2026 Strategic Brief",
-      discovery_cta: "Want the data behind this essay? Read the 2026 Strategic Report"
+      discovery_cta: "Want the data behind this essay? Read the 2026 Strategic Report",
+      sources_cta: "Sources \u2192"
     },
     acts: [
       {
@@ -53,7 +54,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The bottom is not holding. It is collapsing. Entry-level developer postings are down 67% since 2022. Junior hiring's share of IT roles has fallen from 15% to 7% in three years. Some of this was the end of the cheap-money era that inflated the 2020 hiring boom \u2014 but when capital returned to tech budgets in 2025, junior headcount did not return with it. Big Tech capex rose from roughly $256 billion in 2024 to $427 billion in 2025 and a projected $562 to $700 billion in 2026. The full data is in the Strategic Brief's \u00a75. The roles that used to be the first rung of the ladder \u2014 the ones that turned graduates into professionals \u2014 are simply being removed."
+            text: "The bottom is not holding. It is collapsing. Entry-level developer employment for workers aged 22\u201325 has fallen roughly 20% from its late-2022 peak (Stanford Digital Economy Lab). Broader industry trackers show postings down around 67% since 2022. Junior hiring's share of IT roles has fallen from 15% to 7% over the same period, per industry trackers. Some of this was the end of the cheap-money era that inflated the 2020 hiring boom \u2014 but when capital returned to tech budgets in 2025, junior headcount did not return with it. Big Tech capex rose from roughly $256 billion in 2024 to $427 billion in 2025 and a projected $562 to $700 billion in 2026. The full data is in the Strategic Brief's \u00a75. The roles that used to be the first rung of the ladder \u2014 the ones that turned graduates into professionals \u2014 are simply being removed."
           },
           {
             type: "p",
@@ -73,11 +74,15 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The Klarna case is worth sitting with. Klarna replaced most of its customer service team with AI, announced the savings publicly, and within two years was quietly rehiring. The lesson is not that AI cannot do customer service \u2014 in measurable ways, it can. The lesson is that trust, context, and institutional memory were the product all along. Response time and cost-per-ticket were how Klarna measured the work, not what the work actually was. Harvard research across sixty-two million workers and 285,000 firms has since named the broader pattern \"seniority-biased technological change\" \u2014 the value of accumulated judgment rising precisely as the entry-level work that used to build it is automated away."
+            text: "The Klarna case is worth sitting with. Klarna replaced most of its customer service team with AI \u2014 the workforce went from 5,500 to 3,400, and the company publicly celebrated roughly $10M in annualised savings \u2014 and within two years was quietly rehiring. The lesson is not that AI cannot do customer service \u2014 in measurable ways, it can. The lesson is that trust, context, and institutional memory were the product all along. Response time and cost-per-ticket were how Klarna measured the work, not what the work actually was. A Harvard working paper (Hosseini Maasoum & Lichtinger, August 2025) tracking 62 million workers across 285,000 firms finds that AI-adopting firms show junior employment declining roughly 8% within six quarters relative to non-adopters, while senior employment holds steady \u2014 a pattern the authors call \"seniority-biased technological change.\""
           },
           {
             type: "p",
             text: "The companies navigating this well are the ones that figured out which parts of their operations are genuinely routine and automated those parts hard, while keeping and elevating the people doing the judgment work. The companies that treated AI as a headcount line item are the ones now doing the expensive rehiring."
+          },
+          {
+            type: "p",
+            text: "A fair objection: AI-linked layoffs have become a convenient story for cuts driven by other forces \u2014 the end of cheap money, pandemic overstaffing, tax accounting changes. Several tech CEOs have said as much. Those forces are real. But the specific patterns \u2014 junior roles falling while senior roles don't, AI-adopting firms diverging from non-adopters in the same industry \u2014 are harder to explain without AI as a causal factor, not just a cover story."
           },
           {
             type: "p",
@@ -94,12 +99,12 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The {link} documents this directly: three different agent systems running the same base model score between fifty and fifty-five percent on the same contamination-resistant benchmark. Five points of capability difference, from the engineering alone. The capability gains of 2025\u20132026 are coming from the way models are being taught to check their own work, break problems into pieces, and coordinate with other models \u2014 not primarily from the underlying models getting smarter. Building beats choosing a better model.",
+            text: "The {link} documents this directly: three different agent systems \u2014 Auggie, Cursor, and Claude Code \u2014 running the same base model score between fifty and fifty-five percent on the same contamination-resistant benchmark (SWE-bench Pro, Scale AI SEAL leaderboard, February 2026). Five points of capability difference, from the engineering alone. The capability gains of 2025\u20132026 are coming from the way models are being taught to check their own work, break problems into pieces, and coordinate with other models \u2014 not primarily from the underlying models getting smarter. Building beats choosing a better model.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
-            text: "The benchmark treadmill is context for this, not the proof of it. AI capability tests get mastered, retired, and replaced with harder ones on roughly an eight-month cycle. ARC-AGI-1 essentially solved. ARC-AGI-2 approaching saturation within twelve months of launch. ARC-AGI-3 launched March 2026 with frontier models scoring under 1%, though a specialized non-LLM approach has already reached 12% in preview. The forecast based on the same historical pattern is 30 to 50% by end of 2026. The underlying capability keeps moving, but the engineering around it moves faster \u2014 and that is where the leverage lives."
+            text: "The benchmark treadmill is context for this, not the proof of it. AI capability tests get mastered, retired, and replaced with harder ones on roughly an eight-month cycle. ARC-AGI-1 essentially solved. ARC-AGI-2 approaching saturation within twelve months of launch. ARC-AGI-3 launched March 2026 with frontier models scoring under 1%, though a specialized non-LLM approach has already reached 12% in preview. Notably, the 12% came from a specialized CNN and reinforcement-learning approach, not a frontier LLM \u2014 which tells you the benchmark is solvable but also that it may be solved by architectures orthogonal to the transformer scaling that dominated 2022\u20132025. A projection based on the benchmark's eight-month half-life pattern puts it at 30 to 50% by end of 2026. The underlying capability keeps moving, but the engineering around it moves faster \u2014 and that is where the leverage lives."
           },
           {
             type: "p",
@@ -128,7 +133,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Until recently, robots were stuck behind a simple problem: you could train a language model on the entire internet, but you couldn't train a robot on the entire physical world. That has changed. Simulation environments like NVIDIA Omniverse can now generate years of realistic physical practice data in a weekend, and the combination of differentiable physics, massively parallel GPU simulation, and foundation models trained across thousands of embodiments has fundamentally shifted what's possible. The bottleneck in robotics has moved \u2014 from whether robots can learn at all to how well learned policies transfer to novel environments. That transfer problem is not solved, but it is no longer the wall. The wall is now physical \u2014 manufacturing, deployment, and repair at scale."
+            text: "Until recently, robots were stuck behind a simple problem: you could train a language model on the entire internet, but you couldn't train a robot on the entire physical world. That has changed. Simulation environments can now generate realistic physical practice data at scale, and the combination of differentiable physics, massively parallel GPU simulation, and foundation models trained across thousands of embodiments has fundamentally shifted what's possible. The bottleneck in robotics has moved \u2014 from whether robots can learn at all to how well learned policies transfer to novel environments. That transfer problem is not solved, but it is no longer the wall. The wall is now physical \u2014 manufacturing, deployment, and repair at scale."
           },
           {
             type: "p",
@@ -198,12 +203,12 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The {link} documents where reliability currently stands. Without proper system design, AI confidently produces wrong answers more than 10% of the time on standard tasks. Legal AI fails at rates of 69 to 88% on specific legal queries without mitigation. Medical AI, without the right architecture, hallucinates at rates that would be immediately disqualifying if applied to a human doctor.",
+            text: "The {link} documents where reliability currently stands. Without proper system design, AI confidently produces wrong answers more than 10% of the time on standard tasks. Legal AI fails at rates of 69 to 88% on specific legal queries without mitigation, per Stanford RegLab research. Medical AI, without the right architecture, hallucinates at rates that would be immediately disqualifying if applied to a human doctor.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
-            text: "With well-engineered systems, those numbers fall dramatically. Multi-agent verification brings enterprise error rates below 2%. Self-reflective architectures get clinical hallucination down to under 6%. The reliability problem is largely a systems engineering problem, not a fundamental AI limitation. That is the optimistic read, and the data supports it for structured, bounded tasks in controlled environments."
+            text: "With well-engineered systems, those numbers fall dramatically. Multi-agent verification brings enterprise error rates dramatically lower. Self-reflective architecture \u2014 SELF-RAG in particular \u2014 bring clinical hallucination under 6%, per a peer-reviewed clinical RAG evaluation in MDPI Electronics (October 2025). The reliability problem is largely a systems engineering problem, not a fundamental AI limitation. That is the optimistic read, and the data supports it for structured, bounded tasks in controlled environments."
           },
           {
             type: "p",
@@ -225,7 +230,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "China has essentially chosen deployment first. Autonomous vehicles operate at scale in multiple major cities. Autonomous and semi-autonomous vehicles have now logged billions of miles on public roads in real conditions, generating volumes of edge-case data that no simulation can fully replicate. The safety record is better than human driving in the specific contexts where these systems are deployed. Not perfect. Better. The iteration cycle is fast because the feedback loop is real. When something goes wrong, the system learns. When something goes right, it gets expanded. The political system tolerates a different level of visible failure than democratic systems tend to. That tolerance cuts in both directions: it is what lets the feedback loop operate at the speed it does, and it is also what lets failures be absorbed politically rather than corrected institutionally. The advantage is speed. The risk is that failures which should force policy revision can be suppressed rather than corrected \u2014 a dynamic that prioritises the look of progress over the fact of it."
+            text: "China has essentially chosen deployment first. Autonomous vehicles operate at scale in multiple major cities. Autonomous and semi-autonomous vehicles \u2014 Waymo, Apollo Go, and other operators combined \u2014 have now logged billions of miles on public roads in real conditions, generating volumes of edge-case data that no simulation can fully replicate. The safety record, based on operator-reported data, is better than human driving in the specific contexts where these systems are deployed. Not perfect. Better. The iteration cycle is fast because the feedback loop is real. When something goes wrong, the system learns. When something goes right, it gets expanded. The political system tolerates a different level of visible failure than democratic systems tend to. That tolerance cuts in both directions: it is what lets the feedback loop operate at the speed it does, and it is also what lets failures be absorbed politically rather than corrected institutionally. The advantage is speed. The risk is that failures which should force policy revision can be suppressed rather than corrected \u2014 a dynamic that prioritises the look of progress over the fact of it."
           },
           {
             type: "p",
@@ -278,7 +283,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "These forces operate at different layers of the stack, and both are real. Concentration operates at the integration layer, where the Action Moat consolidates capital and capability inside incumbent workflows. Decentralisation operates at the capability layer, where open-weight models keep the frontier within reach of anyone who can engineer around them. The structural response to concentration is not primarily a government response; it is architectural, and it runs at the capability layer."
+            text: "These forces operate at different layers of the stack, and both are real. Concentration operates at the integration layer \u2014 what the Strategic Brief calls the <em>Action Moat</em>, the defensibility that accrues to whoever secures the compliance-approved integration with enterprise systems, not whoever builds the best model. Decentralisation operates at the capability layer, where open-weight models keep the frontier within reach of anyone who can engineer around them. The structural response to concentration is not primarily a government response; it is architectural, and it runs at the capability layer."
           },
           {
             type: "p",
@@ -338,7 +343,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The Epistemic Flood breaks this asymmetry. We are entering an era where generating a 500-page, highly plausible, synthetically cited legal brief costs fractions of a cent, but verifying its accuracy still costs a senior human dollars per minute. When the cost to generate approaches zero, but the cost to verify remains tethered to human time, open systems collapse under the weight of adversarial volume."
+            text: "The Epistemic Flood breaks this asymmetry. We are entering an era where generating a 500-page, highly plausible, synthetically cited legal brief costs fractions of a cent, but verifying its accuracy still costs senior human attention one page at a time. When the cost to generate approaches zero, but the cost to verify remains tethered to human time, open systems collapse under the weight of adversarial volume."
           },
           {
             type: "p",
@@ -399,7 +404,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "What we do know is that the organisations treating this as a solved problem are making a bet, not a decision. The organisations treating it as an open question are designing deliberately \u2014 engineering the friction of execution back into junior training, domain by domain, to figure out which forms of expertise survive the shortcut and which do not. They are betting that some kinds of mastery still have to be earned by hand, and they are willing to pay for the apprenticeship to find out which ones. These are the organisations that will produce the Meta-Verifiers of the 2030s \u2014 seniors whose job is no longer to read the output manually, but to possess the structural intuition required to design the systems that read it for them."
+            text: "What we do know is that the organisations treating this as a solved problem are making a bet, not a decision. The organisations treating it as an open question are designing deliberately \u2014 engineering the friction of execution back into junior training, domain by domain, to figure out which forms of expertise survive the shortcut and which do not. The brief calls these domains <em>training enclaves</em> \u2014 places where execution friction is deliberately preserved because some forms of expertise cannot be acquired any other way. They are betting that some kinds of mastery still have to be earned by hand, and they are willing to pay for the apprenticeship to find out which ones. These are the organisations that will produce the Meta-Verifiers of the 2030s \u2014 seniors whose job is no longer to read the output manually, but to possess the structural intuition required to design the systems that read it for them."
           },
           {
             type: "h3",
@@ -448,7 +453,8 @@ export const translations = {
       read_time: "~20 min. leestijd",
       intro_quote: "Dit stuk is geen datarapport. Het is een betoog over waar AI de economie, de instellingen en de samenlevingen heen leidt in het komende decennium. Verwijzingen naar cijfers komen uit de {link}. Waar dit stuk speculeert, wordt dat vermeld. De meningen zijn de onze.",
       link_text: "Strategic Brief van april 2026",
-      discovery_cta: "Wilt u de data achter dit essay lezen? Raadpleeg het Strategisch Rapport 2026."
+      discovery_cta: "Wilt u de data achter dit essay lezen? Raadpleeg het Strategisch Rapport 2026.",
+      sources_cta: "Bronnen \u2192"
     },
     acts: [
       {
@@ -480,7 +486,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De bodem houdt niet stand. Hij stort in. Vacatures voor junior ontwikkelaars zijn sinds 2022 met 67% gedaald. Het interessante feit is niet de daling zelf \u2014 budgetten krompen over de hele lijn tijdens het ZIRP-tijdperk \u2014 maar dat toen het kapitaal in 2025 terugkeerde, de junior headcount niet mee terugkeerde. Het aandeel van junior wervingen binnen IT-functies is in drie jaar gedaald van 15% naar 7%. De Capex van de grote technologiebedrijven steeg van ongeveer $256 miljard in 2024 naar $427 miljard in 2025 en een verwachte $562 tot $700 miljard in 2026, terwijl de IT-aanwervingen op instapniveau in dezelfde periode bleven krimpen. Het geld ging naar computekracht en naar senior engineers. De volledige gegevens staan in \u00a75 van de Strategic Brief. De functies die vroeger de eerste tree van de ladder waren \u2014 de functies die pas-afgestudeerden tot professionals omvormden \u2014 worden simpelweg weggenomen."
+            text: "De bodem houdt niet stand. Hij stort in. De tewerkstelling van instap-ontwikkelaars tussen 22 en 25 jaar is met ongeveer 20% gedaald sinds de piek van eind 2022 (Stanford Digital Economy Lab). Bredere industri\u00eble trackers tonen vacaturedalingen van rond 67% sinds 2022. Het interessante feit is niet de daling zelf \u2014 budgetten krompen over de hele lijn tijdens het ZIRP-tijdperk \u2014 maar dat toen het kapitaal in 2025 terugkeerde, de junior headcount niet mee terugkeerde. Het aandeel van junior wervingen binnen IT-functies is over dezelfde periode gedaald van 15% naar 7%, volgens industri\u00eble trackers. De Capex van de grote technologiebedrijven steeg van ongeveer $256 miljard in 2024 naar $427 miljard in 2025 and een verwachte $562 tot $700 miljard in 2026, terwijl de IT-aanwervingen op instapniveau in dezelfde periode bleven krimpen. Het geld ging naar computekracht en naar senior engineers. De volledige gegevens staan in \u00a75 van de Strategic Brief. De functies die vroeger de eerste tree van de ladder waren \u2014 de functies die pas-afgestudeerden tot professionals omvormden \u2014 worden simpelweg weggenomen."
           },
           {
             type: "p",
@@ -500,11 +506,15 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Het geval van de Zweedse fintech Klarna verdient aandacht. Klarna heeft het grootste deel van zijn klantenserviceteam vervangen door AI, kondigde de besparingen publiekelijk aan, en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen; op meetbare wijzen kan zij dat wel. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen (gebaseerd op Amerikaanse arbeidsmarktdata; vergelijkbare Europese analyses zijn beperkter, maar Eurostat-data over 10+ miljoen ICT-specialisten in de EU tonen een soortgelijke verschuiving naar senior-specialistische rollen) heeft het bredere patroon sindsdien 'ancienniteitsgestuurde technologische verandering' genoemd, waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd."
+            text: "Het geval van de Zweedse fintech Klarna verdient aandacht. Klarna heeft het grootste deel van zijn klantenserviceteam vervangen door AI \u2014 het personeelsbestand kromp van 5.500 naar 3.400 en de onderneming vierde publiekelijk ongeveer $10 miljoen aan jaarlijkse besparingen \u2014 en was binnen twee jaar stilletjes opnieuw aan het aanwerven. De les is niet dat AI geen klantendienst kan verlenen; op meetbare wijzen kan zij dat wel. De les is dat vertrouwen, context en institutioneel geheugen het product waren, de hele tijd al. Reactiesnelheid en kostprijs per ticket waren hoe Klarna het werk mat, niet wat het werk werkelijk was. Een Harvard-werkpaper (Hosseini Maasoum & Lichtinger, augustus 2025) dat 62 miljoen Amerikaanse werknemers in 285.000 ondernemingen volgde, stelt vast dat AI-adopterende ondernemingen hun junior tewerkstelling binnen zes kwartalen met ongeveer 8% zien dalen ten opzichte van niet-adopters, terwijl de senior tewerkstelling stabiel blijft \u2014 een patroon dat de auteurs 'ancienniteitsgestuurde technologische verandering' noemen. Eurostat-data over 10+ miljoen ICT-specialisten in de EU tonen een soortgelijke verschuiving naar senior-specialistische rollen."
           },
           {
             type: "p",
             text: "De ondernemingen die dit goed navigeren, zijn de ondernemingen die uitgevogeld hebben welke delen van hun werking werkelijk routinematig zijn en die delen hard hebben geautomatiseerd, terwijl zij de mensen die het oordeelswerk verrichten hebben behouden en opgewaardeerd. De ondernemingen die AI als een kostenpost voor headcount behandelden, zijn nu duur aan het herwerven."
+          },
+          {
+            type: "p",
+            text: "Een eerlijke tegenwerping: AI-gekoppelde ontslagen zijn een handig verhaal geworden voor snoeioperaties gedreven door andere krachten \u2014 het einde van goedkoop geld, overbezetting tijdens de pandemie, veranderingen in belastingboekhouding. Verschillende tech-CEO's hebben dat zelf gezegd. Die krachten zijn re\u00ebel. Maar de specifieke patronen \u2014 junior rollen die dalen terwijl senior rollen standhouden, AI-adopterende ondernemingen die binnen dezelfde sector divergeren van niet-adopters \u2014 laten zich moeilijk verklaren zonder AI als oorzakelijke factor, en niet slechts als dekmantel."
           },
           {
             type: "p",
@@ -521,12 +531,12 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De {link} documenteert dit rechtstreeks: drie verschillende agent-systemen die op hetzelfde basismodel draaien, scoren tussen de vijftig en vijfenvijftig procent op dezelfde contaminatie-bestendige benchmark. Vijf procentpunten capaciteitsverschil, louter uit de engineering. De capaciteitswinsten van 2025\u20132026 komen voort uit de manier waarop modellen worden geleerd hun eigen werk te controleren, problemen op te splitsen en met andere modellen samen te werken \u2014 en niet in de eerste plaats uit onderliggende modellen die slimmer worden. Bouwen verslaat het kiezen van een beter model.",
+            text: "De {link} documenteert dit rechtstreeks: drie verschillende agent-systemen \u2014 Auggie, Cursor en Claude Code \u2014 die op hetzelfde basismodel draaien, scoren tussen de vijftig en vijfenvijftig procent op dezelfde contaminatie-bestendige benchmark (SWE-bench Pro, Scale AI SEAL-leaderboard, februari 2026). Vijf procentpunten capaciteitsverschil, louter uit de engineering. De capaciteitswinsten van 2025\u20132026 komen voort uit de manier waarop modellen worden geleerd hun eigen werk te controleren, problemen op te splitsen en met andere modellen samen te werken \u2014 en niet in de eerste plaats uit onderliggende modellen die slimmer worden. Bouwen verslaat het kiezen van een beter model.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
-            text: "De benchmark-tredmolen is de context hiervoor, niet het bewijs ervan. AI-capaciteitstoetsen worden beheerst, uitgefaseerd en vervangen door moeilijkere volgens een cyclus van ongeveer acht maanden. ARC-AGI-1 is in essentie opgelost. ARC-AGI-2 nadert verzadiging binnen twaalf maanden na lancering. ARC-AGI-3 werd in maart 2026 gelanceerd met frontier-modellen die lager dan 1% scoren, hoewel een gespecialiseerde niet-LLM-benadering in preview al 12% heeft bereikt. De prognose op basis van hetzelfde historische patroon is 30 tot 50% tegen eind 2026. De onderliggende capaciteit blijft opschuiven, maar de engineering eromheen beweegt sneller \u2014 en d\u00e1\u00e1r leeft de hefboom."
+            text: "De benchmark-tredmolen is de context hiervoor, niet het bewijs ervan. AI-capaciteitstoetsen worden beheerst, uitgefaseerd en vervangen door moeilijkere volgens een cyclus van ongeveer acht maanden. ARC-AGI-1 is in essentie opgelost. ARC-AGI-2 nadert verzadiging binnen twaalf maanden na lancering. ARC-AGI-3 werd in maart 2026 gelanceerd met frontier-modellen die lager dan 1% scoren, hoewel een gespecialiseerde niet-LLM-benadering in preview al 12% heeft bereikt. Opmerkelijk is dat die 12% tot stand kwam via een gespecialiseerde CNN- en reinforcement-learning-benadering, niet via een frontier-LLM \u2014 wat u vertelt dat de benchmark oplosbaar is, maar ook dat hij mogelijk wordt opgelost door architecturen die orthogonaal staan op de transformer-schaling die 2022\u20132025 domineerde. Een projectie gebaseerd op het achtmaanden-halfwaardetijdpatroon van de benchmark plaatst hem op 30 tot 50% tegen eind 2026. De onderliggende capaciteit blijft opschuiven, maar de engineering eromheen beweegt sneller \u2014 en d\u00e1\u00e1r leeft de hefboom."
           },
           {
             type: "p",
@@ -555,7 +565,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Tot voor kort zaten robots vast achter een eenvoudig probleem: je kon een taalmodel trainen op het volledige internet, maar je kon een robot niet trainen op de volledige fysieke wereld. Dat is veranderd. Simulatieomgevingen zoals NVIDIA Omniverse kunnen nu jaren aan realistische fysieke oefendata genereren in een weekend, en de combinatie van differentieerbare fysica, massaal parallelle GPU-simulatie en foundation-modellen getraind over duizenden uiteenlopende fysieke vormen heeft wat mogelijk is fundamenteel verschoven. Het knelpunt in de robotica is verschoven \u2014 van de vraag of robots \u00fcberhaupt kunnen leren naar hoe goed aangeleerde policies vertalen naar nieuwe omgevingen. Dat transferprobleem is niet opgelost, maar het is niet langer de muur. De muur is nu fysiek \u2014 productie, inzet en reparatie op schaal."
+            text: "Tot voor kort zaten robots vast achter een eenvoudig probleem: je kon een taalmodel trainen op het volledige internet, maar je kon een robot niet trainen op de volledige fysieke wereld. Dat is veranderd. Simulatieomgevingen kunnen nu op schaal realistische fysieke oefendata genereren, en de combinatie van differentieerbare fysica, massaal parallelle GPU-simulatie en foundation-modellen getraind over duizenden uiteenlopende fysieke vormen heeft wat mogelijk is fundamenteel verschoven. Het knelpunt in de robotica is verschoven \u2014 van de vraag of robots \u00fcberhaupt kunnen leren naar hoe goed aangeleerde policies vertalen naar nieuwe omgevingen. Dat transferprobleem is niet opgelost, maar het is niet langer de muur. De muur is nu fysiek \u2014 productie, inzet en reparatie op schaal."
           },
           {
             type: "p",
@@ -625,12 +635,12 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De {link} documenteert waar de betrouwbaarheid momenteel staat. Zonder behoorlijk systeemontwerp produceert AI met zelfvertrouwen foute antwoorden in meer dan 10% van de gevallen bij standaardtaken. Juridische AI faalt in 69 tot 88% van de gevallen bij specifieke juridische vragen, zonder mitigatie. Medische AI hallucineert, zonder de juiste architectuur, aan snelheden die onmiddellijk diskwalificerend zouden zijn indien toegepast op een menselijke arts.",
+            text: "De {link} documenteert waar de betrouwbaarheid momenteel staat. Zonder behoorlijk systeemontwerp produceert AI met zelfvertrouwen foute antwoorden in meer dan 10% van de gevallen bij standaardtaken. Juridische AI faalt in 69 tot 88% van de gevallen bij specifieke juridische vragen, zonder mitigatie, volgens onderzoek van Stanford RegLab. Medische AI hallucineert, zonder de juiste architectuur, aan snelheden die onmiddellijk diskwalificerend zouden zijn indien toegepast op een menselijke arts.",
             link_text: "Strategic Brief"
           },
           {
             type: "p",
-            text: "Met goed ontworpen systemen dalen die cijfers drastisch. Multi-agent-verificatie brengt enterprise-foutenpercentages onder 2%. Zelfreflectieve architecturen brengen klinische hallucinatie onder 6%. Het betrouwbaarheidsprobleem is grotendeels een probleem van systeemengineering, niet een fundamentele beperking van AI. Dat is de optimistische lezing, en de data ondersteunen haar voor gestructureerde, begrensde taken in gecontroleerde omgevingen."
+            text: "Met goed ontworpen systemen dalen die cijfers drastisch. Multi-agent-verificatie brengt enterprise-foutenpercentages drastisch omlaag. Zelfreflectieve architecturen \u2014 SELF-RAG in het bijzonder \u2014 brengen klinische hallucinatie onder 6%, volgens een peer-reviewed evaluatie van klinische RAG in MDPI Electronics (oktober 2025). Het betrouwbaarheidsprobleem is grotendeels een probleem van systeemengineering, niet een fundamentele beperking van AI. Dat is de optimistische lezing, en de data ondersteunen haar voor gestructureerde, begrensde taken in gecontroleerde omgevingen."
           },
           {
             type: "p",
@@ -651,7 +661,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "China heeft in wezen gekozen voor \"eerst inzetten\". Het voordeel is iteratiesnelheid; het risico, dat het waard is meteen te benoemen, is dat mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden opgevangen en onderdrukt in plaats van gecorrigeerd. Autonome voertuigen rijden op grote schaal in verschillende grote steden. Autonome en semi-autonome voertuigen hebben inmiddels miljarden kilometers afgelegd op openbare wegen onder re\u00eble omstandigheden, en genereren daarbij volumes aan edge case-gegevens die geen enkele simulatie volledig kan nabootsen. De veiligheidsbalans is beter dan het rijgedrag van mensen in de specifieke contexten waarin deze systemen zijn ingezet. Niet perfect. Beter. Wanneer de feedbacklus zich kan sluiten, leert het systeem; wanneer er iets goed gaat, wordt het uitgebreid. Het politieke systeem tolereert een ander niveau van zichtbaar falen dan democratische systemen doorgaans verdragen. Die tolerantie snijdt in twee richtingen: zij is wat de feedbacklus op deze snelheid laat werken, en zij is ook wat mislukkingen politiek doet absorberen in plaats van institutioneel corrigeren. Het voordeel is snelheid. Het risico is dat mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden opgevangen en onderdrukt in plaats van gecorrigeerd \u2014 een dynamiek die prioriteit geeft aan de schijn van vooruitgang boven het feit ervan."
+            text: "China heeft in wezen gekozen voor \"eerst inzetten\". Het voordeel is iteratiesnelheid; het risico, dat het waard is meteen te benoemen, is dat mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden opgevangen en onderdrukt in plaats van gecorrigeerd. Autonome voertuigen rijden op grote schaal in verschillende grote steden. Autonome en semi-autonome voertuigen \u2014 Waymo, Apollo Go en andere operatoren samen \u2014 hebben inmiddels miljarden kilometers afgelegd op openbare wegen onder re\u00eble omstandigheden, en genereren daarbij volumes aan edge case-gegevens die geen enkele simulatie volledig kan nabootsen. De veiligheidsbalans is, op basis van door operatoren gerapporteerde gegevens, beter dan het rijgedrag van mensen in de specifieke contexten waarin deze systemen zijn ingezet. Niet perfect. Beter. Wanneer de feedbacklus zich kan sluiten, leert het systeem; wanneer er iets goed gaat, wordt het uitgebreid. Het politieke systeem tolereert een ander niveau van zichtbaar falen dan democratische systemen doorgaans verdragen. Die tolerantie snijdt in twee richtingen: zij is wat de feedbacklus op deze snelheid laat werken, en zij is ook wat mislukkingen politiek doet absorberen in plaats van institutioneel corrigeren. Het voordeel is snelheid. Het risico is dat mislukkingen die beleidsherziening zouden moeten afdwingen, kunnen worden opgevangen en onderdrukt in plaats van gecorrigeerd \u2014 een dynamiek die prioriteit geeft aan de schijn van vooruitgang boven het feit ervan."
           },
           {
             type: "p",
@@ -704,7 +714,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Deze krachten opereren op verschillende lagen van de stack, en beide zijn re\u00ebel. Concentratie opereert op de integratielaag, waar de Action Moat kapitaal en capaciteit consolideert binnen bestaande workflows van gevestigde spelers. Decentralisatie opereert op de capaciteitslaag, waar open-weight-modellen de frontier binnen bereik houden van ieder die erin slaagt eromheen te engineeren. Het structurele antwoord op concentratie is niet in de eerste plaats een overheidsreactie; het is architecturaal, en het loopt op de capaciteitslaag."
+            text: "Deze krachten opereren op verschillende lagen van de stack, en beide zijn re\u00ebel. Concentratie opereert op de integratielaag \u2014 wat de Strategic Brief de <em>Action Moat</em> noemt, de verdedigbaarheid die toekomt aan wie de conformiteitsgekeurde integratie met enterprise-systemen veiligstelt, niet aan wie het beste model bouwt. Decentralisatie opereert op de capaciteitslaag, waar open-weight-modellen de frontier binnen bereik houden van ieder die erin slaagt eromheen te engineeren. Het structurele antwoord op concentratie is niet in de eerste plaats een overheidsreactie; het is architecturaal, en het loopt op de capaciteitslaag."
           },
           {
             type: "p",
@@ -764,7 +774,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De Epistemische Vloed breekt deze asymmetrie. Wij betreden een tijdperk waarin het genereren van een pleidooi van 500 pagina's, juridisch hoogst plausibel en voorzien van synthetische bronverwijzingen, fracties van een cent kost, maar het verifi\u00ebren van de juistheid ervan nog steeds dollars per minuut aan senior mensenwerk kost. Wanneer de productiekost tot nul nadert, maar de verificatiekost vastgeketend blijft aan menselijke tijd, storten open systemen in onder het gewicht van adversariaal volume."
+            text: "De Epistemische Vloed breekt deze asymmetrie. Wij betreden een tijdperk waarin het genereren van een pleidooi van 500 pagina's, juridisch hoogst plausibel en voorzien van synthetische bronverwijzingen, fracties van een cent kost, maar het verifi\u00ebren van de juistheid ervan nog steeds senior menselijke aandacht pagina per pagina vergt. Wanneer de productiekost tot nul nadert, maar de verificatiekost vastgeketend blijft aan menselijke tijd, storten open systemen in onder het gewicht van adversariaal volume."
           },
           {
             type: "p",
@@ -825,7 +835,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Wat wij wel weten is dat de organisaties die dit als een opgelost probleem behandelen, een gok aangaan, geen beslissing nemen. De organisaties die het als een open vraag behandelen, ontwerpen doelbewust: zij brengen de frictie van uitvoering domein voor domein terug in een leerling-meester-structuur, om te achterhalen welke vormen van expertise de kortere weg overleven en welke niet. Zij wedden dat sommige vormen van meesterschap nog steeds handmatig verdiend moeten worden, en zij zijn bereid te investeren in dit hernieuwde leerlingschap om te ontdekken welke dat zijn. Dit zijn de organisaties die de Meta-Verificateurs van de jaren 2030 zullen voortbrengen, seniors wier taak niet langer zal zijn om de output handmatig te lezen, maar om de structurele intu\u00eftie te bezitten die vereist is om de systemen te ontwerpen die het voor hen lezen."
+            text: "Wat wij wel weten is dat de organisaties die dit als een opgelost probleem behandelen, een gok aangaan, geen beslissing nemen. De organisaties die het als een open vraag behandelen, ontwerpen doelbewust: zij brengen de frictie van uitvoering domein voor domein terug in een leerling-meester-structuur, om te achterhalen welke vormen van expertise de kortere weg overleven en welke niet. De brief noemt deze domeinen <em>trainingsenclaves</em> \u2014 plekken waar de frictie van uitvoering doelbewust wordt bewaard, omdat bepaalde vormen van expertise op geen enkele andere manier kunnen worden verworven. Zij wedden dat sommige vormen van meesterschap nog steeds handmatig verdiend moeten worden, en zij zijn bereid te investeren in dit hernieuwde leerlingschap om te ontdekken welke dat zijn. Dit zijn de organisaties die de Meta-Verificateurs van de jaren 2030 zullen voortbrengen, seniors wier taak niet langer zal zijn om de output handmatig te lezen, maar om de structurele intu\u00eftie te bezitten die vereist is om de systemen te ontwerpen die het voor hen lezen."
           },
           {
             type: "h3",
