@@ -21,7 +21,9 @@ const DiscoveryCallout = () => {
       
       {t.sources_cta && (
         <a 
-          href="#sources"
+          href="https://ai-strategic-report-april-2026.vercel.app/AI-Strategic-Brief-V2-Data.docx"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-xs font-bold text-slate-500 hover:text-indigo-400 transition-colors uppercase tracking-[0.2em] animate-in fade-in slide-in-from-top-2 duration-1000 delay-300"
         >
           {t.sources_cta}
