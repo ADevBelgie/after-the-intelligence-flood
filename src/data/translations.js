@@ -149,7 +149,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "So the physical squeeze will not arrive everywhere at once. It will arrive first where the environment is controlled and the insurance math works. Warehouses. Logistics hubs. Industrial zones. Not because robots cannot handle a sidewalk, but because insurers will underwrite a controlled warehouse and will not yet underwrite a public street."
+            text: "So the physical squeeze will not arrive everywhere at once. It will arrive first where the environment is controlled and the insurance math works. Warehouses. Logistics hubs. Industrial zones. Not because robots cannot handle a sidewalk, but because insurers will underwrite a controlled warehouse and will not yet underwrite a public street. The first wave of physical automation is not smart robots learning the world; it is capital reshaping environments to suit dumb ones."
           },
           {
             type: "p",
@@ -275,7 +275,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The deployment-first approach is necessary for recoverable failures\u2014software bugs, localized hallucinations, and autonomous driving edge-cases. The dangerous intersection needs traffic. However, this model structurally fails for terminal tail risks, such as malicious actors using open-weight models to engineer pathogens. Against tail risk, the EU's compliance-based framework is equally useless; paperwork in Brussels does not stop a bad actor running an open-weight model on a private server. The only rational defense against terminal tail risk is hardened, active infrastructure: AI-enabled bio-surveillance, mandatory DNA synthesis screening, and strict API-gating of frontier capabilities."
+            text: "The deployment-first approach is necessary for recoverable failures\u2014software bugs, localized hallucinations, and autonomous driving edge-cases. The dangerous intersection needs traffic. However, this model structurally fails for terminal tail risks, such as malicious actors using open-weight models to engineer pathogens. Against tail risk, the EU's compliance-based framework is equally useless; paperwork in Brussels does not stop a bad actor running an open-weight model on a private server. The only available defense against terminal tail risk is hardened, active infrastructure: AI-enabled bio-surveillance, mandatory DNA synthesis screening, and strict API-gating of frontier capabilities. None of this is clean. Active infrastructure is not exempt from the dynamic the rest of this act describes \u2014 it will leak, fail at the seams, and require iteration through contact with the failures it was built to prevent. The argument is not that this defense works perfectly. It is that no other category of defense applies at all."
           },
           {
             type: "h3",
@@ -394,11 +394,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "If verification is where the work goes and apprenticeship is where the talent forms, the next question is where the leverage and the capital actually accrue. Two forces operate at different layers of the stack, and both are real. Concentration operates at the integration layer \u2014 what the Strategic Brief calls the <em>Action Moat</em>, the defensibility that accrues to whoever secures the compliance-approved integration with enterprise systems, not whoever builds the best model. Decentralisation operates at the capability layer, where open-weight models keep the frontier within reach of anyone who can engineer around them. The structural response to concentration is not primarily a government response; it is architectural, and it runs at the capability layer."
-          },
-          {
-            type: "p",
-            text: "The open-source AI ecosystem is running roughly two to three months behind the frontier models at any given time. In a world where AI capability approaches human performance across most domains, a two-month lag becomes academic. The leverage point shifts entirely to who has the best systems built around the capability."
+            text: "If verification is where the work goes and apprenticeship is where the talent forms, the next question is where the leverage and the capital actually accrue. Two forces operate at different layers of the stack, and both are real. Concentration operates at the integration layer \u2014 what the Strategic Brief calls the <em>Action Moat</em>, the defensibility that accrues to whoever secures the compliance-approved integration with enterprise systems, not whoever builds the best model. Decentralisation operates at the capability layer, where open-weight models keep raw capability within reach of anyone who can engineer around it. The structural response to concentration is not primarily a government response; it is architectural, and it runs at the capability layer."
           },
           {
             type: "p",
@@ -406,7 +402,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The MCP ecosystem that the Strategic Brief documents is an early version of this dynamic playing out in AI integration. Developers who build on open standards control their own destiny, while those who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. The lesson of every previous platform cycle is available to every developer who wants to learn it."
+            text: "The same dynamic is reasserting itself in AI integration. The leverage no longer sits with whoever has the best model; it sits with whoever builds the best systems around capability that is already broadly available. That is where the moat gets dug, and where the next decade's defensible work gets done."
           },
           {
             type: "h3",
@@ -583,7 +579,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De fysieke druk zal dus niet overal tegelijk arriveren. Die zal als eerste arriveren waar de omgeving gecontroleerd is en de verzekeringswiskunde klopt. Magazijnen. Logistieke knooppunten. Industri\u00eble zones. Niet omdat robots een stoep niet aankunnen, maar omdat verzekeraars een gecontroleerd magazijn wel kunnen prijzen en een openbare straat nog niet."
+            text: "De fysieke druk zal dus niet overal tegelijk arriveren. Die zal als eerste arriveren waar de omgeving gecontroleerd is en de verzekeringswiskunde klopt. Magazijnen. Logistieke knooppunten. Industri\u00eble zones. Niet omdat robots een stoep niet aankunnen, maar omdat verzekeraars een gecontroleerd magazijn wel kunnen prijzen en een openbare straat nog niet. De eerste golf van fysieke automatisering bestaat niet uit slimme robots die de wereld leren begrijpen; ze bestaat uit kapitaal dat omgevingen herinricht zodat domme robots er kunnen werken."
           },
           {
             type: "p",
@@ -708,7 +704,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De \"inzet-eerst\"-benadering is noodzakelijk voor herstelbare mislukkingen \u2014 softwarebugs, gelokaliseerde hallucinaties en edge cases in autonoom rijden. Het gevaarlijke kruispunt heeft verkeer nodig. Dit model faalt echter structureel voor terminale staartrisico's, zoals kwaadwillige actoren die open-weight-modellen gebruiken om pathogenen te ontwerpen. Tegen staartrisico is het conformiteitsgebaseerde kader van de EU evenzeer nutteloos; papierwerk in Brussel houdt een kwaadwillige actor niet tegen die een open-weight-model op een priv\u00e9server draait. De enige rationele verdediging tegen terminaal staartrisico is verharde, actieve infrastructuur: AI-ondersteunde biosurveillance, verplichte screening van DNA-synthese, en strikte API-vergrendeling van frontier-capaciteiten."
+            text: "De \"inzet-eerst\"-benadering is noodzakelijk voor herstelbare mislukkingen \u2014 softwarebugs, gelokaliseerde hallucinaties en edge cases in autonoom rijden. Het gevaarlijke kruispunt heeft verkeer nodig. Dit model faalt echter structureel voor terminale staartrisico's, zoals kwaadwillige actoren die open-weight-modellen gebruiken om pathogenen te ontwerpen. Tegen staartrisico is het conformiteitsgebaseerde kader van de EU evenzeer nutteloos; papierwerk in Brussel houdt een kwaadwillige actor niet tegen die een open-weight-model op een priv\u00e9server draait. De enige beschikbare verdediging tegen terminaal staartrisico is verharde, actieve infrastructuur: AI-ondersteunde biosurveillance, verplichte screening van DNA-synthese, en strikte API-vergrendeling van frontier-capaciteiten. Niets hiervan is zuiver. Actieve infrastructuur is niet vrijgesteld van de dynamiek die de rest van deze akte beschrijft \u2014 ze zal lekken, falen op de naden, en iteratie vergen via contact met de mislukkingen die ze geacht werd te voorkomen. Het argument is niet dat deze verdediging perfect werkt. Het is dat geen enkele andere categorie van verdediging \u00fcberhaupt van toepassing is."
           },
           {
             type: "h3",
@@ -827,11 +823,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Als verificatie is waar het werk naartoe gaat en vakkennisoverdracht is waar het talent zich vormt, is de volgende vraag waar de hefboom en het kapitaal werkelijk neerslaan. Twee krachten opereren op verschillende lagen van de stack, en beide zijn re\u00ebel. Concentratie opereert op de integratielaag \u2014 wat de Strategic Brief de <em>Action Moat</em> noemt, de verdedigbaarheid die toekomt aan wie de conformiteitsgekeurde integratie met enterprise-systemen veiligstelt, niet aan wie het beste model bouwt. Decentralisatie opereert op de capaciteitslaag, waar open-weight-modellen de frontier binnen bereik houden van ieder die erin slaagt eromheen te engineeren. Het structurele antwoord op concentratie is niet in de eerste plaats een overheidsreactie; het is architecturaal, en het loopt op de capaciteitslaag."
-          },
-          {
-            type: "p",
-            text: "Het open-source-AI-ecosysteem loopt op elk gegeven moment ongeveer twee tot drie maanden achter op de frontier-modellen. In een wereld waarin AI-capaciteit de menselijke prestatie in de meeste domeinen nadert, wordt een vertraging van twee maanden academisch. Het hefboompunt verschuift volledig naar wie de beste systemen rond de capaciteit heeft gebouwd."
+            text: "Als verificatie is waar het werk naartoe gaat en vakkennisoverdracht is waar het talent zich vormt, is de volgende vraag waar de hefboom en het kapitaal werkelijk neerslaan. Twee krachten opereren op verschillende lagen van de stack, en beide zijn re\u00ebel. Concentratie opereert op de integratielaag \u2014 wat de Strategic Brief de <em>Action Moat</em> noemt, de verdedigbaarheid die toekomt aan wie de conformiteitsgekeurde integratie met enterprise-systemen veiligstelt, niet aan wie het beste model bouwt. Decentralisatie opereert op de capaciteitslaag, waar open-weight-modellen ruwe capaciteit binnen bereik houden van ieder die erin slaagt eromheen te engineeren. Het structurele antwoord op concentratie is niet in de eerste plaats een overheidsreactie; het is architecturaal, en het loopt op de capaciteitslaag."
           },
           {
             type: "p",
@@ -839,7 +831,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Het MCP-ecosysteem dat de Strategic Brief documenteert, is een vroege versie van deze dynamiek die zich ontrolt in AI-integratie. Ontwikkelaars die bouwen op open standaarden beheersen hun eigen lot, terwijl zij die bouwen op gesloten platformen blijvend onderworpen zijn aan de prijsbeslissingen, de beleidswijzigingen en het voortbestaan van dat platform. De les van elke eerdere platformcyclus ligt voor iedere ontwikkelaar beschikbaar die haar wil leren."
+            text: "Dezelfde dynamiek herhaalt zich nu in AI-integratie. De hefboom ligt niet langer bij wie het beste model heeft; hij ligt bij wie de beste systemen bouwt rond capaciteit die al breed beschikbaar is. Dat is waar de slotgracht wordt gegraven, en waar het verdedigbare werk van het volgende decennium plaatsvindt."
           },
           {
             type: "h3",
