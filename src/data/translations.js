@@ -161,7 +161,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Survival means moving to the governance, orchestration, and verification layers of both digital and physical systems \u2014 concurrently, not sequentially. In practice, that looks like a financial analyst who pivots to designing the verification models that check for synthetic hallucinations; a project manager who shifts to governing agent-swarm workflows; an electrician who focuses on the high-level orchestration of automated grid-updates. The people positioning around system design rather than execution are already pulling ahead."
+            text: "Survival means moving to the governance, orchestration, and verification layers of both digital and physical systems — concurrently, not sequentially. In practice, that looks like a financial analyst who pivots to designing the verification models that check for synthetic hallucinations; a project manager who shifts to governing agent-swarm workflows; a warehouse operations lead who moves from picking to overseeing pick-orchestration across automated fleets. The people positioning around system design rather than execution are already pulling ahead."
           },
           {
             type: "p",
@@ -208,7 +208,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "With well-engineered systems, those numbers fall dramatically. Multi-agent verification brings enterprise error rates dramatically lower. Self-reflective architecture \u2014 SELF-RAG in particular \u2014 bring clinical hallucination under 6%, per a peer-reviewed clinical RAG evaluation in MDPI Electronics (October 2025). The reliability problem is largely a systems engineering problem, not a fundamental AI limitation. That is the optimistic read, and the data supports it for structured, bounded tasks in controlled environments."
+            text: "With well-engineered systems, those numbers fall dramatically. Multi-agent verification brings enterprise error rates dramatically lower. Self-reflective architectures — SELF-RAG in particular — bring clinical hallucination under 6%, per a peer-reviewed clinical RAG evaluation in MDPI Electronics (October 2025). The reliability problem is largely a systems engineering problem, not a fundamental AI limitation. That is the optimistic read, and the data supports it for structured, bounded tasks in controlled environments."
           },
           {
             type: "p",
@@ -276,28 +276,6 @@ export const translations = {
           {
             type: "p",
             text: "The deployment-first approach is necessary for recoverable failures\u2014software bugs, localized hallucinations, and autonomous driving edge-cases. The dangerous intersection needs traffic. However, this model structurally fails for terminal tail risks, such as malicious actors using open-weight models to engineer pathogens. Against tail risk, the EU's compliance-based framework is equally useless; paperwork in Brussels does not stop a bad actor running an open-weight model on a private server. The only rational defense against terminal tail risk is hardened, active infrastructure: AI-enabled bio-surveillance, mandatory DNA synthesis screening, and strict API-gating of frontier capabilities."
-          },
-          {
-            type: "h3",
-            text: "The Decentralisation Argument"
-          },
-          {
-            type: "p",
-            text: "These forces operate at different layers of the stack, and both are real. Concentration operates at the integration layer \u2014 what the Strategic Brief calls the <em>Action Moat</em>, the defensibility that accrues to whoever secures the compliance-approved integration with enterprise systems, not whoever builds the best model. Decentralisation operates at the capability layer, where open-weight models keep the frontier within reach of anyone who can engineer around them. The structural response to concentration is not primarily a government response; it is architectural, and it runs at the capability layer."
-          },
-          {
-            type: "p",
-            text: "The open-source AI ecosystem is running roughly two to three months behind the frontier models at any given time. In a world where AI capability approaches human performance across most domains, a two-month lag becomes academic. The leverage point shifts entirely to who has the best systems built around the capability."
-          },
-          {
-            type: "p",
-            text: "The history of the internet is instructive here. There were powerful economic forces toward centralisation at every stage. What prevented total centralisation was not altruism or regulation alone. It was that open protocols and distributed infrastructure created too much value for too many actors for any single party to capture the whole thing. The developers who built on open standards had more combined creative capacity than any single company."
-          },
-          {
-            type: "p",
-            className: "mb-12",
-            text: "The MCP ecosystem that the {link} documents is an early version of this dynamic playing out in AI integration. Developers who build on open standards control their own destiny, while those who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. The lesson of every previous platform cycle is available to every developer who wants to learn it.",
-            link_text: "Strategic Brief"
           },
           {
             type: "h3",
@@ -396,7 +374,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "The senior bulge of engineers and managers who cut their teeth during the 2010\u20132022 boom currently possesses the structural intuition to govern complex AI systems. They know how systems break because they spent a decade breaking them manually. Harvard research across sixty-two million workers names this dynamic \"seniority-biased technological change\" \u2014 a pattern where the value of accumulated judgment rises precisely as the entry-level work that used to build it is automated away. The people who can verify AI output are the ones who once had to produce it by hand."
+            text: "The senior bulge of engineers and managers who cut their teeth during the 2010\u20132022 boom currently possesses the structural intuition to govern complex AI systems. They know how systems break because they spent a decade breaking them manually. As the Harvard data noted in Act I shows, this is the pattern the authors call \"seniority-biased technological change\" \u2014 the value of accumulated judgment rises precisely as the entry-level work that used to build it is automated away. The people who can verify AI output are the ones who once had to produce it by hand."
           },
           {
             type: "p",
@@ -405,6 +383,30 @@ export const translations = {
           {
             type: "p",
             text: "What we do know is that the organisations treating this as a solved problem are making a bet, not a decision. The organisations treating it as an open question are designing deliberately \u2014 engineering the friction of execution back into junior training, domain by domain, to figure out which forms of expertise survive the shortcut and which do not. The brief calls these domains <em>training enclaves</em> \u2014 places where execution friction is deliberately preserved because some forms of expertise cannot be acquired any other way. They are betting that some kinds of mastery still have to be earned by hand, and they are willing to pay for the apprenticeship to find out which ones. These are the organisations that will produce the Meta-Verifiers of the 2030s \u2014 seniors whose job is no longer to read the output manually, but to possess the structural intuition required to design the systems that read it for them."
+          },
+          {
+            type: "p",
+            text: "There is a coordination problem here that this essay is not pretending to solve. Any single firm that maintains a junior pipeline pays the full cost of training while competitors free-ride on the talent pool it produces. This is the textbook structure of a public good \u2014 privately costly, socially valuable, structurally underprovided. Some firms will fund training enclaves out of long-horizon self-interest, or because they can capture enough of the trained talent to make the math work. Most will not. Which means the problem gets solved by a small number of structurally advantaged actors \u2014 large incumbents, regulated industries with mandatory training requirements, government-funded pipelines \u2014 or it does not get solved at the scale the technology requires. The honest version of this prediction is not that smart organisations will build training enclaves. It is that the organisations that can absorb the externality will, and the rest of the economy will face a senior talent crisis in the 2030s that nobody has the incentive to prevent."
+          },
+          {
+            type: "h3",
+            text: "Where the Leverage Lives"
+          },
+          {
+            type: "p",
+            text: "If verification is where the work goes and apprenticeship is where the talent forms, the next question is where the leverage and the capital actually accrue. Two forces operate at different layers of the stack, and both are real. Concentration operates at the integration layer \u2014 what the Strategic Brief calls the <em>Action Moat</em>, the defensibility that accrues to whoever secures the compliance-approved integration with enterprise systems, not whoever builds the best model. Decentralisation operates at the capability layer, where open-weight models keep the frontier within reach of anyone who can engineer around them. The structural response to concentration is not primarily a government response; it is architectural, and it runs at the capability layer."
+          },
+          {
+            type: "p",
+            text: "The open-source AI ecosystem is running roughly two to three months behind the frontier models at any given time. In a world where AI capability approaches human performance across most domains, a two-month lag becomes academic. The leverage point shifts entirely to who has the best systems built around the capability."
+          },
+          {
+            type: "p",
+            text: "The history of the internet is instructive here. There were powerful economic forces toward centralisation at every stage. What prevented total centralisation was not altruism or regulation alone. It was that open protocols and distributed infrastructure created too much value for too many actors for any single party to capture the whole thing. The developers who built on open standards had more combined creative capacity than any single company."
+          },
+          {
+            type: "p",
+            text: "The MCP ecosystem that the Strategic Brief documents is an early version of this dynamic playing out in AI integration. Developers who build on open standards control their own destiny, while those who build on closed platforms are permanently subject to the platform's pricing decisions, policy changes, and survival. The lesson of every previous platform cycle is available to every developer who wants to learn it."
           },
           {
             type: "h3",
@@ -593,7 +595,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "Overleven betekent zich gelijktijdig \u2014 niet opeenvolgend \u2014 bewegen naar de bestuurs-, orkestratie- en verificatielagen van zowel digitale als fysieke systemen. In de praktijk ziet dit eruit als een financieel analist die stopt met het bouwen van het model en begint met het ontwerpen van de controles op de AI die het produceert; een projectmanager die stopt met het co\u00f6rdineren van statusupdates en begint met het bepalen van de betrouwbaarheidsdrempels waaraan agents moeten voldoen voordat hun output de klant bereikt; een elektricien die de installaties begint te certificeren die robotsystemen later zullen onderhouden. De mensen die zich positioneren rond systeemontwerp in plaats van uitvoering, lopen reeds voor."
+            text: "Overleven betekent zich gelijktijdig \u2014 niet opeenvolgend \u2014 bewegen naar de bestuurs-, orkestratie- en verificatielagen van zowel digitale als fysieke systemen. In de praktijk ziet dit eruit als een financieel analist die stopt met het bouwen van het model en begint met het ontwerpen van de controles op de AI die het produceert; een projectmanager die stopt met het co\u00f6rdineren van statusupdates en begint met het bepalen van de betrouwbaarheidsdrempels waaraan agents moeten voldoen voordat hun output de klant bereikt; een logistiek leidinggevende die overschakelt van zelf orderpicken naar het aansturen van pick-orkestratie over geautomatiseerde vloten. De mensen die zich positioneren rond systeemontwerp in plaats van uitvoering, lopen reeds voor."
           },
           {
             type: "p",
@@ -710,28 +712,6 @@ export const translations = {
           },
           {
             type: "h3",
-            text: "Het argument voor decentralisatie"
-          },
-          {
-            type: "p",
-            text: "Deze krachten opereren op verschillende lagen van de stack, en beide zijn re\u00ebel. Concentratie opereert op de integratielaag \u2014 wat de Strategic Brief de <em>Action Moat</em> noemt, de verdedigbaarheid die toekomt aan wie de conformiteitsgekeurde integratie met enterprise-systemen veiligstelt, niet aan wie het beste model bouwt. Decentralisatie opereert op de capaciteitslaag, waar open-weight-modellen de frontier binnen bereik houden van ieder die erin slaagt eromheen te engineeren. Het structurele antwoord op concentratie is niet in de eerste plaats een overheidsreactie; het is architecturaal, en het loopt op de capaciteitslaag."
-          },
-          {
-            type: "p",
-            text: "Het open-source-AI-ecosysteem loopt op elk gegeven moment ongeveer twee tot drie maanden achter op de frontier-modellen. In een wereld waarin AI-capaciteit de menselijke prestatie in de meeste domeinen nadert, wordt een vertraging van twee maanden academisch. Het hefboompunt verschuift volledig naar wie de beste systemen rond de capaciteit heeft gebouwd."
-          },
-          {
-            type: "p",
-            text: "De geschiedenis van het internet is hier leerzaam. Er waren op elk niveau krachtige economische krachten richting centralisatie. Wat volledige centralisatie voorkwam was niet louter altru\u00efsme of regelgeving. Het was dat open protocollen en gedistribueerde infrastructuur te veel waarde cre\u00eberden voor te veel actoren opdat \u00e9\u00e9n enkele partij het geheel zou kunnen inpalmen. De ontwikkelaars die bouwden op open standaarden beschikten over meer gecombineerde creatieve capaciteit dan enige individuele onderneming."
-          },
-          {
-            type: "p",
-            className: "mb-12",
-            text: "Het MCP-ecosysteem dat de {link} documenteert, is een vroege versie van deze dynamiek die zich ontrolt in AI-integratie. Ontwikkelaars die bouwen op open standaarden beheersen hun eigen lot, terwijl zij die bouwen op gesloten platformen blijvend onderworpen zijn aan de prijsbeslissingen, de beleidswijzigingen en het voortbestaan van dat platform. De les van elke eerdere platformcyclus ligt voor iedere ontwikkelaar beschikbaar die haar wil leren.",
-            link_text: "Strategic Brief"
-          },
-          {
-            type: "h3",
             text: "Wat overheden daadwerkelijk goed moeten doen"
           },
           {
@@ -827,7 +807,7 @@ export const translations = {
           },
           {
             type: "p",
-            text: "De senior laag van engineers en managers die hun sporen verdienden tijdens de hausse van 2010\u20132022 bezit op dit ogenblik de structurele intu\u00eftie om complexe AI-systemen te besturen. Zij weten hoe systemen breken omdat zij een decennium lang zelf systemen handmatig hebben gebroken. Harvard-onderzoek onder twee\u00ebnzestig miljoen werknemers en 285.000 ondernemingen (gebaseerd op dezelfde Amerikaanse datasets als eerder vermeld) noemt deze dynamiek 'ancienniteitsgestuurde technologische verandering', een patroon waarbij de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd. De mensen die AI-output kunnen verifi\u00ebren, zijn degenen die het vroeger met de hand moesten produceren."
+            text: "De senior laag van engineers en managers die hun sporen verdienden tijdens de hausse van 2010\u20132022 bezit op dit ogenblik de structurele intu\u00eftie om complexe AI-systemen te besturen. Zij weten hoe systemen breken omdat zij een decennium lang zelf systemen handmatig hebben gebroken. Zoals de Harvard-data uit Akte I tonen, noemen de auteurs deze dynamiek 'ancienniteitsgestuurde technologische verandering' \u2014 de waarde van geaccumuleerd oordeel stijgt precies op het moment dat het instapwerk dat dit oordeel vroeger opbouwde, wordt geautomatiseerd. De mensen die AI-output kunnen verifi\u00ebren, zijn degenen die het vroeger met de hand moesten produceren."
           },
           {
             type: "p",
@@ -836,6 +816,30 @@ export const translations = {
           {
             type: "p",
             text: "Wat wij wel weten is dat de organisaties die dit als een opgelost probleem behandelen, een gok aangaan, geen beslissing nemen. De organisaties die het als een open vraag behandelen, ontwerpen doelbewust: zij brengen de frictie van uitvoering domein voor domein terug in een leerling-meester-structuur, om te achterhalen welke vormen van expertise de kortere weg overleven en welke niet. De brief noemt deze domeinen <em>trainingsenclaves</em> \u2014 plekken waar de frictie van uitvoering doelbewust wordt bewaard, omdat bepaalde vormen van expertise op geen enkele andere manier kunnen worden verworven. Zij wedden dat sommige vormen van meesterschap nog steeds handmatig verdiend moeten worden, en zij zijn bereid te investeren in dit hernieuwde leerlingschap om te ontdekken welke dat zijn. Dit zijn de organisaties die de Meta-Verificateurs van de jaren 2030 zullen voortbrengen, seniors wier taak niet langer zal zijn om de output handmatig te lezen, maar om de structurele intu\u00eftie te bezitten die vereist is om de systemen te ontwerpen die het voor hen lezen."
+          },
+          {
+            type: "p",
+            text: "Er ligt hier een co\u00f6rdinatieprobleem dat dit essay niet pretendeert op te lossen. Elke afzonderlijke onderneming die een junior pijplijn onderhoudt, draagt de volledige opleidingskost terwijl concurrenten meeliften op de talentpool die zij voortbrengt. Dit is de schoolvoorbeeld-structuur van een publiek goed \u2014 privaat kostelijk, maatschappelijk waardevol, structureel ondergeleverd. Sommige ondernemingen zullen trainingsenclaves financieren uit langetermijnbelang, of omdat zij voldoende van het opgeleide talent kunnen vasthouden om de rekensom te laten kloppen. De meeste niet. Dat betekent dat het probleem zal worden opgelost door een klein aantal structureel bevoordeelde actoren \u2014 grote gevestigde spelers, gereguleerde sectoren met verplichte opleidingsvereisten, door de overheid gefinancierde pijplijnen \u2014 of het wordt niet opgelost op de schaal die de technologie vereist. De eerlijke versie van deze voorspelling is niet dat slimme organisaties trainingsenclaves zullen bouwen. Het is dat de organisaties die de externaliteit kunnen absorberen dat zullen doen, en dat de rest van de economie in de jaren 2030 een senior-talentcrisis tegemoet gaat die niemand de prikkel heeft om te voorkomen."
+          },
+          {
+            type: "h3",
+            text: "Waar de hefboom zit"
+          },
+          {
+            type: "p",
+            text: "Als verificatie is waar het werk naartoe gaat en vakkennisoverdracht is waar het talent zich vormt, is de volgende vraag waar de hefboom en het kapitaal werkelijk neerslaan. Twee krachten opereren op verschillende lagen van de stack, en beide zijn re\u00ebel. Concentratie opereert op de integratielaag \u2014 wat de Strategic Brief de <em>Action Moat</em> noemt, de verdedigbaarheid die toekomt aan wie de conformiteitsgekeurde integratie met enterprise-systemen veiligstelt, niet aan wie het beste model bouwt. Decentralisatie opereert op de capaciteitslaag, waar open-weight-modellen de frontier binnen bereik houden van ieder die erin slaagt eromheen te engineeren. Het structurele antwoord op concentratie is niet in de eerste plaats een overheidsreactie; het is architecturaal, en het loopt op de capaciteitslaag."
+          },
+          {
+            type: "p",
+            text: "Het open-source-AI-ecosysteem loopt op elk gegeven moment ongeveer twee tot drie maanden achter op de frontier-modellen. In een wereld waarin AI-capaciteit de menselijke prestatie in de meeste domeinen nadert, wordt een vertraging van twee maanden academisch. Het hefboompunt verschuift volledig naar wie de beste systemen rond de capaciteit heeft gebouwd."
+          },
+          {
+            type: "p",
+            text: "De geschiedenis van het internet is hier leerzaam. Er waren op elk niveau krachtige economische krachten richting centralisatie. Wat volledige centralisatie voorkwam was niet louter altru\u00efsme of regelgeving. Het was dat open protocollen en gedistribueerde infrastructuur te veel waarde cre\u00eberden voor te veel actoren opdat \u00e9\u00e9n enkele partij het geheel zou kunnen inpalmen. De ontwikkelaars die bouwden op open standaarden beschikten over meer gecombineerde creatieve capaciteit dan enige individuele onderneming."
+          },
+          {
+            type: "p",
+            text: "Het MCP-ecosysteem dat de Strategic Brief documenteert, is een vroege versie van deze dynamiek die zich ontrolt in AI-integratie. Ontwikkelaars die bouwen op open standaarden beheersen hun eigen lot, terwijl zij die bouwen op gesloten platformen blijvend onderworpen zijn aan de prijsbeslissingen, de beleidswijzigingen en het voortbestaan van dat platform. De les van elke eerdere platformcyclus ligt voor iedere ontwikkelaar beschikbaar die haar wil leren."
           },
           {
             type: "h3",
