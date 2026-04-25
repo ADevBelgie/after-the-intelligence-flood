@@ -284,7 +284,7 @@ export const translations = {
           {
             type: "p",
             className: "font-medium text-slate-100",
-            text: "The decisions that will matter are about incentive structures. Not rules about what AI can and cannot do, but structures that determine whether the economic incentives facing companies, researchers, and individuals point toward beneficial outcomes or against them."
+            text: "Tail risk is the special case. For everything else, the decisions that will matter are about incentive structures. Not rules about what AI can and cannot do, but structures that determine whether the economic incentives facing companies, researchers, and individuals point toward beneficial outcomes or against them."
           },
           {
             type: "p",
@@ -717,7 +717,7 @@ export const translations = {
           {
             type: "p",
             className: "font-medium text-slate-100",
-            text: "De beslissingen die ertoe zullen doen, gaan over incentive-structuren. Niet regels over wat AI wel en niet mag, maar structuren die bepalen of de economische prikkels voor ondernemingen, onderzoekers en individuen wijzen naar gunstige uitkomsten of ertegen."
+            text: "Staartrisico is het bijzondere geval. Voor al het overige gaan de beslissingen die ertoe zullen doen over incentive-structuren. Niet regels over wat AI wel en niet mag, maar structuren die bepalen of de economische prikkels voor ondernemingen, onderzoekers en individuen wijzen naar gunstige uitkomsten of ertegen."
           },
           {
             type: "p",
